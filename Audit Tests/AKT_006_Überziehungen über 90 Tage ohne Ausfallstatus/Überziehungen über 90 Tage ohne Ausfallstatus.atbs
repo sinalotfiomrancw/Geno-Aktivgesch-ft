@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!VR_RATING">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATING_NUM">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!TAGE_UEBERZ_KD_BASEL">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>Überziehungen über 90 Tage ohne Ausfallstatus.iss</Path>
+  </Executable>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

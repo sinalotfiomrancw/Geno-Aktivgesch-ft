@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Branch PathId="5b25b7c92d46438f978524549d9ec5b6">
+    <Index>9999</Index>
+    <SectionName>249B04C7513A43D39E57C9078E08DF77</SectionName>
+  </Branch>
+  <Request DisplayNameId="622a9c4be88440479c909a24bde6d14d">
+    <Type>1</Type>
+    <Index>1</Index>
+    <RequestedData Language="English" LanguageNameId="EN" Default="true">
+      <DataFile>Aktivgeschäft.xml</DataFile>
+      <TemplateFile>Geno_AktivGesch_Datenbeschaffung.pdf</TemplateFile>
+    </RequestedData>
+  </Request>
+</DataRequest>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <ContentObjectType>16</ContentObjectType>
+  <ID>4459b20c-64ee-4784-93f3-7f9f6dd29648</ID>
+  <Version>1.0.2.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>alexander.strubert</Creator>
+  <CreateDate>2022-10-17</CreateDate>
+  <ModifyDate>2023-02-14</ModifyDate>
+  <Validity>
+    <From>2022-10-17</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Basis_KRM.resx</Resources>
+  <TypeBuildScriptFile>Basis_KRM.cirbs</TypeBuildScriptFile>
+  <Flags>1</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

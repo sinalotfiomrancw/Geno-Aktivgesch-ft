@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!AUSFALLRATE_KUNDE">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BONITAETSEINSTUFUNG">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!EIGENANTEIL_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!KUNDENGRUPPEN_NR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!KUNDENNAME">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!KUNDENNUMMER">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!RISIKOGRUPPE">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!RISIKOVOLUMEN_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATING">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATINGART">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!DATUM_DATENABZUG">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>Übersicht VR-Ratingart.iss</Path>
+  </Executable>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

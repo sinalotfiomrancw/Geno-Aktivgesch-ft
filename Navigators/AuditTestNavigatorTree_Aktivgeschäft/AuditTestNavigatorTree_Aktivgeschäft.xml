@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Node xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Audicon.SmartAnalyzer.Client.DbLayer.Trees">
+  <Children>
+    <Node>
+      <Children />
+      <Equation>
+        <anyType i:type="EquationElement">
+          <Negate>false</Negate>
+          <Type>SimpleElement</Type>
+          <PropertyId>840709b0-a045-45cb-b313-345feea03fd8</PropertyId>
+          <PropertyType>String</PropertyType>
+          <Operator>StartsWith</Operator>
+          <Operand>AKT_DQ_</Operand>
+        </anyType>
+      </Equation>
+      <Name>d94c62d08ea54852ad3662f6682b2eda</Name>
+    </Node>
+    <Node>
+      <Children />
+      <Equation>
+        <anyType i:type="EquationElement">
+          <Negate>false</Negate>
+          <Type>SimpleElement</Type>
+          <PropertyId>840709b0-a045-45cb-b313-345feea03fd8</PropertyId>
+          <PropertyType>String</PropertyType>
+          <Operator>StartsWith</Operator>
+          <Operand>AKT_RK_</Operand>
+        </anyType>
+      </Equation>
+      <Name>8d47a1ea32474150ad6e820c22a89e26</Name>
+    </Node>
+    <Node>
+      <Children />
+      <Equation>
+        <anyType i:type="EquationElement">
+          <Negate>false</Negate>
+          <Type>SimpleElement</Type>
+          <PropertyId>840709b0-a045-45cb-b313-345feea03fd8</PropertyId>
+          <PropertyType>String</PropertyType>
+          <Operator>StartsWith</Operator>
+          <Operand>AKT_KGW_</Operand>
+        </anyType>
+      </Equation>
+      <Name>800ab8b75e9f4fa1b6bca845f78f85b2</Name>
+    </Node>
+  </Children>
+  <Equation>
+    <anyType i:type="EquationElement">
+      <Negate>false</Negate>
+      <Type>SimpleElement</Type>
+      <PropertyId>fc1fcc3f-b560-5d06-94e0-06e70af2ca53</PropertyId>
+      <PropertyType>String</PropertyType>
+      <Operator>Equals</Operator>
+      <Operand>Audicon Consulting</Operand>
+    </anyType>
+    <anyType i:type="EquationElement">
+      <Negate>false</Negate>
+      <Type>SimpleElement</Type>
+      <PropertyId>840709b0-a045-45cb-b313-345feea03fd8</PropertyId>
+      <PropertyType>String</PropertyType>
+      <Operator>StartsWith</Operator>
+      <Operand>AKT_</Operand>
+    </anyType>
+  </Equation>
+  <Name>4cbc5545afcc4104b45532f1c2eef1bb</Name>
+</Node>

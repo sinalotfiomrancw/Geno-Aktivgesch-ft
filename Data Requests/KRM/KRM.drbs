@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Branch PathId="fb7eb4636b6c4ddebb6c302338f3b09d">
+    <Index>9999</Index>
+    <SectionName>17AC53282AE14A0BB77DBFFB49CCCF61</SectionName>
+  </Branch>
+  <Request DisplayNameId="d1caec65565d467ebb4d330e8fee8183">
+    <Type>1</Type>
+    <Index>1</Index>
+    <RequestedData Language="English" LanguageNameId="EN" Default="true">
+      <DataFile>KRM.xml</DataFile>
+      <TemplateFile>KRM Auswertung LF.pdf</TemplateFile>
+    </RequestedData>
+  </Request>
+</DataRequest>

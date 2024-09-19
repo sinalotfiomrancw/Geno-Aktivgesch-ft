@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KRM_FileSearch.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ImportDefinition" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VR-Control KRM Stand 17.05.2022</Value>
+    </Setting>
+    <Setting Name="ColumnDelimiter" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Semikolon</Value>
+    </Setting>
+    <Setting Name="ActivateWarning" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

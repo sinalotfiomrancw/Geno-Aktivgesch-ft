@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parcIT>
+  <cbs>
+    <User>yc057uv</User>
+    <DateTime>2021-04-13T09:37:37.391+02:00</DateTime>
+    <Class>de.parcit.kundengeschaeft.dhm.subm.sqlfilter.bl.SqlFilterXMLExporter</Class>
+    <Version>6.5.0.0.2.7 Build 2</Version>
+    <SQLFilter>
+      <bezeichnung>KRM_DQ_Export</bezeichnung>
+      <sqlString />
+      <knzProjekt>OKULAR</knzProjekt>
+      <knzSqlFilterKategorie>GESAMTBANK</knzSqlFilterKategorie>
+      <directEditActivated>false</directEditActivated>
+      <knzErgebnisArt>0</knzErgebnisArt>
+      <reportFilter>false</reportFilter>
+      <knzSqlFilter>AUSWERTUNG</knzSqlFilter>
+      <knzSqlFilterKennung>KEINE</knzSqlFilterKennung>
+      <idUserLastModification>367</idUserLastModification>
+      <lastModification>2021-04-13T09:36:34+02:00</lastModification>
+      <knzSqlfilterSchreibschutz>NICHT_SCHREIBGESCHUETZT</knzSqlfilterSchreibschutz>
+      <teilbedingungen>
+        <item type="TeilbedingungMngDef">
+          <knzLogischerOperator>AND</knzLogischerOperator>
+          <sortierschluessel>1</sortierschluessel>
+          <mengenDefinitionSqlFilter type="mengenDefinitionSqlFilter">
+            <intervalleString />
+            <intervalleInteger>
+              <item type="IntervallIntegerSqlFilter">
+                <kriterium>15</kriterium>
+                <upperLimit>0</upperLimit>
+                <lowerLimit>0</lowerLimit>
+                <upperLimitIncluded>true</upperLimitIncluded>
+                <lowerLimitIncluded>true</lowerLimitIncluded>
+              </item>
+            </intervalleInteger>
+            <intervalleFloat />
+            <intervalleZeitraum />
+          </mengenDefinitionSqlFilter>
+        </item>
+        <item type="TeilbedingungRepValue">
+          <knzLogischerOperator>OR</knzLogischerOperator>
+          <sortierschluessel>2</sortierschluessel>
+          <vergleichswertReportValue>false</vergleichswertReportValue>
+          <knzVergleichsOperator>GROESSER</knzVergleichsOperator>
+          <vergleichswertKonstante1>
+            <variabel>false</variabel>
+            <knzUnit>1</knzUnit>
+            <valueVolumen>0.0</valueVolumen>
+          </vergleichswertKonstante1>
+          <bedingungswertRV>1016</bedingungswertRV>
+        </item>
+        <item type="TeilbedingungRepValue">
+          <sortierschluessel>3</sortierschluessel>
+          <vergleichswertReportValue>false</vergleichswertReportValue>
+          <knzVergleichsOperator>GROESSER</knzVergleichsOperator>
+          <vergleichswertKonstante1>
+            <variabel>false</variabel>
+            <knzUnit>1</knzUnit>
+            <valueVolumen>0.0</valueVolumen>
+          </vergleichswertKonstante1>
+          <bedingungswertRV>1408</bedingungswertRV>
+        </item>
+      </teilbedingungen>
+    </SQLFilter>
+    <Hash>8615CB3BBBB5975BC833D7DD1784D707DC3BACBD</Hash>
+  </cbs>
+</parcIT>
+

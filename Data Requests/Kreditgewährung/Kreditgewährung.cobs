@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <ContentObjectType>8</ContentObjectType>
+  <ID>2d2e9677-486c-4e5f-81c6-53cd4b6d4a73</ID>
+  <Version>1.0.0.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>Alexander Strubert</Creator>
+  <CreateDate>2023-07-06</CreateDate>
+  <ModifyDate>2023-07-06</ModifyDate>
+  <Validity>
+    <From>2023-07-06</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Kreditgewährung.resx</Resources>
+  <TypeBuildScriptFile>Kreditgewährung.drbs</TypeBuildScriptFile>
+  <Flags>0</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

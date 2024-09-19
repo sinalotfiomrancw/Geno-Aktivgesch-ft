@@ -1,0 +1,428 @@
+App file name:                Geno_-_Aktivgeschäft_1.0_100058.dpack
+App name:                     Geno - Aktivgeschäft
+Language code:                de
+Expiration date:              2023-12-31
+The following content objects are included:
+	C:\SDK Projekte\Geno_Aktivgeschäft\Import Routines\Basis_KRM\Output\Basis_KRM.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Navigators\AuditTestNavigatorTree_Aktivgeschäft\Output\AuditTestNavigatorTree_Aktivgeschäft.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_004_Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent\Output\Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_005_Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent\Output\Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_001_Gewerbliche Kreditnehmer mit Branchenkennung 33\Output\Gewerbliche Kreditnehmer mit Branchenkennung 33.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_002_Gewerbliche Kreditnehmer mit VR-Rating Privatkunden\Output\Gewerbliche Kreditnehmer mit VR-Rating Privatkunden.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_007_Kreditnehmer mit Ausfallstatus ohne EWB\Output\Kreditnehmer mit Ausfallstatus ohne EWB.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_008_Kreditnehmer mit EWB in der Normalbetreuung\Output\Kreditnehmer mit EWB in der Normalbetreuung.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_003_Privatkunden mit VR-Rating für Firmenkunden\Output\Privatkunden mit VR-Rating für Firmenkunden.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_009_Übersicht VR-Ratingart\Output\Übersicht VR-Ratingart.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_006_Überziehungen über 90 Tage ohne Ausfallstatus\Output\Überziehungen über 90 Tage ohne Ausfallstatus.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_012_Ausländische Kreditnehmer mit VR-Rating\Output\AKT_012_Ausländische Kreditnehmer mit VR-Rating.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_013_Immobiliensammler (Branchenkennung 23) ohne VR IMMO Rating\Output\AKT_013_Immobiliensammler (Branchenkennung 23) ohne VR IMMO Rating.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_011_Kreditnehmer mit Bonitätsnote 0\Output\AKT_011_Kreditnehmer mit Bonitätsnote 0.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_010_Kreditnehmer über Risikorelevanzgrenze ohne Rating\Output\AKT_010_Kreditnehmer über Risikorelevanzgrenze ohne Rating.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_014_VR IMMO Rating ohne Branchenkennung 23 (Immobiliensammler)\Output\AKT_014_VR IMMO Rating ohne Branchenkennung 23 (Immobiliensammler).dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_015_Rating-Migration\Output\AKT_015_Rating-Migration.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Audit Tests\AKT_016_Wanderung in kritischen bzw notleidenden Bestand\Output\AKT_016_Wanderung in kritischen bzw notleidenden Bestand.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Data Requests\KRM\Output\KRM.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Import Extensions\ImportRoutineExtension\Output\ImportRoutineExtension.dep
+	C:\SDK Projekte\Geno_Aktivgeschäft\Workflows\Aktivgeschäft_Workflow\Output\Aktivgeschäft_Workflow.dep
+
+The following license is supported by this app:
+	The app can be imported on any computer where IDEA is installed.		
+----------------------------------------
+12.07.2023 09:47:55
+AppBuilderer is generating a new solution file:Geno_-_Aktivgeschäft_1.0_100058.dpack
+	ID            : 4ff51341-a184-56af-93f5-8b33b91611d5
+	Name          : Geno - Aktivgeschäft
+	Description   : System.Byte[]
+	LanguageCode  : de
+	Type          : Solution
+	Version       : 1.0.2.0
+	MinIDEAVersion: 11.3
++ Deployment Files: 
+	Name               : KRM
+	ID                 : c0225ab0-b5f4-5e4e-a12b-2e216e349eb3
+	Type               : CustomImportRoutine
+	Version            : 1.0.2.332156727
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : AuditTestNavigatorTree_Aktivgeschäft
+	ID                 : 2619fa70-d6df-569a-b87d-574d415ac2d9
+	Type               : Tree
+	Version            : 1.0.0.332156754
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent
+	ID                 : 85432f9a-89a3-5ce9-bcfd-5ba404b2d9be
+	Type               : Test
+	Version            : 1.0.0.332156758
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent
+	ID                 : 276ca2bb-58ce-56e1-9538-2e0888013cc9
+	Type               : Test
+	Version            : 1.0.0.332156762
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Gewerbliche Kreditnehmer mit Branchenkennung 33
+	ID                 : 7a80ce17-a735-5c9a-95ec-c7f0e347b3eb
+	Type               : Test
+	Version            : 1.0.0.332156766
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Gewerbliche Kreditnehmer mit VR-Rating Privatkunden
+	ID                 : a8687eb2-ffea-5c7c-ac3a-c11650cac033
+	Type               : Test
+	Version            : 1.0.0.332156771
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer mit Ausfallstatus ohne EWB
+	ID                 : 3f2bc980-202e-5b7d-a2ac-6d0be85b587c
+	Type               : Test
+	Version            : 1.0.0.332156775
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer mit EWB in der Normalbetreuung
+	ID                 : c332316d-dc41-5f83-a9cd-5daaa1e21f91
+	Type               : Test
+	Version            : 1.0.0.332156779
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Privatkunden mit VR-Rating für Firmenkunden
+	ID                 : ca4ddc6c-b448-52c5-adce-c49c264952b3
+	Type               : Test
+	Version            : 1.0.0.332156784
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Übersicht VR-Ratingart
+	ID                 : 0b95f28a-bb04-5114-808a-dd0b6e9e605c
+	Type               : Test
+	Version            : 1.0.0.332156788
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Überziehungen über 90 Tage ohne Ausfallstatus
+	ID                 : 47d69f4d-93b1-5b7d-a064-1db99e9ba2cf
+	Type               : Test
+	Version            : 1.0.1.332156792
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Ausländische Kreditnehmer mit VR-Rating
+	ID                 : c9f1c75f-caa1-5f76-a768-c69870a51d32
+	Type               : Test
+	Version            : 1.0.0.332156797
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Immobiliensammler ohne VR IMMO Rating
+	ID                 : 322e01cb-5985-552c-ab4f-1a1a96dccf01
+	Type               : Test
+	Version            : 1.0.1.332156801
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer mit Bonitätsnote 0
+	ID                 : e6ec8d2c-6c00-57d9-818d-7c6dc3da4da9
+	Type               : Test
+	Version            : 1.0.0.332156805
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer über Risikorelevanzgrenze ohne Rating
+	ID                 : 938849e1-26ff-5d60-8de9-ec2c5cc3ff1d
+	Type               : Test
+	Version            : 1.0.0.332156810
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : VR IMMO Rating ohne Branchenkennung (Immobiliensammler)
+	ID                 : 72583ba9-a3c3-5e5d-9916-7cd6e61c7e1c
+	Type               : Test
+	Version            : 1.0.0.332156814
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Rating-Migration
+	ID                 : 13fa6c19-f1bb-5541-ab37-f748ec38777e
+	Type               : Test
+	Version            : 1.0.0.332156818
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Wanderung in kritischen bzw notleidenden Bestand
+	ID                 : 163acf64-7a6e-5b12-a270-f3c62cb1cc16
+	Type               : Test
+	Version            : 1.0.0.332156829
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : KRM
+	ID                 : 9d7ede5a-d1b9-5091-b69c-f615605b4540
+	Type               : DataRequest
+	Version            : 1.0.0.332156840
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : 
+		2ece2b4c-4c76-4cb8-be0f-1b34688f07b7 -> krm auswertung lf.pdf
+
+	Name               : ImportRoutineExtension
+	ID                 : a325ca1f-ff76-5660-8df0-e4c63ffc9698
+	Type               : CustomImportRoutineExtension
+	Version            : 1.0.0.332156845
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Aktivgeschäft_Workflow
+	ID                 : 90e9d796-b22e-5f3a-a8f8-9994e8064f1f
+	Type               : AppWorkflow
+	Version            : 1.0.0.332156851
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 11.3
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
++ Solution licenses: 
+	License ID : The app can be imported on any computer where IDEA is installed.
+		ID              : c0225ab0-b5f4-5e4e-a12b-2e216e349eb3
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 2619fa70-d6df-569a-b87d-574d415ac2d9
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 85432f9a-89a3-5ce9-bcfd-5ba404b2d9be
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 276ca2bb-58ce-56e1-9538-2e0888013cc9
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 7a80ce17-a735-5c9a-95ec-c7f0e347b3eb
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : a8687eb2-ffea-5c7c-ac3a-c11650cac033
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 3f2bc980-202e-5b7d-a2ac-6d0be85b587c
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : c332316d-dc41-5f83-a9cd-5daaa1e21f91
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : ca4ddc6c-b448-52c5-adce-c49c264952b3
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 0b95f28a-bb04-5114-808a-dd0b6e9e605c
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 47d69f4d-93b1-5b7d-a064-1db99e9ba2cf
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : c9f1c75f-caa1-5f76-a768-c69870a51d32
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 322e01cb-5985-552c-ab4f-1a1a96dccf01
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : e6ec8d2c-6c00-57d9-818d-7c6dc3da4da9
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 938849e1-26ff-5d60-8de9-ec2c5cc3ff1d
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 72583ba9-a3c3-5e5d-9916-7cd6e61c7e1c
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 13fa6c19-f1bb-5541-ab37-f748ec38777e
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 163acf64-7a6e-5b12-a270-f3c62cb1cc16
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 9d7ede5a-d1b9-5091-b69c-f615605b4540
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : a325ca1f-ff76-5660-8df0-e4c63ffc9698
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 90e9d796-b22e-5f3a-a8f8-9994e8064f1f
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 4ff51341-a184-56af-93f5-8b33b91611d5
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+

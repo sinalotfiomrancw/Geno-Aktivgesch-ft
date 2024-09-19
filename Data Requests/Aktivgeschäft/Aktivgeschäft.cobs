@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <ContentObjectType>8</ContentObjectType>
+  <ID>539af3cf-8b24-44b0-b7f1-56b020069b8a</ID>
+  <Version>1.0.0.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>Alexander Strubert</Creator>
+  <CreateDate>2023-08-10</CreateDate>
+  <ModifyDate>2023-09-11</ModifyDate>
+  <Validity>
+    <From>2023-08-10</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Aktivgeschäft.resx</Resources>
+  <TypeBuildScriptFile>Aktivgeschäft.drbs</TypeBuildScriptFile>
+  <Flags>0</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

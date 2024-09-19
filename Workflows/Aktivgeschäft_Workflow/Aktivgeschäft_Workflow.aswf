@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageStartWorkflow xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StandardLinksMask>Description AvailableItems GlobalParameters</StandardLinksMask>
+  <Action Index="1" Id="a62c56dc-51ac-447e-9f66-42303d5361db">
+    <StandardAction Type="CaseAdministration">
+      <DisplayNameId>c662650fa168455c8b2c3527f3d87fa9</DisplayNameId>
+      <DescriptionId>37e1b6e8d4524ce0a2ce87a5cd382eb1</DescriptionId>
+    </StandardAction>
+  </Action>
+  <Action Index="2" Id="8dcc2476-95eb-4df1-b801-1d3bc0da16b5">
+    <StandardAction Type="ProjectSelection">
+      <DisplayNameId>c39baf9ac6c648729175adc689044f2a</DisplayNameId>
+      <DescriptionId>af5aa0b595074a04ab7981e3d5de87c2</DescriptionId>
+    </StandardAction>
+  </Action>
+  <Action Index="3" Id="e26e6206-e6d2-438d-aa5d-1653d1379987">
+    <StandardAction Type="CreateDataRequest">
+      <DisplayNameId>267b1c0a214649b59a478fc7b39703a2</DisplayNameId>
+      <DescriptionId>10f65ab970824347be26ac9d5ff96957</DescriptionId>
+    </StandardAction>
+  </Action>
+  <Action Index="4" Id="8010571c-e4a3-43fd-becc-70ad7c651b4e">
+    <StandardAction Type="RunSir">
+      <DisplayNameId>4fbc9ba1d41d4543a6b01688ee9e9e6a</DisplayNameId>
+      <DescriptionId>7076f60df8a845aaac1be9a4452d3498</DescriptionId>
+    </StandardAction>
+  </Action>
+  <Action Index="5" Id="353cf04f-1c21-4112-90ca-be0d02c8865c">
+    <StandardAction Type="MultiplePeriodPreparation">
+      <DisplayNameId>a3185e9b8845495e9620f42afca03be6</DisplayNameId>
+      <DescriptionId>714b71a5e29748088c47fc3996c023b9</DescriptionId>
+    </StandardAction>
+  </Action>
+  <Action Index="6" Id="5235ad19-3cad-4f67-8848-159ad5b5290a">
+    <StandardAction Type="RunAuditTests">
+      <DisplayNameId>0a387d1722c1467b96b2cb46d54f31e7</DisplayNameId>
+      <DescriptionId>9a7f1129f6874717ba8a96e79944709c</DescriptionId>
+    </StandardAction>
+  </Action>
+  <Action Index="7" Id="cb650d45-20e7-4045-a6b6-0d1fe08f97a2">
+    <StandardAction Type="ResultsAndReporting">
+      <DisplayNameId>c394b12b7f6841d69e603e01cfaa920a</DisplayNameId>
+      <DescriptionId>156640805f8c4132be58f2530cdf86a2</DescriptionId>
+    </StandardAction>
+  </Action>
+  <RelatedItemsExpression RelatedItemType="AllTypes">Aktivgeschäft_Workflow.rcoeq</RelatedItemsExpression>
+</PackageStartWorkflow>

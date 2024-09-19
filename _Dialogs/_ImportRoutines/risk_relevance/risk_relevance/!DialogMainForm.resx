@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button_OK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button_OK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Button_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 314</value>
+  </data>
+  <data name="Button_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Button_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;Button_OK.Name" xml:space="preserve">
+    <value>Button_OK</value>
+  </data>
+  <data name="&gt;&gt;Button_OK.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartButton, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;Button_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_OK.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Button_Cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Button_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Button_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 314</value>
+  </data>
+  <data name="Button_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="Button_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Button_Cancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Name" xml:space="preserve">
+    <value>Button_Cancel</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartButton, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="smartGroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sCB_UseIdividualRiskRel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sCB_UseIdividualRiskRel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sCB_UseIdividualRiskRel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="sCB_UseIdividualRiskRel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 17</value>
+  </data>
+  <data name="sCB_UseIdividualRiskRel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="sCB_UseIdividualRiskRel.Text" xml:space="preserve">
+    <value>individuelle Risikorelevanzgrenze verwenden</value>
+  </data>
+  <data name="&gt;&gt;sCB_UseIdividualRiskRel.Name" xml:space="preserve">
+    <value>sCB_UseIdividualRiskRel</value>
+  </data>
+  <data name="&gt;&gt;sCB_UseIdividualRiskRel.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartCheckBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sCB_UseIdividualRiskRel.Parent" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;sCB_UseIdividualRiskRel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="smartGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="smartGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 47</value>
+  </data>
+  <data name="smartGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="smartGroupBox1.Text" xml:space="preserve">
+    <value>eigene Risikorelevanzgrenze</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.Name" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartGroupBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="smartLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="smartLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 148</value>
+  </data>
+  <data name="smartLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 26</value>
+  </data>
+  <data name="smartLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="smartLabel2.Text" xml:space="preserve">
+    <value>Rating gleich oder schlechter (KD)</value>
+  </data>
+  <data name="&gt;&gt;smartLabel2.Name" xml:space="preserve">
+    <value>smartLabel2</value>
+  </data>
+  <data name="&gt;&gt;smartLabel2.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartLabel, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartLabel2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="smartLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="smartLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 188</value>
+  </data>
+  <data name="smartLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 26</value>
+  </data>
+  <data name="smartLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="smartLabel3.Text" xml:space="preserve">
+    <value>Risikovolumen (ENGA) &gt;=</value>
+  </data>
+  <data name="&gt;&gt;smartLabel3.Name" xml:space="preserve">
+    <value>smartLabel3</value>
+  </data>
+  <data name="&gt;&gt;smartLabel3.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartLabel, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartLabel3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="smartLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="smartLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 228</value>
+  </data>
+  <data name="smartLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 26</value>
+  </data>
+  <data name="smartLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="smartLabel4.Text" xml:space="preserve">
+    <value>Blankovolumen (ENGA) &gt;=</value>
+  </data>
+  <data name="&gt;&gt;smartLabel4.Name" xml:space="preserve">
+    <value>smartLabel4</value>
+  </data>
+  <data name="&gt;&gt;smartLabel4.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartLabel, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartLabel4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="smartLabel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="smartLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 268</value>
+  </data>
+  <data name="smartLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 26</value>
+  </data>
+  <data name="smartLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="smartLabel5.Text" xml:space="preserve">
+    <value>Überziehung GK-Engagement (ENGA) &gt;=</value>
+  </data>
+  <data name="&gt;&gt;smartLabel5.Name" xml:space="preserve">
+    <value>smartLabel5</value>
+  </data>
+  <data name="&gt;&gt;smartLabel5.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartLabel, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartLabel5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartLabel5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="sComB_Rating.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sComB_Rating.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sComB_Rating.Items" xml:space="preserve">
+    <value>keine Auswahl</value>
+  </data>
+  <data name="sComB_Rating.Items1" xml:space="preserve">
+    <value>0a</value>
+  </data>
+  <data name="sComB_Rating.Items2" xml:space="preserve">
+    <value>0b</value>
+  </data>
+  <data name="sComB_Rating.Items3" xml:space="preserve">
+    <value>0c</value>
+  </data>
+  <data name="sComB_Rating.Items4" xml:space="preserve">
+    <value>0d</value>
+  </data>
+  <data name="sComB_Rating.Items5" xml:space="preserve">
+    <value>0e</value>
+  </data>
+  <data name="sComB_Rating.Items6" xml:space="preserve">
+    <value>1a</value>
+  </data>
+  <data name="sComB_Rating.Items7" xml:space="preserve">
+    <value>1b</value>
+  </data>
+  <data name="sComB_Rating.Items8" xml:space="preserve">
+    <value>1c</value>
+  </data>
+  <data name="sComB_Rating.Items9" xml:space="preserve">
+    <value>1d</value>
+  </data>
+  <data name="sComB_Rating.Items10" xml:space="preserve">
+    <value>1e</value>
+  </data>
+  <data name="sComB_Rating.Items11" xml:space="preserve">
+    <value>2a</value>
+  </data>
+  <data name="sComB_Rating.Items12" xml:space="preserve">
+    <value>2b</value>
+  </data>
+  <data name="sComB_Rating.Items13" xml:space="preserve">
+    <value>2c</value>
+  </data>
+  <data name="sComB_Rating.Items14" xml:space="preserve">
+    <value>2d</value>
+  </data>
+  <data name="sComB_Rating.Items15" xml:space="preserve">
+    <value>2e</value>
+  </data>
+  <data name="sComB_Rating.Items16" xml:space="preserve">
+    <value>3a</value>
+  </data>
+  <data name="sComB_Rating.Items17" xml:space="preserve">
+    <value>3b</value>
+  </data>
+  <data name="sComB_Rating.Items18" xml:space="preserve">
+    <value>3c</value>
+  </data>
+  <data name="sComB_Rating.Items19" xml:space="preserve">
+    <value>3d</value>
+  </data>
+  <data name="sComB_Rating.Items20" xml:space="preserve">
+    <value>3e</value>
+  </data>
+  <data name="sComB_Rating.Items21" xml:space="preserve">
+    <value>4a</value>
+  </data>
+  <data name="sComB_Rating.Items22" xml:space="preserve">
+    <value>4b</value>
+  </data>
+  <data name="sComB_Rating.Items23" xml:space="preserve">
+    <value>4c</value>
+  </data>
+  <data name="sComB_Rating.Items24" xml:space="preserve">
+    <value>4d</value>
+  </data>
+  <data name="sComB_Rating.Items25" xml:space="preserve">
+    <value>4e</value>
+  </data>
+  <data name="sComB_Rating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 144</value>
+  </data>
+  <data name="sComB_Rating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 21</value>
+  </data>
+  <data name="sComB_Rating.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;sComB_Rating.Name" xml:space="preserve">
+    <value>sComB_Rating</value>
+  </data>
+  <data name="&gt;&gt;sComB_Rating.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartComboBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sComB_Rating.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sComB_Rating.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="sTB_RiskVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sTB_RiskVolume.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sTB_RiskVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 184</value>
+  </data>
+  <data name="sTB_RiskVolume.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 20</value>
+  </data>
+  <data name="sTB_RiskVolume.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="sTB_RiskVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="sTB_RiskVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sTB_RiskVolume.Name" xml:space="preserve">
+    <value>sTB_RiskVolume</value>
+  </data>
+  <data name="&gt;&gt;sTB_RiskVolume.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartTextBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sTB_RiskVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sTB_RiskVolume.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="sTB_BlankVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sTB_BlankVolume.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sTB_BlankVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 224</value>
+  </data>
+  <data name="sTB_BlankVolume.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 20</value>
+  </data>
+  <data name="sTB_BlankVolume.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="sTB_BlankVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="sTB_BlankVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;sTB_BlankVolume.Name" xml:space="preserve">
+    <value>sTB_BlankVolume</value>
+  </data>
+  <data name="&gt;&gt;sTB_BlankVolume.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartTextBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sTB_BlankVolume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sTB_BlankVolume.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="sTB_Overdraft.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sTB_Overdraft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sTB_Overdraft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 264</value>
+  </data>
+  <data name="sTB_Overdraft.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 20</value>
+  </data>
+  <data name="sTB_Overdraft.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="sTB_Overdraft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="sTB_Overdraft.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;sTB_Overdraft.Name" xml:space="preserve">
+    <value>sTB_Overdraft</value>
+  </data>
+  <data name="&gt;&gt;sTB_Overdraft.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartTextBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sTB_Overdraft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sTB_Overdraft.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 314</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btn_Load.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btn_Load.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 314</value>
+  </data>
+  <data name="btn_Load.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="btn_Load.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btn_Load.Text" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="&gt;&gt;btn_Load.Name" xml:space="preserve">
+    <value>btn_Load</value>
+  </data>
+  <data name="&gt;&gt;btn_Load.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Load.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Load.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <data name="smartLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="smartLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 108</value>
+  </data>
+  <data name="smartLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 26</value>
+  </data>
+  <data name="smartLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="smartLabel1.Text" xml:space="preserve">
+    <value>Bonitätseinstufung gleich oder schlechter (KD)</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.Name" xml:space="preserve">
+    <value>smartLabel1</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartLabel, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sTB_Boni.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sTB_Boni.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sTB_Boni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 103</value>
+  </data>
+  <data name="sTB_Boni.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 20</value>
+  </data>
+  <data name="sTB_Boni.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="sTB_Boni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 20</value>
+  </data>
+  <data name="sTB_Boni.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;sTB_Boni.Name" xml:space="preserve">
+    <value>sTB_Boni</value>
+  </data>
+  <data name="&gt;&gt;sTB_Boni.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartTextBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sTB_Boni.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sTB_Boni.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sComB_JoinType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="sComB_JoinType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sComB_JoinType.Items" xml:space="preserve">
+    <value>Es müssen alle gewählten Einträge gleichzeitig erfüllt sein (.AND.)</value>
+  </data>
+  <data name="sComB_JoinType.Items1" xml:space="preserve">
+    <value>Es muss mindestens ein gewählter Eintrag erfüllt sein (.OR.)</value>
+  </data>
+  <data name="sComB_JoinType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 67</value>
+  </data>
+  <data name="sComB_JoinType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 21</value>
+  </data>
+  <data name="sComB_JoinType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;sComB_JoinType.Name" xml:space="preserve">
+    <value>sComB_JoinType</value>
+  </data>
+  <data name="&gt;&gt;sComB_JoinType.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartComboBox, SA.Client.CustomControls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sComB_JoinType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sComB_JoinType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>459, 351</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Risikorelevanzgrenze</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>_DialogMainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

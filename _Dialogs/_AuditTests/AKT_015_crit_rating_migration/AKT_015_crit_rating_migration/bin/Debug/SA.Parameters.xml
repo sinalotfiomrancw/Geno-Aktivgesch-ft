@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SA.Parameters</name>
+    </assembly>
+    <members>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.BaseContent">
+            <summary>
+            Base class for content of controls.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.BaseContent.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>Always true.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.BaseContent.FillSerializationInfo(System.Runtime.Serialization.SerializationInfo)">
+            <summary>
+            Adds to the serialization info object the fields of this class.
+            </summary>
+            <param name="info">Serialization info object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.BaseContent.LoadSerializationEntry(System.Runtime.Serialization.SerializationEntry)">
+            <summary>
+            Tries to match the given serialization entry to internal fields.
+            </summary>
+            <param name="entry">Serialization entry.</param>
+            <returns>True if match found, otherwise false.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContent.Name">
+            <summary>
+            The name of the parameter
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContent.ReportingName">
+            <summary>
+            The name of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContent.FieldUsed">
+            <summary>
+            Used to store the name of the field the control is based on.
+            </summary>
+            <remarks>If the control has no field attached the value will be string.Empty</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContent.ShowInReport">
+            <summary>
+            True if control is show in report
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContent.ReportOrder">
+            <summary>
+            Specify the output order for report 
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContent.IgnoreValue">
+            <summary>
+            Return is a control value is ignored by macro
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.BaseContentExtended">
+            <summary>
+            Base class for content of controls.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.BaseContentExtended.FillSerializationInfo(System.Runtime.Serialization.SerializationInfo)">
+            <summary>
+            Adds to the serialization info object the fields of this class.
+            </summary>
+            <param name="info">Serialization info object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.BaseContentExtended.LoadSerializationEntry(System.Runtime.Serialization.SerializationEntry)">
+            <summary>
+            Tries to match the given serialization entry to internal fields.
+            </summary>
+            <param name="entry">Serialization entry.</param>
+            <returns>True if match found, otherwise false.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.BaseContentExtended.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>Always true.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.BaseContentExtended.ReportFormat">
+            <summary>
+            Allow formatting the output strings for report 
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger">
+            <summary>
+            Content class for container control.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only Value is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.Value">
+            <summary>
+            Value of control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.ReportingValue">
+            <summary>
+            Control value that is shown in report
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDataExchanger.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfStratification">
+            <summary>
+            Serializable class for the content of From To List control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfStratification.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfStratification.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfStratification.Decimals">
+            <summary>
+            get/set the number of decimals
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfStratification.SupportsWildcards">
+            <summary>
+            Wildcards are not supported
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfStratification.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfStratification.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.DataType">
+            <summary>
+            Data Type enumeration, describes the posible input for Custom Controls.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DataType.Numeric">
+            <summary>
+            Numeric type without decimals.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DataType.Decimal">
+            <summary>
+            Numeric type with decimal.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DataType.String">
+            <summary>
+            Characters type, without control characters.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DataType.Date">
+            <summary>
+            Date type.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DataType.Time">
+            <summary>
+            Time type.
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject">
+            <summary>
+            Used for the transport of information between Dialog Loader and Dialog.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.TableNames">
+            <summary>
+            The name of the Idea table without extension.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.RunAtServer">
+            <summary>
+            Where Idea table is located, true if it is on server.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.ObjectInfo">
+            <summary>
+            Test information req. for description.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.ObjectName">
+            <summary>
+            Name of the test.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.LanguageCode">
+            <summary>
+            Language code of the current execution. The input data will be trimmed and set to lower case. Also null will be trated as empty string.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.TagsCollection">
+            <summary>
+            Collection of tags associated to the test.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.AllTagsCollection">
+            <summary>
+            Collection of tags present in the database.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.DialogFlags">
+            <summary>
+            Available modifiers for dialog show operation
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.Context">
+            <summary>
+            Data access helper to be used from within dialogs; can be null if IDataAccessFactory service is missing
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.InternalContext">
+            <summary>
+            Execution context (where available)
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject.ControlValue">
+            <summary>
+            Value of the current control
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ParentData">
+            <summary>
+            Parent object data within the dialog context
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ParentData.Id">
+            <summary>
+            Generated ID of the object
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ParentData.LanguageCode">
+            <summary>
+            Language code
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ParentData.Name">
+            <summary>
+            The display name of the object
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ParentData.Alias">
+            <summary>
+            An alias name of the object
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ParentData.Type">
+            <summary>
+            The type of the entity
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ParentData.Version">
+            <summary>
+            The version number of the object
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.InputFileData">
+            <summary>
+            Input file data within the dialog context
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.InputFileData.#ctor(System.String,System.String)">
+            <summary>
+            Contructor
+            </summary>
+            <param name="alias">alias of the file</param>
+            <param name="path">path of the file</param>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.InputFileData.Path">
+            <summary>
+            Path of the file
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.InputFileData.FileName">
+            <summary>
+            File name
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.InputFileData.Folder">
+            <summary>
+            Folder path
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.InputFileData.Alias">
+            <summary>
+            Alias name of the file
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfAging">
+            <summary>
+            Serializable class for the content of the Aging control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfAging.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfAging.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfAging.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Not available for this class.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>Always false.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.StartDate">
+            <summary>
+            The date for aging interval
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Date">
+            <summary>
+            Keep only for compatibility with macros
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.AgingInterval1">
+            <summary>
+            Interval 1 to 6 computed in days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.AgingInterval2">
+            <summary>
+            Interval 1 to 6 computed in days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.AgingInterval3">
+            <summary>
+            Interval 1 to 6 computed in days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.AgingInterval4">
+            <summary>
+            Interval 1 to 6 computed in days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.AgingInterval5">
+            <summary>
+            Interval 1 to 6 computed in days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.AgingInterval6">
+            <summary>
+            Interval 1 to 6 computed in days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.IntervalType">
+            <summary>
+            The interval type for aging 0 - day, 1 - month, 2 - year
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.IntervalIn">
+            <summary>
+            The interval type for aging 0 - day, 1 - month, 2 - year
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Interval1">
+            <summary>
+            Interval 1 of 6
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Interval2">
+            <summary>
+            Interval 2 of 6
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Interval3">
+            <summary>
+            Interval 3 of 6
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Interval4">
+            <summary>
+            Interval 4 of 6
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Interval5">
+            <summary>
+            Interval 5 of 6
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.Interval6">
+            <summary>
+            Interval 6 of 6
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfAging.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfAging.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfAging.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox">
+            <summary>
+            Serializable class for the content of CheckBox control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.Checked">
+            <summary>
+            The value of the checkbox
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfCheckBox.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox">
+            <summary>
+            Serializable class for the content of ComboBox control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only Selection is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.Value">
+            <summary>
+            The value of the ComboBox
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.Selection">
+            <summary>
+            The number of the selection
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfComboBox.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate">
+            <summary>
+            Serializable content for SmartDuplicate
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Not available for this class.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>Always false.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.Value1">
+            <summary>
+            #1 value of the control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.Value2">
+            <summary>
+            #2 value of the control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.Value3">
+            <summary>
+            #3 value of the control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.Value4">
+            <summary>
+            #4 value of the control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.Value5">
+            <summary>
+            #1 value of the control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.AvailableTags">
+            <summary>
+            get/set all Tags
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfDuplicate.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter">
+            <summary>
+            Content class for container control.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter.#ctor">
+            <summary>
+            Public default contructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter.#ctor(System.Object)">
+            <summary>
+            Public contructor which sets the value.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>Always true.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter.Value">
+            <summary>
+            Value(s) of controls
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter.ReportingValue">
+            <summary>
+            Control value that is shown in report
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList">
+            <summary>
+            Serializable class for the content of From To List control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only List is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.IsNumeric">
+            <summary>
+            true if value is numeric.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.IsDecimal">
+            <summary>
+            true if value is decimal.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.IsString">
+            <summary>
+            true if value is string.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.IsDate">
+            <summary>
+            true if value is date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.IsTime">
+            <summary>
+            true if value is time.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.List">
+            <summary>
+            The value of the list
+            </summary>
+            <remarks> invariant format</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.Input1">
+            <summary>
+            The value of the first textbox
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.Input2">
+            <summary>
+            The value of the second textbox
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.GetList">
+            <summary>
+            Get values from Macro.
+            </summary>
+            <returns>returns a list of objects</returns>
+            <remarks> localized list</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.ReportingList">
+            <summary>
+            return the value list to be use inside reporting
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.SupportsWildcards">
+            <summary>
+            True if wildcards are accepted
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.FillSerializationInfo(System.Runtime.Serialization.SerializationInfo)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfFromToList.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfGap">
+            <summary>
+            Serializable class for the content of the Gap control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGap.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGap.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGap.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Not available for this class.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>Always false.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.Record">
+            <summary>
+            Content of a record.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.Type">
+            <summary>
+            "N" - numeric
+            "C" - character
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.All">
+            <summary>
+            The type of interval. true - the whole interval will be considered.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.Field">
+            <summary>
+            The name of the field
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.Mask">
+            <summary>
+            The mask for the field
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.FromValue">
+            <summary>
+            The start of the interval
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.Start">
+            <summary>
+            The start of the interval
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.ToValue">
+            <summary>
+            The end of the interval
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.End">
+            <summary>
+            The end of the interval
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.Increment">
+            <summary>
+            Gap increment
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.LengthOfMask">
+            <summary>
+            Gap length of mask
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfGap.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGap.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfGap.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup">
+            <summary>
+            Serializable class for the content of Option Group control
+            </summary>
+            
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only Selection is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.Selection">
+            <summary>
+            The value of the selection
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.Value">
+            <summary>
+            The text value of the selection.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfOpionGroup.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList">
+            <summary>
+            Serializable class for the content of SingleList control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only List is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.IsNumeric">
+            <summary>
+            true if value is numeric.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.IsDecimal">
+            <summary>
+            true if value is decimal.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.IsString">
+            <summary>
+            true if value is string.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.IsDate">
+            <summary>
+            true if value is date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.IsTime">
+            <summary>
+            true if value is time.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.List">
+            <summary>
+            The value of the list
+            </summary>
+            <Remarc>it returnes the list as invariant culture</Remarc>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.GetList">
+            <summary>
+            Get values from Macro.
+            </summary>
+            <returns>returns a list of objects</returns>
+            <remarks>returns the list eith the current culture</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.Input">
+            <summary>
+            The value of the textbox
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.ReportingList">
+            <summary>
+            return the value list of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.SupportsWildcards">
+            <summary>
+            True if wildcards ar accepted
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfSingleList.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox">
+            <summary>
+            Serializable class for the content of TextBox control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only Value is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.IsNumeric">
+            <summary>
+            true if value is numeric.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.IsDecimal">
+            <summary>
+            true if value is decimal.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.IsString">
+            <summary>
+            true if value is string.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.IsDate">
+            <summary>
+            true if value is date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.IsTime">
+            <summary>
+            true if value is time.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.Value">
+            <summary>
+            the value of the control
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.Text">
+            <summary>
+            Property to be read from IDEA script (see Requirement 27744, point 3b)
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.BaseValue">
+            <summary>
+            Tries to convert the value of the content object into the proper type. If it fails returns the original value.
+            </summary>
+            <returns>Value with proper type</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfTextBox.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend">
+            <summary>
+            Serializable class for the content of Weekend control
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined deserialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.LoadFromGeneric(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Fills the properties of current object from a generic parameter. Only Weekend is relevant.
+            </summary>
+            <param name="source">The source object.</param>
+            <returns>True if generic parameter could be loaded, otherwise false.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when source object is null.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.Weekend">
+            <summary>
+            The value of the control of the form "XOOOOOX" = Normal Weekend
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User defined serialization.
+            </summary>
+            <param name="info">Serialization info object.</param>
+            <param name="context">Streaming context object.</param>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ContentOfWeekend.ToString">
+            <summary>
+            Overrides ToString by returning ReportingValue
+            </summary>
+            <returns>ReportingValue</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.IContextControl">
+            <summary>
+            Control implemets a context property
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IContextControl.Context">
+            <summary>
+            Context property
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ICustomControl">
+            <summary>
+            Interface for Custom controls that does not save values
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ICustomControl.TransferContent(Audicon.SmartAnalyzer.Parameters.DialogDataTransferObject)">
+            <summary> 
+            Transfer content to custom controls.
+            </summary>
+            <param name="transferObject">Populated DialogDataTransferObject</param>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.IEnableControls">
+            <summary>
+            Interface for Custom controls that can enable / disable other controls
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IEnableControls.Enables">
+            <summary>
+            The list of controls that will be enabled / disabled by this control. 
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.IGenericParameterContainer">
+            <summary>
+            Interface of generic parameter container
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.IGenericParameterContainer.GetParameters">
+            <summary>
+            Returns the list of generic parameters.
+            </summary>
+            <returns>Enumerable list of ContentOfGenericParameter instances</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.IGenericParameterContainer.GetParameter(System.String)">
+            <summary>
+            Returns a generic parameter by its name or null if it was not found.
+            </summary>
+            <param name="name">Name of the parameter.</param>
+            <returns>Instance of ContentOfGenericParameter or null.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when name is null or empty.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.IGenericParameterContainer.AddParameter(Audicon.SmartAnalyzer.Parameters.ContentOfGenericParameter)">
+            <summary>
+            Adds a new parameter to the container; if parameter already exists it will be overwritten.
+            </summary>
+            <param name="parameter">ContentOfGenericParameter object.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when parameter is null.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.IGenericParameterContainer.AddParameter(System.String,System.Object)">
+            <summary>
+            Adds a new parameter to the container based on name and value and returns it to the caller; if parameter already exists it will be overwritten.
+            </summary>
+            <param name="name">Name of the parameter.</param>
+            <param name="value">Value of the parameter.</param>
+            <returns>Newly created parameter.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown when parameter is null.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.IGenericParameterContainer.ClearParameters">
+            <summary>
+            Clears the container.
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.IContent">
+            <summary>
+            Content of SA macro dialog controls.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IContent.Name">
+            <summary>
+            The name of the parameter (will replace ControlName).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IContent.ReportingValue">
+            <summary>
+            The value of the control that will be shown in reporting.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IContent.FieldUsed">
+            <summary>
+            Used to store the name of the field the control is based on.
+            </summary>
+            <remarks>If the control has no field attached the value will be string.Empty</remarks>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.IInitControl">
+            <summary>
+            Interface for the transfer of information between the dialog loader and controls.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IInitControl.AssignedTable">
+            <summary>
+            Alias of the logical input table's associated with the control. Empty value means primary input table (alias "primary")
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IInitControl.AssignedTag">
+            <summary>
+            Tag associated with the control. Empty value means no tag is assigned.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IInitControl.InterpretTagsAsFields">
+            <summary>
+            If set to true it means that assigned tags are actually field names.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IInitControl.AssignedField">
+            <summary>
+            Calculated IDEA column name associated with the control. Empty value means no tag is assigned.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.IInitControl.TagGroup">
+            <summary>
+            Enable/disable the controls based on specified pair of table alias and tag
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ISmartControl">
+            <summary>
+            Interface for custom controls that accept input.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ISmartControl.IsOptional">
+            <summary>
+            Return the Isoptional property of the control.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ISmartControl.IsValid">
+            <summary>
+            Tests the validity of a control.
+            </summary>
+            <returns>true if control is valid</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ISmartControl.IsNull">
+            <summary>
+            Tests if the control has input.
+            </summary>
+            <returns>true if the control is disabled</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ISmartControl.GetValue">
+            <summary>
+            Gets the value of the control.
+            </summary>
+            <returns>value of the control as IContent</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.Parameters.ISmartControl.SetValue(Audicon.SmartAnalyzer.Parameters.IContent)">
+            <summary>
+            Sets the value of the control.
+            </summary>
+            <param name="content">value of the control as IContent</param>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ISmartControl.SaveInput">
+            <summary>
+            Return the SaveInput property of the control.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ISmartControl.IgnoreValue">
+            <summary>
+            Return if control value shall be ignore in a macro
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.ISmartReport">
+            <summary>
+            Interface for transfering report related information
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ISmartReport.ReportingName">
+            <summary>
+            The name of the control that will apear in the reporting form.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ISmartReport.ShowInReport">
+            <summary>
+            True if control is show in report
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.ISmartReport.ReportOrder">
+            <summary>
+            Specify the output order for report 
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.Parameters.Resources.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentAging">
+            <summary>
+              Looks up a localized string similar to Start date:  {0}, Interval type: {1}, Intervals: ({2}).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentAllValues">
+            <summary>
+              Looks up a localized string similar to All values.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentDay">
+            <summary>
+              Looks up a localized string similar to Days.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentGapChar">
+            <summary>
+              Looks up a localized string similar to {0},  Mask: {1}.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentGapNum">
+            <summary>
+              Looks up a localized string similar to {0}, {1} from {2} to {3}, Increment {4}..
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentListDelimiter">
+            <summary>
+              Looks up a localized string similar to -.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentMonth">
+            <summary>
+              Looks up a localized string similar to Months.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentNoneSelection">
+            <summary>
+              Looks up a localized string similar to None.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentNotSelected">
+            <summary>
+              Looks up a localized string similar to Not selected.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentSelected">
+            <summary>
+              Looks up a localized string similar to Selected.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentValues">
+            <summary>
+              Looks up a localized string similar to Values.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentWeekendAt">
+            <summary>
+              Looks up a localized string similar to Weekend at: {0}..
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.ContentYear">
+            <summary>
+              Looks up a localized string similar to Years.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFFriday">
+            <summary>
+              Looks up a localized string similar to Friday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFMonday">
+            <summary>
+              Looks up a localized string similar to Monday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFSaturday">
+            <summary>
+              Looks up a localized string similar to Saturday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFSunday">
+            <summary>
+              Looks up a localized string similar to Sunday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFThursday">
+            <summary>
+              Looks up a localized string similar to Thursday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFTuesday">
+            <summary>
+              Looks up a localized string similar to Tuesday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DoFWednesday">
+            <summary>
+              Looks up a localized string similar to Wednesday.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.DuplicateReporting">
+            <summary>
+              Looks up a localized string similar to Tags for duplicate key detection ({0}). {2}Different tag for duplicate key exclusion ({1}).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.False">
+            <summary>
+              Looks up a localized string similar to False.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.MaskTrueFalse">
+            <summary>
+              Looks up a localized string similar to true/false.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.MaskYesNo">
+            <summary>
+              Looks up a localized string similar to yes/no.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.No">
+            <summary>
+              Looks up a localized string similar to No.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.True">
+            <summary>
+              Looks up a localized string similar to True.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.Parameters.Resources.Resource.Yes">
+            <summary>
+              Looks up a localized string similar to Yes.
+            </summary>
+        </member>
+    </members>
+</doc>

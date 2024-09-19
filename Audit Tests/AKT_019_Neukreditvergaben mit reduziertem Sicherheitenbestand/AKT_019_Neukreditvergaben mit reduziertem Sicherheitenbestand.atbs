@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!KUNDENNUMMER">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!DATUM_DATENABZUG">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!GK_KD_RV_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATING">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATING_NUM">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!SUMME_SICHERHEIT_RV_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>AKT_019_Neukreditvergaben mit reduziertem Sicherheitenbestand.iss</Path>
+  </Executable>
+  <Dialog Optional="true">
+    <ProjectLocation>..\..\_Dialogs\_AuditTests\AKT_019_new_credit_reduced_safeties\AKT_019_new_credit_reduced_safeties</ProjectLocation>
+    <ProjectFile>AKT_019_new_credit_reduced_safeties.csproj</ProjectFile>
+    <LocalizableItems>
+      <Item>!DialogMainForm.resx</Item>
+      <Item>DialogStrings.resx</Item>
+    </LocalizableItems>
+  </Dialog>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

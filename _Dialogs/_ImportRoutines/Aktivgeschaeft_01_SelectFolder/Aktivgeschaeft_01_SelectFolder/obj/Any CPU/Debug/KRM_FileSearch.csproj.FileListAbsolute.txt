@@ -1,0 +1,98 @@
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\KRM_FileSearch.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\KRM_FileSearch.pdb
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\en\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\de\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\es\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\fr\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ja-JP\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\nl\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ru\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\cs\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Client.CustomControls.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Common.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.IdeaAccess.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Parameters.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.COMDBLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Client.Controls.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.COMMONIDEACONTROLSLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.IDEASCRIPTCTRLLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.PivotTableLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.ScriptSupportOnServerLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.GlobalResources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.22TasksLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.IdeaLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Client.Common.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\C1.WPF.4.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ActiproSoftware.Docking.Wpf.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\C1.WPF.DateTimeEditors.4.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\TXTextControl.WPF.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ActiproSoftware.Ribbon.Wpf.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\TXTextControl.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Client.DbLayer.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\C1.WPF.FlexGrid.4.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\C1.WPF.Extended.4.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.GenericImportLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ActiproSoftware.Wizard.Wpf.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.Mpp.Interfaces.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ActiproSoftware.Themes.Metro.Wpf.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Client.DialogLoader.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.StandardTables.Interfaces.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.Common.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\stdole.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\EntityFramework.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.Common.Interfaces.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.FileControlsLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.DATACONTROLSLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\Interop.SummarizationLib.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Common.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.IdeaAccess.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Parameters.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.Mpp.Interfaces.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.StandardTables.Interfaces.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.AuDS.StandardTables.Interfaces.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.Common.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\SA.Cirs.Common.Interfaces.xml
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\cs\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\de\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\es\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\fr\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ja\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\nl\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\pt-Br\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ru\SA.Client.CustomControls.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\cs\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\de\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\es\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\fr\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ja\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\nl\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\pt-Br\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\ru\SA.GlobalResources.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.csprojAssemblyReference.cache
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch._DialogMainForm.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.en.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.de.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.es.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.fr.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.ja-JP.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.nl.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.ru.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.DialogStrings.cs.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.csproj.GenerateResource.cache
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.csproj.CoreCompileInputs.cache
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\en\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\de\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\es\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\fr\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\ja-JP\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\nl\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\ru\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\cs\KRM_FileSearch.resources.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.csproj.CopyComplete
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.dll
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.pdb
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\obj\Any CPU\Debug\KRM_FileSearch.Einstellungen.resources
+C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\bin\Debug\KRM_FileSearch.dll.config

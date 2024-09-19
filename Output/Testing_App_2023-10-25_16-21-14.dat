@@ -1,0 +1,49 @@
+Machine Name:                 ASTRUBERT01
+App Definition File:          C:\Users\alexander.strubert\AppData\Local\Temp\ac5dee8d-27fc-405a-bd73-8be1117778ae\Testing_App_2023-10-25_16-21-14.def
+App file name:                Testing_App_2023-10-25_16-21-14.dpack
+App name:                     Testing_App_2023-10-25_16-21-14
+Language code:                de
+Expiration date:              2023-10-25
+The following content objects are included:
+	C:\SDK Projekte\Geno_Aktivgeschäft\Import Routines\Aktivgeschaeft_01_BasisRoutine\Output\Aktivgeschaeft_01_BasisRoutine.dep
+
+The following license is supported by this app:
+	The app can be imported on any computer where IDEA is installed.		
+----------------------------------------
+25.10.2023 14:21:25
+AppBuilderer is generating a new solution file:Testing_App_2023-10-25_16-21-14.dpack
+	ID            : 23a5d655-cbeb-5d9e-bf69-07f8fbbe01c5
+	Name          : Testing App
+	Description   : System.Byte[]
+	LanguageCode  : 
+	Type          : TestSolution
+	Version       : 1.0.0.0
+	MinIDEAVersion: 10.3
++ Deployment Files: 
+	Name               : Aktivgeschäft
+	ID                 : 26e83a4c-4a77-5a03-a41a-6398a5d14692
+	Type               : CustomImportRoutine
+	Version            : 1.1.2.341245276
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
++ Solution licenses: 
+	License ID : The app can be imported on any computer where IDEA is installed.
+		ID              : 26e83a4c-4a77-5a03-a41a-6398a5d14692
+		DebugUntil      : 24.11.2023
+		ExpirationDate  : 25.10.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 23a5d655-cbeb-5d9e-bf69-07f8fbbe01c5
+		DebugUntil      : 24.11.2023
+		ExpirationDate  : 25.10.2023
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+

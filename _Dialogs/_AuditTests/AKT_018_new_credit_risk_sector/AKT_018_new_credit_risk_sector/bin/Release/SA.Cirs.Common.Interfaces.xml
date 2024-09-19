@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SA.Cirs.Common.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.Common.Interfaces.ITagAssignment">
+            <summary>
+            The interface ITagAssignment provides access to a tag and its associated column.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.Common.Interfaces.ITagAssignment.TagId">
+            <summary>
+            Gets the id of the tag.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.Common.Interfaces.ITagAssignment.ColumnName">
+            <summary>
+            Gets the name of the associated column.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!VR_RATINGART">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!LAENDERSCHLUESSEL">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>AKT_012_Ausländische Kreditnehmer mit VR-Rating.iss</Path>
+  </Executable>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

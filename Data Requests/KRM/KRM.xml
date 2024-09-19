@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RequiredData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <ImportRoutineAlias>24F0D486BF6A4CDD91E8DEDCA0A07E63</ImportRoutineAlias>
+  <SystemName>SAP</SystemName>
+  <GlobalUserHint />
+  <StandardTable uniqueName="17AC53282AE14A0BB77DBFFB49CCCF61" />
+</RequiredData>

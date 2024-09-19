@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ContentObjectType>256</ContentObjectType>
+  <ID>e7818c6c-1bc2-41a4-abb0-b3de5563cb15</ID>
+  <Version>1.0.0.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>alexander.strubert</Creator>
+  <CreateDate>2022-10-16</CreateDate>
+  <ModifyDate>2022-11-28</ModifyDate>
+  <Validity>
+    <From>2022-10-16</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Aktivgeschäft_Workflow.resx</Resources>
+  <TypeBuildScriptFile>Aktivgeschäft_Workflow.aswf</TypeBuildScriptFile>
+  <Flags>1</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

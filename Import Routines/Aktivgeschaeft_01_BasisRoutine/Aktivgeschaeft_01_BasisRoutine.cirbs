@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomImportRoutine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <IsServerSupported>false</IsServerSupported>
+  <SelectAllFiles>true</SelectAllFiles>
+  <SkipSourceSelection>true</SkipSourceSelection>
+  <PreliminaryTask Type="Iss">
+    <SkipSourceSelection>true</SkipSourceSelection>
+    <ExecutableFile>Aktivgeschaeft_01_BasisRoutine.PreMacro.iss</ExecutableFile>
+  </PreliminaryTask>
+  <PreparationTask Type="Iss">
+    <ExecutableFile>Aktivgeschaeft_01_Preparation.DataPreparation.iss</ExecutableFile>
+  </PreparationTask>
+  <ImportTask Type="SmartX" IdentifyBy="Url">
+    <Step Index="0">
+      <PartialTask ID="974e8ccf6d414451b14a81f72e5d7286" Type="Iss" Order="1">
+        <ExecutableFile>Aktivgeschaeft_01_BasisRoutine.Import_Select_Folder.iss</ExecutableFile>
+      </PartialTask>
+    </Step>
+  </ImportTask>
+  <DialogTask>
+    <Step ID="cc4c1f2e1e5c4c408412024679b585c7" Index="1" Type="Iss" Options="ExecuteBeforeImport">
+      <ExecutableFile>Aktivgeschaeft_01_BasisRoutine.Dialogs.iss</ExecutableFile>
+    </Step>
+  </DialogTask>
+  <MainRoutine Type="SmartX">
+    <RoutineVisibility>AnyAudit</RoutineVisibility>
+    <GroupNames>
+      <Name>Aktivgeschäft</Name>
+    </GroupNames>
+    <SeparateMainTasks>Never</SeparateMainTasks>
+  </MainRoutine>
+  <EmbeddedDialogs>
+    <EmbeddedDialog>
+      <Path>..\..\_Dialogs\_ImportRoutines\Aktivgeschaeft_01_SelectFolder\Aktivgeschaeft_01_SelectFolder\Aktivgeschaeft_01_SelectFolder.csproj</Path>
+      <Identifier>FileSearch</Identifier>
+      <LocalizableItems>
+        <Item>!DialogMainForm.resx</Item>
+        <Item>DialogStrings.resx</Item>
+        <Item>Einstellungen.resx</Item>
+      </LocalizableItems>
+    </EmbeddedDialog>
+    <EmbeddedDialog>
+      <Path>..\..\_Dialogs\_ImportRoutines\risk_relevance\risk_relevance\risk_relevance.csproj</Path>
+      <Identifier>KRM_RiskRelevance</Identifier>
+      <LocalizableItems>
+        <Item>!DialogMainForm.resx</Item>
+        <Item>DialogStrings.resx</Item>
+      </LocalizableItems>
+    </EmbeddedDialog>
+  </EmbeddedDialogs>
+</CustomImportRoutine>

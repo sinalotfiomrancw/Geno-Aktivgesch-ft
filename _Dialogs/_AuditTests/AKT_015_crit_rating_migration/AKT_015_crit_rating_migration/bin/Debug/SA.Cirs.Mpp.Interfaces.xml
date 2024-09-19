@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SA.Cirs.Mpp.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IEditableMultiPeriodResultColumnInfo">
+            <summary>
+            The interface IEditableMultiPeriodResultColumnInfo collects the information about a column of a multi-period preparation.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IEditableMultiPeriodResultColumnInfo.TagId">
+            <summary>
+            Gets / sets the id of the column tag.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IEditableMultiPeriodResultColumnInfo.ApplySystemLength">
+            <summary>
+            Gets / sets a Boolean that specifies whether the column should be adjusted if SystemLength differs among 
+            the tables that belong to the target multi-period result.
+            </summary>
+            <returns>True, if the column should be adjusted; otherwise, false.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IEditableMultiPeriodResultColumnInfo.CalculatedLength">
+            <summary>
+            Gets / sets the calculated length of the column before adjustment.
+            </summary>
+            <returns>A positive Int32 that contains the length of the column or 0, if the length was not computed.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadata">
+            <summary>
+            Holds metadata for an alphanumeric column that may require column adjustments during MPP.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadata.TagAssignment">
+            <summary>
+            Gets the ITagAssignment reference to the object that
+            holds the pair of TagId and ColumnName.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadata.Index">
+            <summary>
+            Gets the one-based index of the column in the database's list of columns.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadata.ColumnLength">
+            <summary>
+            Gets the declared length of the database column.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadata.MaxValueLength">
+            <summary>
+            Gets the maximum length of column values.
+            This information may not be valid if FoundIncorrectValue is true.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadata.IncorrectValueFound">
+            <summary>
+            Gets / sets a Boolean that specifies whether the column
+            contains a non-empty value that does not consist of only decimal digits.
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadataCalculator">
+            <summary>
+            Computes metadata for database columns that may require adjustments during MPP.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadataCalculator.ComputeColumnMetadata(System.String,System.Boolean,Audicon.SmartAnalyzer.CustomImportRoutines.Common.Interfaces.ITagAssignment[])">
+            <summary>
+            Selects all alphanumeric columns that may require adjustments during MPP and returns an array of metadata objects.
+            </summary>
+            <param name="databaseName">A string containing the name of the table.</param>
+            <param name="isServerDatabase">A Boolean that specifies whether the database is located
+            on the server.</param>
+            <param name="mppTagAssignments">A non-null array of tag info objects for those columns that may require adjustements during MPP.
+            The method will select only those alpahnumeric columns that exist in the specified database.</param>
+            <returns>An IMppColumnMetadata array containing metadata for those mppTagAssignments whose columns exist in the specified database and
+            are of type 'alphanumeric'.
+            The method returns an empty array, if no mppTagAssignment satisfies the selection criteria or if the database is empty.</returns>
+            <exception cref="T:System.ArgumentNullException">If databaseName or mppTagAssignments is null.</exception>
+            <exception cref="T:System.ArgumentException">If databaseName is empty.</exception>
+            <remarks>
+            <para>The method uses a case insensitive comparsion (OrdinalIgnoreCase) for column names.</para></remarks>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppColumnMetadataCalculator.ComputeColumnMetadata(System.String,System.Boolean,System.String[])">
+            <summary>
+            Selects all alphanumeric columns that may require adjustments during MPP and returns an array of metadata objects.
+            </summary>
+            <param name="databaseName">A string containing the name of the table.</param>
+            <param name="isServerDatabase">A Boolean that specifies whether the database is located
+            on the server.</param>
+            <param name="columnNames">An array containing the names of the columns that may require adjustments during MPP.
+            The method will select only those alpahnumeric columns that exist in the specified database and are tagged.</param>
+            <returns>An IMppColumnMetadata array (one entry per column-attached tag combination) containing metadata 
+            for those tagged columns that exist in the specified database and are of type 'alphanumeric'.
+            The method returns an empty array, if no column satisfies the selection criteria or if the database is empty.</returns>
+            <exception cref="T:System.ArgumentNullException">If databaseName or columnNames is null.</exception>
+            <exception cref="T:System.ArgumentException">If databaseName is empty.</exception>
+            <remarks>
+            <para>The method uses a case insensitive comparsion (OrdinalIgnoreCase) for column names.</para></remarks>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource">
+            <summary>
+            Defines an interface to an object that provides MPP-related data.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.MppSystemLength">
+            <summary>
+            Gets an int containing the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.MppResultId">
+            <summary>
+            Gets the expected MPP result id.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.MppResultName">
+            <summary>
+            Gets the expected MPP result name.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.MppResultDisplayName">
+            <summary>
+            Gets the expected MPP result display name.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.MppColumnsNamespaceId">
+            <summary>
+            Gets the expected MPP columns namespace id.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.GetMppAuditTestsFilter">
+            <summary>
+            Gets the audit tests filter expression that identifies the mapped tests for MPP.
+            </summary>
+            <returns>An IExpression object or null, if not audit tests are to be associated with the MPP result.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMppRegistrationDataSource.GetColumnNamesForMppColumnAdjustments">
+            <summary>
+            Gets the names of those columns that may require adjustments during MPP.
+            </summary>
+            <returns>A string array
+            An empty array, if the set of columns that may require adjustments is empty.</returns>
+            <remarks>If the set of columns that may require adjustments is empty, the method must return an empty array.
+            <para>The processor will ignore any columns that are not present in the result database.</para></remarks>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs">
+            <summary>
+            The interface IMultiPeriodPreparationArgs provides information about the actual parameters of a multi-period preparation.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.ResultId">
+            <summary>
+            Gets the id of the multi-period result.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.ResultName">
+            <summary>
+            Gets the name of the result.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.ResultDisplayName">
+            <summary>
+            Gets the display name of the result.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.RoutineId">
+            <summary>
+            Gets the id of the routine that registered this set of multi-period preparation args.
+            </summary>
+            <returns>A Guid.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.LogicalRoutineId">
+            <summary>
+            Gets the logical id of the routine that registered this set of multi-period preparation args.
+            </summary>
+            <returns>A Guid.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.AuditTestsFilter">
+            <summary>
+            Gets the expression that identifies the audit tests that shall be associated with the result.
+            </summary>
+            <returns>An Audicon.SmartAnalyzer.Common.Interfaces.Trees.IExpression reference.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.SystemLength">
+            <summary>
+            Gets the standard account length that was determined by the routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.ColumnsNamespaceId">
+            <summary>
+            Gets the numeric id of the columns namespace of the table associated with this result.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodPreparationArgs.ResultColumns">
+            <summary>
+            Gets a reference to a list that contains information about the columns of the result.
+            </summary>
+            <returns>An IReadOnlyList&lt;IMultiPeriodResultColumnInfo&gt;.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodResultColumnInfo">
+            <summary>
+            The interface IMultiPeriodResultColumnInfo provides information about a column of a multi-period preparation.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodResultColumnInfo.TagId">
+            <summary>
+            Gets the id of the column tag.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodResultColumnInfo.ApplySystemLength">
+            <summary>
+            Gets a Boolean that specifies whether the column should be adjusted if SystemLength differs among 
+            the tables that belong to the target multi-period result.
+            </summary>
+            <returns>True, if the column should be adjusted; otherwise, false.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IMultiPeriodResultColumnInfo.CalculatedLength">
+            <summary>
+            Gets the calculated length of the column before adjustment.
+            </summary>
+            <returns>A positive Int32 that contains the length of the column or 0, if the length was not computed.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask">
+            <summary>
+            The interface IRegisterTableForMppTask provides access to the properties and methods of a task that registers a table with a multi-period data preparation task.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.TableName">
+            <summary>
+            Gets / sets the name of the table that will be registered.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.ResultId">
+            <summary>
+            Gets / sets the id of the multi-period data preparation task.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.ResultName">
+            <summary>
+            Gets / sets the name of the multi-period data preparation task.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.ResultDisplayName">
+            <summary>
+            Gets / sets the display name of the multi-period data preparation task.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.AuditTestsFilter">
+            <summary>
+            Gets / sets the expression that identifies the audit tests that shall be associated with the multi-period preparation's result.
+            </summary>
+            <returns>An Audicon.SmartAnalyzer.Common.Interfaces.Trees.IExpression reference.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.SystemLength">
+            <summary>
+            Gets / sets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.AddColumnInfo(System.String)">
+            <summary>
+            Adds a new object to the collection of columns that may require adjustments during the multi-period preparation 
+            and returns a reference to it for further processing.
+            </summary>
+            <param name="tagId">A string containing the id of the tag attached to the column.
+            <para>An exception is thrown if the collection already contains an element with this tag id.</para></param>
+            <returns>An IEditableMultiPeriodResultColumnInfo reference.</returns>
+            <exception cref="T:System.ArgumentNullException">If tagId is null.</exception>
+            <exception cref="T:System.ArgumentException">If tagId is empty or an element with the same tag id already 
+            exists in the collection.</exception>
+            <remarks>The TagId property of the returned object is read-only.</remarks>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.PerformTask">
+            <summary>
+            Registers the table with the specified multi-period data preparation task.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">If TableName, ResultId, ResultName or ResultDisplayName is null or empty.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.ColumnsNamespaceId">
+            <summary>
+            Gets / sets the numeric id of the columns namespace of the table associated with this result.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTask.PerformTask2">
+            <summary>
+            Registers the table with the specified multi-period data preparation task.
+            </summary>
+            <returns>An IMultiPeriodPreparationArgs that provides access to the information that was registered.</returns>
+            <exception cref="T:System.InvalidOperationException">If TableName, ResultId, ResultName or ResultDisplayName is null or empty.</exception>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTaskFactory">
+            <summary>
+            The interface IRegisterTableForMppTaskFactory provides access to objects that register tables for multi-period data preparation.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.IRegisterTableForMppTaskFactory.NewRegisterTableForMppTask">
+            <summary>
+            Gets a new task object for registering a table with a multi-period data preparation task.
+            </summary>
+            <returns>An IRegisterTableForMppTask reference.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.WellKnownParameterNames">
+            <summary>
+            Holds the names of the SA parameters relevant to multi-period data preparation.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.MultiPeriodPreparation.Interfaces.WellKnownParameterNames.MppResultInfo">
+            <summary>
+            Holds the name of the table-level parameter under which RegisterTableForMppTask stores an instance of a serializable
+            class that implements IMultiPeriodPreparationArgs.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SA.Cirs.StandardTables.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IAssociatedAuditTestsProvider">
+            <summary>
+            The interface IAssociatedAuditTestsProvider provides a mechanism for retrieving 
+            the filter expression that selects the ATs that can be executed against 
+            a standard table.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IAssociatedAuditTestsProvider.GetAuditTestsFilter(System.String)">
+            <summary>
+            Retrieves the filter expression that selects the ATs that can be executed against 
+            the specified standard table.
+            </summary>
+            <param name="standardTableId">A string containing the identifier (aka alias) of the standard table.
+            <para>An exception is thrown if this reference is null.</para>
+            <para>For the list of standard table ids, please refer to 
+            <see cref="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds"/>.</para>    
+            </param>
+            <returns>An IExpression reference or null, if a filter expression for the specified table is not available.</returns>
+            <exception cref="T:System.ArgumentNullException">If standardTableId is null.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IAssociatedAuditTestsProvider.GetMppAuditTestsFilter(System.String)">
+            <summary>
+            Retrieves the filter expression that selects the ATs that can be executed against 
+            the result of a multi-period preparation.
+            </summary>
+            <param name="standardTableId">A string containing the identifier (aka alias) of the standard table.
+            <para>An exception is thrown if this reference is null.</para>
+            <para>For the list of standard table ids, please refer to 
+            <see cref="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds"/>.</para>    
+            </param>
+            <returns>An IExpression reference or null, if a filter expression for the specified table is not available.</returns>
+            <exception cref="T:System.ArgumentNullException">If standardTableId is null.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IAssociatedAuditTestsProvider.GetVatAuditTestsFilter(System.String)">
+            <summary>
+            Retrieves the filter expression that selects the ATs that can be executed against 
+            the result of a VAT preparation.
+            </summary>
+            <param name="standardTableId">A string containing the identifier (aka alias) of the standard table.
+            <para>An exception is thrown if this reference is null.</para>
+            <para>For the list of standard table ids, please refer to 
+            <see cref="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds"/>.</para>    
+            </param>
+            <returns>An IExpression reference or null, if a filter expression for the specified table is not available.</returns>
+            <exception cref="T:System.ArgumentNullException">If standardTableId is null.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IAssociatedAuditTestsProvider.GetMppVatAuditTestsFilter(System.String)">
+            <summary>
+            Retrieves the filter expression that selects the ATs that can be executed against 
+            the result of a multi-period preparation performed on a group of VAT preparation results.
+            </summary>
+            <param name="standardTableId">A string containing the identifier (aka alias) of the standard table.
+            <para>An exception is thrown if this reference is null.</para>
+            <para>For the list of standard table ids, please refer to 
+            <see cref="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds"/>.</para>    
+            </param>
+            <returns>An IExpression reference or null, if a filter expression for the specified table is not available.</returns>
+            <exception cref="T:System.ArgumentNullException">If standardTableId is null.</exception>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IBuchungsjournalMitErwResultInfo">
+            <summary>
+            The interface IBuchungsjournalMitErwResultInfo provides information about a 'Buchungsjournal mit Erw' table.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IBuchungsjournalMitErwResultInfo.DatabaseName">
+            <summary>
+            Gets the name without path information of the result database.
+            </summary>
+            <returns>A string.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IBuchungsjournalMitErwResultInfo.StandardJournalOptionalColumnNames">
+            <summary>
+            Gets a reference to the list of optional (@Standardjournal) column names
+            in the order in which they should appear in the result.
+            </summary>
+            <returns>An IReadOnlyList&lt;string&gt;.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IBuchungsjournalMitErwResultInfo.SystemLength">
+            <summary>
+            Gets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IBuchungsjournalMitErwResultInfo.RoutineId">
+            <summary>
+            Gets the id of the routine on which behalf the standard table was created.
+            </summary>
+            <returns>A Guid.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask">
+            <summary>
+            The interface ICreateBuchungsjournalMitErwTableTask provides access to the properties and methods of a task that creates the 'Buchungsjournal mit Erw' table.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.StandardTableId">
+            <summary>
+            Gets the identifier of the standard table.
+            </summary>
+            <returns>A string.</returns>
+            <remarks>This property is read-only.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.SourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.IsAddingMissingMandatoryColumnsToSourceAllowed">
+            <summary>
+            Gets / sets a boolean indicating whether the creator is allowed to add
+            any missing mandatory result columns to the source database.
+            </summary>
+            <returns>True if adding columns to the source database is allowed; otherwise, false.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.PerformTask">
+            <summary>
+            Executes the tasks.
+            </summary>
+            <returns>An ITestResultFile reference to an object containing the name, id, record count etc
+            of the result database.</returns>
+            <exception cref="T:System.InvalidOperationException">If SourceDatabaseName is null or empty.</exception>
+            <exception cref="T:Audicon.SmartAnalyzer.Common.Types.SourceDatabaseEmptyException">If the database SourceDatabaseName is empty.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.SystemLength">
+            <summary>
+            Gets / sets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.AddOptionalStandardJournalColumn(System.String)">
+            <summary>
+            Adds the name of a column to the end of the list of optional (@Standardjournal) column names.
+            </summary>
+            <param name="columnName">A string containing the name of the column.
+            <para>
+            Column names are case insensitive. The comparsion is performed using OrdinalIgnoreCase.
+            </para>
+            <para>An exception is thrown if this name is null or empty.</para></param>
+            <returns>True if the column was added; false if the column is already present.</returns>
+            <exception cref="T:System.ArgumentNullException">If columnName is null.</exception>
+            <exception cref="T:System.ArgumentException">If columnName is empty.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateBuchungsjournalMitErwTableTask.GetOptionalStandardJournalColumnNames">
+            <summary>
+            Returns an array containing the names of the optional (@Standardjournal) columns in the order in
+            which they appear in result table.
+            </summary>
+            <returns>A string array.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask">
+            <summary>
+            The interface ICreateStandardJournalTableTask provides access to the properties and methods of a task that creates the (@Standardjournal) table.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.StandardTableId">
+            <summary>
+            Gets the identifier of the standard table.
+            </summary>
+            <returns>A string.</returns>
+            <remarks>This property is read-only.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.SourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.IsAddingMissingMandatoryColumnsToSourceAllowed">
+            <summary>
+            Gets / sets a boolean indicating whether the creator is allowed to add
+            any missing mandatory result columns to the source database.
+            </summary>
+            <returns>True if adding columns to the source database is allowed; otherwise, false.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.PerformTask">
+            <summary>
+            Executes the tasks.
+            </summary>
+            <returns>An ITestResultFile reference to an object containing the name, id, record count etc
+            of the result database.</returns>
+            <exception cref="T:System.InvalidOperationException">If SourceDatabaseName is null or empty.</exception>
+            <exception cref="T:Audicon.SmartAnalyzer.Common.Types.SourceDatabaseEmptyException">If the database SourceDatabaseName is empty.</exception>
+            <exception cref="T:Audicon.SmartAnalyzer.Common.Exceptions.ObjectNotFoundException">
+            If a mandatory column is missing.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.SystemLength">
+            <summary>
+            Gets / sets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.AddOptionalColumn(System.String)">
+            <summary>
+            Adds the name of a column to the end of the list of optional column names.
+            </summary>
+            <param name="columnName">A string containing the name of the column.
+            <para>
+            Column names are case insensitive. The comparsion is performed using OrdinalIgnoreCase.
+            </para>
+            <para>An exception is thrown if this name is null or empty.</para></param>
+            <returns>True if the column was added; false if the column is already present.</returns>
+            <exception cref="T:System.ArgumentNullException">If columnName is null.</exception>
+            <exception cref="T:System.ArgumentException">If columnName is empty.</exception>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.GetOptionalColumnNames">
+            <summary>
+            Returns an array containing the names of the optional columns in the order in
+            which they appear in result table.
+            </summary>
+            <returns>A string array.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardJournalTableTask.GetMandatoryColumnNames">
+            <summary>
+            Returns an array containing the names of the mandatory columns in the order in
+            which they appear in result table.
+            </summary>
+            <returns>A string array.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTask">
+            <summary>
+            The interface ICreateStandardTableTask provides access to the properties and methods of a task that creates one of the German Federal Ministry of Finance standard tables.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTask.StandardTableId">
+            <summary>
+            Gets the identifier of the standard table.
+            </summary>
+            <returns>A string.</returns>
+            <remarks>This property is read-only.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTask.SourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTask.IsAddingMissingMandatoryColumnsToSourceAllowed">
+            <summary>
+            Gets / sets a boolean indicating whether the creator is allowed to add
+            any missing mandatory result columns to the source database.
+            </summary>
+            <returns>True if adding columns to the source database is allowed; otherwise, false.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTask.PerformTask">
+            <summary>
+            Executes the tasks.
+            </summary>
+            <returns>An ITestResultFile reference to an object containing the name, id, record count etc
+            of the result database.</returns>
+            <exception cref="T:System.InvalidOperationException">If SourceDatabaseName is null or empty.</exception>
+            <exception cref="T:Audicon.SmartAnalyzer.Common.Types.SourceDatabaseEmptyException">If the database SourceDatabaseName is empty.</exception>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTask.SystemLength">
+            <summary>
+            Gets / sets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory">
+            <summary>
+            The interface ICreateStandardTableTaskFactory provides access to objects that create 
+            the German Federal Ministry of Finance standard tables.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewBuchungsjournalMitErwTask">
+            <summary>
+            Gets a new task object for creating a 'Buchungsjournal mit Erw' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewStandardjournalTask">
+            <summary>
+            Gets a new task object for creating a '(@Standardjournal)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewDebitorenkontenTask">
+            <summary>
+            Gets a new task object for creating a '(@Debitorenstamm)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewKreditorenkontenTask">
+            <summary>
+            Gets a new task object for creating a '(@Kreditorenstamm)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewKontenplanTask">
+            <summary>
+            Gets a new task object for creating a '(@Kontenplan)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewEbilanzTask">
+            <summary>
+            Gets a new task object for creating a '(@eBilanz)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewBelegeTask">
+            <summary>
+            Gets a new task object for creating a '(@Belege)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ICreateStandardTableTaskFactory.NewAnlagevermoegenTask">
+            <summary>
+            Gets a new task object for creating a '(@Anlagevermögen)' table.
+            </summary>
+            <returns>An ICreateStandardTableTask.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IStandardTableMandatoryColumnsProvider">
+            <summary>
+            The interface IStandardTableMandatoryColumnsProvider provides a mechanism for retrieving 
+            the names and order of a standard table's mandatory columns.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IStandardTableMandatoryColumnsProvider.GetColumnNames">
+            <summary>
+            Gets an enumerator of the names of the mandatory column in the order in which
+            they must appear in the standard table.
+            </summary>
+            <returns>An IEnumerable&lt;string&gt;.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.IStandardTableMandatoryColumnsProvider.GetColumnDescriptors">
+            <summary>
+            Gets an enumerator of the descriptors of the mandatory column in the order in which
+            they must appear in the standard table.
+            </summary>
+            <returns>An IEnumerable&lt;ComputedColumnData&gt;.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ITagAssignmentsProvider">
+            <summary>
+            The interface ITagAssignmentsProvider provides a mechanism for retrieving 
+            the possible tags assignments of a standard table.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.ITagAssignmentsProvider.GetTagAssignments(System.String)">
+            <summary>
+            Gets an enumerator of the possible tag assignments of the specified standard table.
+            </summary>
+            <param name="standardTableId">A string containing the identifier (aka alias) of the standard table.
+            <para>An exception is thrown if this reference is null.</para>
+            <para>For the list of standard table ids, please refer to 
+            <see cref="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds"/>.</para></param>
+            <returns>An IEnumerable&lt;ITagAssignmentstring&gt; or null, if tagging information for the 
+            specified table is not available.</returns>
+            <exception cref="T:System.ArgumentNullException">If standardTableId is null.</exception>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds">
+            <summary>
+            The class WellKnownStandardTableIds lists the ids of the standard tables.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.BuchungsjournalMitErwId">
+            <summary>
+            The id of the standard table 'Buchungsjournal mit Erw'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.StandardjournalId">
+            <summary>
+            The id of the standard table '(@Standardjournal)'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.DebitorenkontenId">
+            <summary>
+            The id of the standard table '(@Debitorenstamm)'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.KreditorenkontenId">
+            <summary>
+            The id of the standard table '(@Kreditorenstamm)'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.KontenplanId">
+            <summary>
+            The id of the standard table '(@Kontenplan)'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.EbilanzId">
+            <summary>
+            The id of the standard table '(@eBilanz)'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.BelegeId">
+            <summary>
+            The id of the standard table '(@Belege)'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.StandardTables.Interfaces.WellKnownStandardTableIds.AnlagevermoegenId">
+            <summary>
+            The id of the standard table '(@Anlagevermögen)'.
+            </summary>
+        </member>
+    </members>
+</doc>

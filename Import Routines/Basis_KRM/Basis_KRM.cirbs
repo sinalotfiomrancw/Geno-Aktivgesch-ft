@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomImportRoutine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <IsServerSupported>false</IsServerSupported>
+  <SelectAllFiles>true</SelectAllFiles>
+  <SkipSourceSelection>true</SkipSourceSelection>
+  <PreliminaryTask Type="Iss">
+    <SkipSourceSelection>true</SkipSourceSelection>
+    <ExecutableFile>Basis_KRM.PreMacro.iss</ExecutableFile>
+  </PreliminaryTask>
+  <PreparationTask Type="Iss">
+    <ExecutableFile>Basis_KRM.DataPreparation.iss</ExecutableFile>
+  </PreparationTask>
+  <ImportTask Type="SmartX" IdentifyBy="Url">
+    <Step Index="0">
+      <PartialTask ID="d01851762fc84dc4b792a5c39afa8635" Type="Iss">
+        <ExecutableFile>Basis_KRM.Import_Select_Folder.iss</ExecutableFile>
+      </PartialTask>
+    </Step>
+  </ImportTask>
+  <MainRoutine Type="SmartX">
+    <RoutineVisibility>AnyAudit</RoutineVisibility>
+    <GroupNames>
+      <Name>Aktivgeschäft</Name>
+    </GroupNames>
+    <SeparateMainTasks>Never</SeparateMainTasks>
+  </MainRoutine>
+  <EmbeddedDialogs>
+    <EmbeddedDialog>
+      <Path>..\..\_Dialogs\_ImportRoutines\KRM_FileSearch\KRM_FileSearch\KRM_FileSearch.csproj</Path>
+      <Identifier>KRM_FileSearch</Identifier>
+      <LocalizableItems>
+        <Item>!DialogMainForm.resx</Item>
+        <Item>DialogStrings.resx</Item>
+        <Item>Einstellungen.resx</Item>
+      </LocalizableItems>
+    </EmbeddedDialog>
+    <EmbeddedDialog>
+      <Path>..\..\_Dialogs\_ImportRoutines\risk_relevance\risk_relevance\risk_relevance.csproj</Path>
+      <Identifier>KRM_RiskRelevance</Identifier>
+      <LocalizableItems>
+        <Item>!DialogMainForm.resx</Item>
+        <Item>DialogStrings.resx</Item>
+      </LocalizableItems>
+    </EmbeddedDialog>
+  </EmbeddedDialogs>
+</CustomImportRoutine>

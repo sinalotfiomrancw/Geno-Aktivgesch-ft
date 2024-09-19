@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SA.Cirs.AuDS.StandardTables.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus">
+            <summary>
+            Defines the status codes for ICheckIfAccountNumberIsPrefixedTask's.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus.NotComputed">
+            <summary>
+            The status of the column was not computed. This is the default value of the status.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus.IsPrefixed">
+            <summary>
+            The column is prefixed, that is all its values are either prefixed with one of the account prefixes S_, D_ or K_ or they are empty or consit only of white-space characters.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus.ColumnNotFound">
+            <summary>
+            The column was not found in the table.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus.ColumnNotAlphanumeric">
+            <summary>
+            The column is not of type alphanumeric. Only alphanumeric columns can be prefixed.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus.EmptyDatabase">
+            <summary>
+            The database contains no rows.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.AccountNumberColumnStatus.NotPrefixed">
+            <summary>
+            The alphanumeric column exists, the database is not empty, but the column has at least one non-empty value whose prefix does not match any account prefixes.
+            </summary>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask">
+            <summary>
+            The interface ICheckIfAccountNumberIsPrefixedTask provides access to the properties and methods of a task that checks whether the values of the account number and contra account number columns
+            of a table are prefixed with one of the account prefixes S_, D_ or K_ or if they are empty or consit only of white-space characters.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask.DatabaseName">
+            <summary>
+            Gets / sets the name of the database to check.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask.IsAccountNumberPrefixed">
+            <summary>
+            Gets a value that specifies whether the KONTO_NR column in the specified database is prefixed with one of
+            the account-prefixes S_, D_ or K_ or if the column consists only of white space chars. 
+            True, if the column exists and is prefixed; otherwise, false.
+            AccountNumberStatus holds a value that describes the reason why the column is not prefixed.
+            </summary>
+            <returns>True, if the database is not empty and the column exists, its type is alphanumeric and all its values 
+            are either prefixed or consit only of white-space characters; otherwise, false.</returns>
+            <remarks>The default value is false. Call the method Perform before getting the actual value of the property.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask.AccountNumberStatus">
+            <summary>
+            Gets a value that either specifies whether KONTO_NR is prefixed and in case not, the reason why.
+            </summary>
+            <returns>AccountNumberColumnStatus.IsPrefixed, if IsAccountNumberPrefixed is true;otherwise, a value that describes why the column is not prefixed.</returns>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask.IsContraAccountNumberPrefixed">
+            <summary>
+            Gets a value that specifies whether the GKTO_NR column in the specified database is prefixed with one of
+            the account-prefixes S_, D_ or K_ or if the column consists only of white space chars. 
+            True, if the database is not empty and the column exists and is prefixed; otherwise, false.     
+            ContraAccountNumberStatus holds a value that describes the reason why the column is not prefixed.
+            </summary>
+            <returns>True, if the database is not empty and the column exists, its type is alphanumeric and all its values 
+            are either prefixed or consit only of white-space characters; otherwise, false.</returns>
+            <remarks>The default value is false. Call the method Perform before getting the actual value of the property.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask.ContraAccountNumberStatus">
+            <summary>
+            Gets a value that either specifies whether GKTO_NR is prefixed and in case not, the reason why.
+            </summary>
+            <returns>AccountNumberColumnStatus.IsPrefixed, if IsAccountNumberPrefixed is true;otherwise, a value that describes why the column is not prefixed.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICheckIfAccountNumberIsPrefixedTask.PerformTask">
+            <summary>
+            Executes the task and stores the results in IsAccountNumberPrefixed, AccountNumberStatus, IsContraAccountNumberPrefixed and ContraAccountNumberStatus.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">If DatabaseName is null or empty.</exception>
+            <exception cref="T:System.IO.FileNotFoundException">If the database does not exist.</exception>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask">
+            <summary>
+            The interface ICreateAuDSStandardTablesTask provides access to the properties and methods of a task that can create all Audicon Data Standard standard tables.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.GeneralLedgerDetailsSourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database of the result 'AuDS_Fibu-Journal' (aka GeneralLedgerDetails).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.ChartOfAccountsSourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database of the result 'AuDS_Sachkontenstamm' (aka ChartOfAccounts).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.SupplierMasterSourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database of the result 'AuDS_Kreditorenstamm' (aka SupplierMaster).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.CustomerMasterSourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database of the result 'AuDS_Debitorenstamm' (aka CustomerMaster).
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.AuditPeriodStart">
+            <summary>
+            Gets / sets the audit period's start date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.AuditPeriodEnd">
+            <summary>
+            Gets / sets the audit period's end date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.SystemLength">
+            <summary>
+            Gets / sets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.PerformTask">
+            <summary>
+            Resets the result properties, executes the task and updates the result properties.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.GeneralLedgerDetailsResult">
+            <summary>
+            Gets an ITestResultFile reference to an object containing the name, id, record count etc.
+            of the result database 'AuDS_Fibu-Journal' (aka GeneralLedgerDetails).
+            </summary>
+            <returns>An ITestResultFile reference or null if a valid source database was not specified. </returns>
+            <remarks>The id of the standard table will be stored in the object's ExtraValues under the key Alias and the result object will be 
+            added to the context's TestResultFiles collection.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.ChartOfAccountsResult">
+            <summary>
+            Gets an ITestResultFile reference to an object containing the name, id, record count etc.
+            of the result database 'AuDS_Sachkontenstamm' (aka ChartOfAccounts).
+            </summary>
+            <returns>An ITestResultFile reference or null if a valid source database was not specified. </returns>
+            <remarks>The id of the standard table will be stored in the object's ExtraValues under the key Alias and the result object will be 
+            added to the context's TestResultFiles collection.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.SupplierMasterResult">
+            <summary>
+            Gets an ITestResultFile reference to an object containing the name, id, record count etc.
+            of the result database 'AuDS_Kreditorenstamm' (aka SupplierMaster).
+            </summary>
+            <returns>An ITestResultFile reference or null if a valid source database was not specified. </returns>
+            <remarks>The id of the standard table will be stored in the object's ExtraValues under the key Alias and the result object will be 
+            added to the context's TestResultFiles collection.</remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTablesTask.CustomerMasterResult">
+            <summary>
+            Gets an ITestResultFile reference to an object containing the name, id, record count etc.
+            of the result database 'AuDS_Debitorenstamm' (aka CustomerMaster).
+            </summary>
+            <returns>An ITestResultFile reference or null if a valid source database was not specified. </returns>
+            <remarks>The id of the standard table will be stored in the object's ExtraValues under the key Alias and the result object will be 
+            added to the context's TestResultFiles collection.</remarks>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask">
+            <summary>
+            The interface ICreateAuDSStandardTableTask provides access to the properties and methods of a task that creates one of the Audicon Data Standard standard tables.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.StandardTableId">
+            <summary>
+            Gets the identifier of the standard table.
+            </summary>
+            <returns>A string.</returns>
+            <remarks>This property is read-only.
+            <para>
+            The method returns one of the values in WellKnownAuDSStandardTableIds.
+            </para>
+            </remarks>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.SourceDatabaseName">
+            <summary>
+            Gets / sets the name of the source database.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.AuditPeriodStart">
+            <summary>
+            Gets / sets the audit period's start date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.AuditPeriodEnd">
+            <summary>
+            Gets / sets the audit period's end date.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.IsAccountNumberPrefixed">
+            <summary>
+            Gets / sets a value that specifies whether the KONTO_NR column in the source database is prefixed with one of
+            the account-prefixes S_, D_ or K_ or if the column consists only of white space chars.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.IsContraAccountNumberPrefixed">
+            <summary>
+            Gets / sets a value that specifies whether the GKTO_NR column in the source database is prefixed with one of
+            the account-prefixes S_, D_ or K_ or if the column consists only of white space chars.
+            </summary>
+        </member>
+        <member name="P:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.SystemLength">
+            <summary>
+            Gets / sets the standard account length that was determined by the calling routine based on the used chart of accounts.
+            </summary>
+            <returns>An Int32.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTask.PerformTask">
+            <summary>
+            Executes the task.
+            </summary>
+            <returns>An ITestResultFile reference to an object containing the name, id, record count etc.
+            of the result database. </returns>
+            <exception cref="T:System.InvalidOperationException">If SourceDatabaseName is null or empty.</exception>
+            <exception cref="T:Audicon.SmartAnalyzer.Common.Types.SourceDatabaseEmptyException">If the database SourceDatabaseName is empty.</exception>
+            <remarks>The id of the table will be stored in the object's ExtraValues under the key Alias and the result object will be 
+            added to the context's TestResultFiles collection.</remarks>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory">
+            <summary>
+            The interface ICreateAuDSStandardTableTaskFactory provides access to objects that create 
+            the Audicon Data Standard standard tables.
+            </summary>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory.NewGeneralLedgerDetailsTask">
+            <summary>
+            Gets a new task object for creating an 'AuDS_Fibu-Journal' (aka GeneralLedgerDetails) table.
+            </summary>
+            <returns>An ICreateAuDSStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory.NewChartOfAccountsTask">
+            <summary>
+            Gets a new task object for creating an 'AuDS_Sachkontenstamm' (aka ChartOfAccounts) table.
+            </summary>
+            <returns>An ICreateAuDSStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory.NewSupplierMasterTask">
+            <summary>
+            Gets a new task object for creating an 'AuDS_Kreditorenstamm' (aka SupplierMaster) table.
+            </summary>
+            <returns>An ICreateAuDSStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory.NewCustomerMasterTask">
+            <summary>
+            Gets a new task object for creating an 'AuDS_Debitorenstamm' (aka CustomerMaster) table.
+            </summary>
+            <returns>An ICreateAuDSStandardTableTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory.NewCheckIfAccountNumberIsPrefixedTask">
+            <summary>
+            Gets a new task object for checking whether the values of the account number and contra account number columns
+            of a table are prefixed with one of the account prefixes S_, D_ or K_ or if they are empty or consit only of white-space characters.
+            </summary>
+            <returns>An ICheckIfAccountNumberIsPrefixedTask.</returns>
+        </member>
+        <member name="M:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.ICreateAuDSStandardTableTaskFactory.NewAuDSStandardTablesTask">
+            <summary>
+            Gets a new task object for creating all Audicon Data Standard standard tables.
+            </summary>
+            <returns>An ICreateAuDSStandardTablesTask.</returns>
+        </member>
+        <member name="T:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.WellKnownAuDSStandardTableIds">
+            <summary>
+            The class WellKnownStandardTableIds lists the ids (aka aliases) of the AuDS standard tables.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.WellKnownAuDSStandardTableIds.GeneralLedgerDetailsId">
+            <summary>
+            The id of the standard table 'AuDS_Fibu-Journal'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.WellKnownAuDSStandardTableIds.ChartOfAccountsId">
+            <summary>
+            The id of the standard table 'AuDS_Sachkontenstamm'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.WellKnownAuDSStandardTableIds.SupplierMasterId">
+            <summary>
+            The id of the standard table 'AuDS_Kreditorenstamm'.
+            </summary>
+        </member>
+        <member name="F:Audicon.SmartAnalyzer.CustomImportRoutines.AuDS.StandardTables.Interfaces.WellKnownAuDSStandardTableIds.CustomerMasterId">
+            <summary>
+            The id of the standard table 'AuDS_Debitorenstamm'.
+            </summary>
+        </member>
+    </members>
+</doc>

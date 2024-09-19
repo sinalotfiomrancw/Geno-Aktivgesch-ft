@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ID>09da799d-d52e-49f6-b8da-6f18410a2c77</ID>
+  <Alias>Geno_Aktivgeschaeft</Alias>
+  <Version>1.1.4.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>alexander.strubert</Creator>
+  <CreateDate>2022-10-16</CreateDate>
+  <ModifyDate>2023-10-16</ModifyDate>
+  <ExpirationDate>2022-12-31</ExpirationDate>
+  <Documentation Type="RTF">Beschreibung-IDEA_App_Geno-Aktiv.rtf</Documentation>
+  <Links>
+    <Link Usage="Description UseInAppWorkflow SuppressInAppManagement" IsLocalizable="true" TitleId="76c0ac5d23884287984dd059453553d1">
+      <URL>..\..\_Additional Files\Datamodel\Datenmodel_Aktivgeschäft.xlsx</URL>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\KRM_ddmm2021_Tab.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\KRM_ddmm2021_Semicolon.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\KRM_17052022_Tab.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\KRM_17052022_Semicolon.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Description UseInAppWorkflow" IsLocalizable="true" TitleId="644717b123714a1696975d55b65fb87b">
+      <URL>..\..\_Additional Files\Instructions\Aktivgeschäft-Leitfaden.pdf</URL>
+    </Link>
+    <Link Usage="Description UseInAppWorkflow SuppressInAppManagement" IsLocalizable="true" TitleId="23b7319c50ab4e8c9196690f4ff60653">
+      <URL>..\..\_Additional Files\Datamodel\Zusätzliche Dateien.zip</URL>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\KBB_11092023_Semicolon.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\KBB_11092023_Tab.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\SNM_11092023_Semicolon.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\SNM_11092023_Tab.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+  </Links>
+  <MinimumIdeaVersion>10.0.0.0</MinimumIdeaVersion>
+  <SourceLanguage>de</SourceLanguage>
+  <DefaultLanguage>de</DefaultLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="SolutionName" DeploymentFileNameId="SolutionFileName">Aktivgeschäft.resx</Resources>
+  <ContentObjects UseBuildScripts="true">
+    <Item>..\..\Navigators\AuditTestNavigatorTree_Aktivgeschäft\AuditTestNavigatorTree_Aktivgeschäft.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_004_Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent\Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_005_Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent\Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_001_Gewerbliche Kreditnehmer mit Branchenkennung 33\Gewerbliche Kreditnehmer mit Branchenkennung 33.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_002_Gewerbliche Kreditnehmer mit VR-Rating Privatkunden\Gewerbliche Kreditnehmer mit VR-Rating Privatkunden.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_007_Kreditnehmer mit Ausfallstatus ohne EWB\Kreditnehmer mit Ausfallstatus ohne EWB.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_008_Kreditnehmer mit EWB in der Normalbetreuung\Kreditnehmer mit EWB in der Normalbetreuung.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_003_Privatkunden mit VR-Rating für Firmenkunden\Privatkunden mit VR-Rating für Firmenkunden.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_009_Übersicht VR-Ratingart\Übersicht VR-Ratingart.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_006_Überziehungen über 90 Tage ohne Ausfallstatus\Überziehungen über 90 Tage ohne Ausfallstatus.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_012_Ausländische Kreditnehmer mit VR-Rating\AKT_012_Ausländische Kreditnehmer mit VR-Rating.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_013_Immobiliensammler (Branchenkennung 23) ohne VR IMMO Rating\AKT_013_Immobiliensammler (Branchenkennung 23) ohne VR IMMO Rating.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_011_Kreditnehmer mit Bonitätsnote 0\AKT_011_Kreditnehmer mit Bonitätsnote 0.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_010_Kreditnehmer über Risikorelevanzgrenze ohne Rating\AKT_010_Kreditnehmer über Risikorelevanzgrenze ohne Rating.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_014_VR IMMO Rating ohne Branchenkennung 23 (Immobiliensammler)\AKT_014_VR IMMO Rating ohne Branchenkennung 23 (Immobiliensammler).cobs</Item>
+    <Item>..\..\Audit Tests\AKT_015_Rating-Migration\AKT_015_Rating-Migration.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_016_Wanderung in kritischen bzw notleidenden Bestand\AKT_016_Wanderung in kritischen bzw notleidenden Bestand.cobs</Item>
+    <Item>..\..\Import Routines\Aktivgeschaeft_01_BasisRoutine\Aktivgeschaeft_01_BasisRoutine.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_019_Neukreditvergaben mit reduziertem Sicherheitenbestand\AKT_019_Neukreditvergaben mit reduziertem Sicherheitenbestand.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_017_Neukreditvergabe mit Negativmerkmalen\AKT_017_Neukreditvergabe mit Negativmerkmalen.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_020_Neukreditvergaben an Existenzgründer\AKT_020_Neukreditvergaben an Existenzgründer.cobs</Item>
+    <Item>..\..\Audit Tests\AKT_018_Neukreditvergabe in Risikobranchen\AKT_018_Neukreditvergabe in Risikobranchen.cobs</Item>
+    <Item>..\..\Data Requests\Aktivgeschäft\Aktivgeschäft.cobs</Item>
+  </ContentObjects>
+  <StartWorkflowDefFile>..\..\Workflows\Aktivgeschäft_Workflow\Aktivgeschäft_Workflow.cobs</StartWorkflowDefFile>
+  <ReadyForServer>1</ReadyForServer>
+  <IsPublished>true</IsPublished>
+</Package>
