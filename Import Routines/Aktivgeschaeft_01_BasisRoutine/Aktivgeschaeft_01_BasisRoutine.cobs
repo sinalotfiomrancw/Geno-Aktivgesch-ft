@@ -2,11 +2,11 @@
 <ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
   <ContentObjectType>16</ContentObjectType>
   <ID>43918b76-7d13-4d9c-a03a-17466516125a</ID>
-  <Version>1.1.2.0</Version>
+  <Version>1.2.2.0</Version>
   <Owner>Audicon Consulting</Owner>
   <Creator>Alexander Strubert</Creator>
   <CreateDate>2023-07-12</CreateDate>
-  <ModifyDate>2024-02-12</ModifyDate>
+  <ModifyDate>2024-06-10</ModifyDate>
   <Validity>
     <From>2023-07-12</From>
     <To>2050-12-31</To>

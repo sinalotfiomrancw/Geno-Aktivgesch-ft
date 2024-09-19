@@ -170,6 +170,9 @@ dim sFIELD_ENGA_EWB_RST_IARV as string
 dim sKreditnehmMitAusfall_OhneEWB as string
 dim sKreditnehmMitAusfall_OhneRST as string
 dim sKreditnehmMitAusfall_OhneEWBundRST as string
+dim sKreditnehmMitAusfall_OhneEWB_per_Person as string
+dim sKreditnehmMitAusfall_OhneRST_per_Person as string
+dim sKreditnehmMitAusfall_OhneEWBundRST_per_Person as string
 '#End Region
 
 '#Region - dialog
@@ -202,10 +205,14 @@ Sub Main()
 	Call GetFileInformation
 	Call GetParameters
 	Call Analysis
+	Call Analysis_per_Person
 	call registerResult(sInputFile, INPUT_DATABASE, 0)
 	call registerResult(sKreditnehmMitAusfall_OhneEWB, FINAL_RESULT, 1)
 	call registerResult(sKreditnehmMitAusfall_OhneRST, FINAL_RESULT, 2)
 	call registerResult(sKreditnehmMitAusfall_OhneEWBundRST, FINAL_RESULT, 3)
+	call registerResult(sKreditnehmMitAusfall_OhneEWB_per_Person, FINAL_RESULT, 4)
+	call registerResult(sKreditnehmMitAusfall_OhneRST_per_Person, FINAL_RESULT, 5)
+	call registerResult(sKreditnehmMitAusfall_OhneEWBundRST_per_Person, FINAL_RESULT, 6)
 	' **** End of the user specific code
 	
 	SmartContext.ExecutionStatus = EXEC_STATUS_SUCCEEDED
@@ -529,6 +536,195 @@ SetCheckpoint "Analysis 3.4 - create"
 	Set task = Nothing
 	Set db = Nothing
 end function
+' --------------------------------------------------------------------------
+Function Analysis_per_Person
+SetCheckpoint "Analysis_Sum_Person 1.0 - sKreditnehmMitAusfall_OhneEWB_pro Kunde"
+	Set db = Client.OpenDatabase(sKreditnehmMitAusfall_OhneEWB)
+	Set task = db.Summarization
+	task.AddFieldToSummarize "KUNDENNUMMER"
+	task.AddFieldToInc "DATUM_DATENABZUG"
+	task.AddFieldToInc "NETTO_ENGAGEMENT"
+	task.AddFieldToInc "KUNDENGRUPPEN_NR"
+	task.AddFieldToInc "ENGAGEMENTBEZ"
+	task.AddFieldToInc "KUNDENNAME"
+	task.AddFieldToInc "RISIKOGRUPPE"
+	task.AddFieldToInc "RISIKOGRUPPE_ENGA"
+	task.AddFieldToInc "BONITÄTSEINSTUFUNG"
+	task.AddFieldToInc "BONITÄTSEINST_ENGA"
+	task.AddFieldToInc "VR_RATINGART"
+	task.AddFieldToInc "VR_RATINGART_ENGA"
+	task.AddFieldToInc "VR_RATING"
+	task.AddFieldToInc "VR_RATING_ENGA"
+	If oSC.FieldExists(db, "VR_RATING_ENGA2") Then 
+		task.AddFieldToInc "VR_RATING_ENGA2"
+	End If
+	task.AddFieldToInc "AUSFALLRATE_KUNDE"
+	If oSC.FieldExists(db, "AUSFALLRATE_ENGA") Then 
+		task.AddFieldToInc "AUSFALLRATE_ENGA"
+	End If
+	task.AddFieldToInc "DATUM_LTZ_RATING"
+	task.AddFieldToInc "GK_ENGA_RV_EUR"
+	task.AddFieldToInc "GK_ENGA_EA_EUR"
+	task.AddFieldToInc "GK_ENGA_BVRV_EUR"
+	task.AddFieldToInc "GK_ENGA_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_RV_EUR"
+	task.AddFieldToInc "GK_KD_EA_EUR"
+	task.AddFieldToInc "GK_KD_BVRV_EUR"
+	task.AddFieldToInc "GK_KD_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_NTOBVRV_EUR"
+	task.AddFieldToInc "BERATER"
+	task.AddFieldToInc "GEWERBLICH_PRIVAT"
+	task.AddFieldToInc "RECHTSFORM"
+	task.AddFieldToInc "BRANCHE"
+	task.AddFieldToInc "KPM_BRANCHE"
+	task.AddFieldToInc "KPM_BERÜCKS_KD_RS"
+	task.AddFieldToInc "LÄNDERSCHLÜSSEL"
+	task.AddFieldToInc "KUNDE_SEIT_DATUM"
+	task.AddFieldToInc "GEB_GRÜND_DATUM"
+	task.AddFieldToInc "RISIKOSTATUS_MAK"
+	task.AddFieldToInc "RISIKOKENNZEICHEN"
+	task.AddFieldToInc "ÜBERZ_ENG_BASEL_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENG_BASEL"
+	task.AddFieldToInc "GK_ENGA_ÜBERZ_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENGA"
+	task.AddFieldToInc "JAHRESABSCHLUSSDATUM"
+	task.AddFieldToInc "VR_RATING_NUM"
+	task.AddFieldToInc "VR_RATING_ENGA_NUM"
+	task.AddFieldToInc sFIELD_ENGA_EWB_RST_IA
+	sKreditnehmMitAusfall_OhneEWB_per_Person = oSC.UniqueFileName(sWorkingfolderName & "Kreditnehmer mit Ausfallstatus ohne EWB_pro Kunde.IMD", FINAL_RESULT)
+	task.OutputDBName = sKreditnehmMitAusfall_OhneEWB_per_Person
+	task.CreatePercentField = FALSE
+	task.UseFieldFromFirstOccurrence = TRUE
+	task.PerformTask
+	db.close
+	Set task = Nothing
+	Set db = Nothing
+	
+SetCheckpoint "Analysis_Sum_Person 1.0 - sKreditnehmMitAusfall_OhneRST_pro Kunde"
+	Set db = Client.OpenDatabase(sKreditnehmMitAusfall_OhneRST)
+	Set task = db.Summarization
+	task.AddFieldToSummarize "KUNDENNUMMER"
+	task.AddFieldToInc "DATUM_DATENABZUG"
+	task.AddFieldToInc "NETTO_ENGAGEMENT"
+	task.AddFieldToInc "KUNDENGRUPPEN_NR"
+	task.AddFieldToInc "ENGAGEMENTBEZ"
+	task.AddFieldToInc "KUNDENNAME"
+	task.AddFieldToInc "RISIKOGRUPPE"
+	task.AddFieldToInc "RISIKOGRUPPE_ENGA"
+	task.AddFieldToInc "BONITÄTSEINSTUFUNG"
+	task.AddFieldToInc "BONITÄTSEINST_ENGA"
+	task.AddFieldToInc "VR_RATINGART"
+	task.AddFieldToInc "VR_RATINGART_ENGA"
+	task.AddFieldToInc "VR_RATING"
+	task.AddFieldToInc "VR_RATING_ENGA"
+	If oSC.FieldExists(db, "VR_RATING_ENGA2") Then 
+		task.AddFieldToInc "VR_RATING_ENGA2"
+	End If
+	task.AddFieldToInc "AUSFALLRATE_KUNDE"
+	If oSC.FieldExists(db, "AUSFALLRATE_ENGA") Then 
+		task.AddFieldToInc "AUSFALLRATE_ENGA"
+	End If
+	task.AddFieldToInc "DATUM_LTZ_RATING"
+	task.AddFieldToInc "GK_ENGA_RV_EUR"
+	task.AddFieldToInc "GK_ENGA_EA_EUR"
+	task.AddFieldToInc "GK_ENGA_BVRV_EUR"
+	task.AddFieldToInc "GK_ENGA_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_RV_EUR"
+	task.AddFieldToInc "GK_KD_EA_EUR"
+	task.AddFieldToInc "GK_KD_BVRV_EUR"
+	task.AddFieldToInc "GK_KD_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_NTOBVRV_EUR"
+	task.AddFieldToInc "BERATER"
+	task.AddFieldToInc "GEWERBLICH_PRIVAT"
+	task.AddFieldToInc "RECHTSFORM"
+	task.AddFieldToInc "BRANCHE"
+	task.AddFieldToInc "KPM_BRANCHE"
+	task.AddFieldToInc "KPM_BERÜCKS_KD_RS"
+	task.AddFieldToInc "LÄNDERSCHLÜSSEL"
+	task.AddFieldToInc "KUNDE_SEIT_DATUM"
+	task.AddFieldToInc "GEB_GRÜND_DATUM"
+	task.AddFieldToInc "RISIKOSTATUS_MAK"
+	task.AddFieldToInc "RISIKOKENNZEICHEN"
+	task.AddFieldToInc "ÜBERZ_ENG_BASEL_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENG_BASEL"
+	task.AddFieldToInc "GK_ENGA_ÜBERZ_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENGA"
+	task.AddFieldToInc "JAHRESABSCHLUSSDATUM"
+	task.AddFieldToInc "VR_RATING_NUM"
+	task.AddFieldToInc "VR_RATING_ENGA_NUM"
+	task.AddFieldToInc sFIELD_ENGA_EWB_RST_IA
+	sKreditnehmMitAusfall_OhneRST_per_Person = oSC.UniqueFileName(sWorkingfolderName & "Kreditnehmer mit Ausfallstatus ohne RST_pro Kunde.IMD", FINAL_RESULT)
+	task.OutputDBName = sKreditnehmMitAusfall_OhneRST_per_Person
+	task.CreatePercentField = FALSE
+	task.UseFieldFromFirstOccurrence = TRUE
+	task.PerformTask
+	db.close
+	Set task = Nothing
+	Set db = Nothing
+	
+	SetCheckpoint "Analysis_Sum_Person 1.0 - sKreditnehmMitAusfall_OhneEWBundRST_pro Kunde"
+	Set db = Client.OpenDatabase(sKreditnehmMitAusfall_OhneEWBundRST)
+	Set task = db.Summarization
+	task.AddFieldToSummarize "KUNDENNUMMER"
+	task.AddFieldToInc "DATUM_DATENABZUG"
+	task.AddFieldToInc "NETTO_ENGAGEMENT"
+	task.AddFieldToInc "KUNDENGRUPPEN_NR"
+	task.AddFieldToInc "ENGAGEMENTBEZ"
+	task.AddFieldToInc "KUNDENNAME"
+	task.AddFieldToInc "RISIKOGRUPPE"
+	task.AddFieldToInc "RISIKOGRUPPE_ENGA"
+	task.AddFieldToInc "BONITÄTSEINSTUFUNG"
+	task.AddFieldToInc "BONITÄTSEINST_ENGA"
+	task.AddFieldToInc "VR_RATINGART"
+	task.AddFieldToInc "VR_RATINGART_ENGA"
+	task.AddFieldToInc "VR_RATING"
+	task.AddFieldToInc "VR_RATING_ENGA"
+	If oSC.FieldExists(db, "VR_RATING_ENGA2") Then 
+		task.AddFieldToInc "VR_RATING_ENGA2"
+	End If
+	task.AddFieldToInc "AUSFALLRATE_KUNDE"
+	If oSC.FieldExists(db, "AUSFALLRATE_ENGA") Then 
+		task.AddFieldToInc "AUSFALLRATE_ENGA"
+	End If
+	task.AddFieldToInc "DATUM_LTZ_RATING"
+	task.AddFieldToInc "GK_ENGA_RV_EUR"
+	task.AddFieldToInc "GK_ENGA_EA_EUR"
+	task.AddFieldToInc "GK_ENGA_BVRV_EUR"
+	task.AddFieldToInc "GK_ENGA_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_RV_EUR"
+	task.AddFieldToInc "GK_KD_EA_EUR"
+	task.AddFieldToInc "GK_KD_BVRV_EUR"
+	task.AddFieldToInc "GK_KD_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_NTOBVRV_EUR"
+	task.AddFieldToInc "BERATER"
+	task.AddFieldToInc "GEWERBLICH_PRIVAT"
+	task.AddFieldToInc "RECHTSFORM"
+	task.AddFieldToInc "BRANCHE"
+	task.AddFieldToInc "KPM_BRANCHE"
+	task.AddFieldToInc "KPM_BERÜCKS_KD_RS"
+	task.AddFieldToInc "LÄNDERSCHLÜSSEL"
+	task.AddFieldToInc "KUNDE_SEIT_DATUM"
+	task.AddFieldToInc "GEB_GRÜND_DATUM"
+	task.AddFieldToInc "RISIKOSTATUS_MAK"
+	task.AddFieldToInc "RISIKOKENNZEICHEN"
+	task.AddFieldToInc "ÜBERZ_ENG_BASEL_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENG_BASEL"
+	task.AddFieldToInc "GK_ENGA_ÜBERZ_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENGA"
+	task.AddFieldToInc "JAHRESABSCHLUSSDATUM"
+	task.AddFieldToInc "VR_RATING_NUM"
+	task.AddFieldToInc "VR_RATING_ENGA_NUM"
+	task.AddFieldToInc sFIELD_ENGA_EWB_RST_IARV
+	sKreditnehmMitAusfall_OhneEWBundRST_per_Person = oSC.UniqueFileName(sWorkingfolderName & "Kreditnehmer mit Ausfallstatus ohne EWB und ohne RST_pro Kunde.IMD", FINAL_RESULT)
+	task.OutputDBName = sKreditnehmMitAusfall_OhneEWBundRST_per_Person
+	task.CreatePercentField = FALSE
+	task.UseFieldFromFirstOccurrence = TRUE
+	task.PerformTask
+	db.close
+	Set task = Nothing
+	Set db = Nothing
+	
+End Function
 ' --------------------------------------------------------------------------
 
 ' register results

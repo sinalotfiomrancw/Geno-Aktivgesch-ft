@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!GEB_GRUEND_DATUM">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!GEWERBLICH_PRIVAT">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>Neukreditvergaben an Existenzgründer aus mehrperiodigen KRM.iss</Path>
+  </Executable>
+  <Dialog Optional="false">
+    <ProjectLocation>AKT_020_new_credit_for_startups</ProjectLocation>
+    <ProjectFile>AKT_020_new_credit_for_startups.csproj</ProjectFile>
+    <LocalizableItems>
+      <Item>!DialogMainForm.resx</Item>
+      <Item>DialogStrings.resx</Item>
+    </LocalizableItems>
+  </Dialog>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

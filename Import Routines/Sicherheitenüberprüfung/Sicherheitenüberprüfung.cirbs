@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomImportRoutine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <IsServerSupported>false</IsServerSupported>
+  <SelectAllFiles>true</SelectAllFiles>
+  <SkipSourceSelection>true</SkipSourceSelection>
+  <PreliminaryTask Type="Iss">
+    <SkipSourceSelection>true</SkipSourceSelection>
+    <ExecutableFile>Sicherheitenüberprüfung.PreMacro.iss</ExecutableFile>
+  </PreliminaryTask>
+  <PreparationTask Type="Iss">
+    <ExecutableFile>Sicherheitenüberprüfung.DataPreparation_Entwicklung.iss</ExecutableFile>
+  </PreparationTask>
+  <ImportTask Type="SmartX" IdentifyBy="Url">
+    <Step Index="0">
+      <PartialTask ID="974e8ccf6d414451b14a81f72e5d7286" Type="Iss">
+        <ExecutableFile>Sicherheitenüberprüfung.Import_Select_Folder_Entwicklung.iss</ExecutableFile>
+      </PartialTask>
+    </Step>
+  </ImportTask>
+  <MainRoutine Type="SmartX">
+    <RoutineVisibility>AnyAudit</RoutineVisibility>
+    <GroupNames>
+      <Name>Aktivgeschäft</Name>
+    </GroupNames>
+    <SeparateMainTasks>Never</SeparateMainTasks>
+  </MainRoutine>
+  <EmbeddedDialogs>
+    <EmbeddedDialog>
+      <Path>..\..\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\Sicherheiten_01_SelectFolder.csproj</Path>
+      <Identifier>FileSearch_Si</Identifier>
+      <LocalizableItems>
+        <Item>!DialogMainForm.resx</Item>
+        <Item>DialogStrings.resx</Item>
+      </LocalizableItems>
+    </EmbeddedDialog>
+  </EmbeddedDialogs>
+</CustomImportRoutine>

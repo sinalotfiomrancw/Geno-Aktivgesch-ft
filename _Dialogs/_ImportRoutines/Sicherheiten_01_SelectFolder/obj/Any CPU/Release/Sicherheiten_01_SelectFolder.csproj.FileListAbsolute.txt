@@ -1,0 +1,228 @@
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Sicherheiten_01_SelectFolder.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\en\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\ja-JP\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\ru\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\cs\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder._DialogMainForm.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\en\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\de\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\es\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\fr\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\ja-JP\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\nl\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\ru\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\cs\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherhe.27378012.Up2Date
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Sicherheiten_01_SelectFolder.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\en\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\ja-JP\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\ru\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\cs\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder._DialogMainForm.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\en\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\de\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\es\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\fr\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\ja-JP\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\nl\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\ru\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\cs\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherhe.27378012.Up2Date
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Sicherheiten_01_SelectFolder.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\en\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\ja-JP\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\ru\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\cs\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder._DialogMainForm.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\en\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\de\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\es\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\fr\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\ja-JP\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\nl\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\ru\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\cs\Sicherheiten_01_SelectFolder.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherhe.27378012.Up2Date
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_ImportRoutines\Sicherheiten_01_SelectFolder\obj\Any CPU\Release\Sicherheiten_01_SelectFolder.dll

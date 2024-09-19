@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ContentObjectName" xml:space="preserve">
-    <value>Neukreditvergabe mit Negativmerkmalen</value>
+    <value>Neukreditvergabe mit Negativmerkmalen aus Kreditbeschlussbuch</value>
     <comment>Name of the content item/app (max. length =128 characters).</comment>
   </data>
   <data name="DeploymentFileName" xml:space="preserve">

@@ -12,11 +12,11 @@
     </Document>
   </Documentation>
   <ID>4cfb3a43-2b19-4188-a8ab-a89dc74f056c</ID>
-  <Version>1.0.1.0</Version>
+  <Version>1.1.1.0</Version>
   <Owner>Audicon Consulting</Owner>
   <Creator>alexander.strubert</Creator>
   <CreateDate>2022-11-21</CreateDate>
-  <ModifyDate>2023-10-23</ModifyDate>
+  <ModifyDate>2024-06-10</ModifyDate>
   <Validity>
     <From>2022-11-21</From>
     <To>2050-12-31</To>
@@ -30,11 +30,6 @@
   </SupportedLanguages>
   <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">AKT_012_Ausländische Kreditnehmer mit VR-Rating.resx</Resources>
   <Properties2 StoragePath="..\..\SmartAnalyzer.dev">
-    <Property ID="3a556ab9-479a-4f8e-8a7a-1ad0e429eb4a">
-      <Values>
-        <Value ID="fb12053c-9a07-420d-9ad0-6d73b7f0d184" />
-      </Values>
-    </Property>
     <Property ID="840709b0-a045-45cb-b313-345feea03fd8">
       <Values>
         <Value ID="0239dc3b-8de4-44b5-8bde-06226b66ac4d" />
@@ -43,6 +38,11 @@
     <Property ID="d5035d4f-ba3c-4bbd-9a0e-8dfdf872a7a9">
       <Values>
         <Value ID="a0af61cc-9ed3-463d-8842-d604a5a356ac" />
+      </Values>
+    </Property>
+    <Property ID="3a556ab9-479a-4f8e-8a7a-1ad0e429eb4a">
+      <Values>
+        <Value ID="fb12053c-9a07-420d-9ad0-6d73b7f0d184" />
       </Values>
     </Property>
   </Properties2>

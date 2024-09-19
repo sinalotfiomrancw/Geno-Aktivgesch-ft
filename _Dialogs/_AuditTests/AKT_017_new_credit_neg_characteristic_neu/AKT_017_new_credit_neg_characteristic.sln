@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKT_017_new_credit_neg_characteristic", "AKT_017_new_credit_neg_characteristic\AKT_017_new_credit_neg_characteristic.csproj", "{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Debug|x64.ActiveCfg = Debug|x64
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Debug|x64.Build.0 = Debug|x64
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Debug|x86.ActiveCfg = Debug|x86
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Debug|x86.Build.0 = Debug|x86
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Release|x64.ActiveCfg = Release|x64
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Release|x64.Build.0 = Release|x64
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Release|x86.ActiveCfg = Release|x86
+		{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7503AC2F-DC57-465D-A786-2F8DD92B275B}
+	EndGlobalSection
+EndGlobal

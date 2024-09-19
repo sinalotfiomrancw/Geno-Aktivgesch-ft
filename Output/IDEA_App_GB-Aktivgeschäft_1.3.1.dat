@@ -1,0 +1,804 @@
+Machine Name:                 SLOTFI01
+App Definition File:          C:\SmartAnalyzer.dev\GA_1.3.1\App Build Scripts\Aktivgeschäft\Aktivgeschäft.def
+App file name:                Geno_-_Aktivgeschäft_1.3_1001F0.dpack
+App name:                     Geno - Aktivgeschäft
+Language code:                de
+Expiration date:              2024-12-31
+The following content objects are included:
+	C:\SmartAnalyzer.dev\GA_1.3.1\Navigators\AuditTestNavigatorTree_Aktivgeschäft\Output\AuditTestNavigatorTree_Aktivgeschäft.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_004_Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent\Output\Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_005_Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent\Output\Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_001_Gewerbliche Kreditnehmer mit Branchenkennung 33\Output\Gewerbliche Kreditnehmer mit Branchenkennung 33.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_002_Gewerbliche Kreditnehmer mit VR-Rating Privatkunden\Output\Gewerbliche Kreditnehmer mit VR-Rating Privatkunden.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_007_Kreditnehmer mit Ausfallstatus ohne EWB\Output\Kreditnehmer mit Ausfallstatus ohne EWB.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_008_Kreditnehmer mit EWB in der Normalbetreuung\Output\Kreditnehmer mit EWB in der Normalbetreuung.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_003_Privatkunden mit VR-Rating für Firmenkunden\Output\Privatkunden mit VR-Rating für Firmenkunden.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_009_Übersicht VR-Ratingart\Output\Übersicht VR-Ratingart.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_006_Überziehungen über 90 Tage ohne Ausfallstatus\Output\Überziehungen über 90 Tage ohne Ausfallstatus.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_012_Ausländische Kreditnehmer mit VR-Rating\Output\AKT_012_Ausländische Kreditnehmer mit VR-Rating.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_013_Immobiliensammler (Branchenkennung 23) ohne VR IMMO Rating\Output\AKT_013_Immobiliensammler (Branchenkennung 23) ohne VR IMMO Rating.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_011_Kreditnehmer mit Bonitätsnote 0\Output\AKT_011_Kreditnehmer mit Bonitätsnote 0.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_010_Kreditnehmer über Risikorelevanzgrenze ohne Rating\Output\AKT_010_Kreditnehmer über Risikorelevanzgrenze ohne Rating.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_014_VR IMMO Rating ohne Branchenkennung 23 (Immobiliensammler)\Output\AKT_014_VR IMMO Rating ohne Branchenkennung 23 (Immobiliensammler).dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_015_Rating-Migration\Output\AKT_015_Rating-Migration.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_016_Wanderung in kritischen bzw notleidenden Bestand\Output\AKT_016_Wanderung in kritischen bzw notleidenden Bestand.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Import Routines\Aktivgeschaeft_01_BasisRoutine\Output\Aktivgeschaeft_01_BasisRoutine.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_019_Neukreditvergaben mit reduziertem Sicherheitenbestand\Output\AKT_019_Neukreditvergaben mit reduziertem Sicherheitenbestand.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_017_Neukreditvergabe mit Negativmerkmalen\Output\AKT_017_Neukreditvergabe mit Negativmerkmalen.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_020_Neukreditvergaben an Existenzgründer\Output\AKT_020_Neukreditvergaben an Existenzgründer.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\AKT_018_Neukreditvergabe in Risikobranchen\Output\AKT_018_Neukreditvergabe in Risikobranchen.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Data Requests\Aktivgeschäft\Output\Aktivgeschäft.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Import Routines\Sicherheitenüberprüfung\Output\Sicherheitenüberprüfung.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Bewertete Kundenbürgschaften\Output\Bewertete Kundenbürgschaften.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Einhaltung der Beleihungsgrenzen - Grundschuldsicherheiten\Output\Einhaltung der Beleihungsgrenzen - Grundschuldsicherheiten.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Einhaltung der Beleihungsgrenzen-Weitere Sicherheiten ohne Grundschuldsicherheiten und Bürgschaften\Output\Einhaltung der Beleihungsgrenzen-Weitere Sicherheiten ohne Grundschuldsicherheiten und Bürgschaften.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Einhaltung der Kompetenzen für Wertermittlung und Wertfestsetzung\Output\Einhaltung der Kompetenzen für Wertermittlung und Wertfestsetzung.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Sicherheiten der Problemkreditbetreuung-Immobilien\Output\Sicherheiten der Problemkreditbetreuung-Immobilien.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten\Output\Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Sicherheiten nach CRR 208 (3) b\Output\Sicherheiten nach CRR 208 (3) b.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Sonstige Sicherheiten im Rahmen der laufenden Sicherheitenaktualisierung\Output\Sonstige Sicherheiten im Rahmen der laufenden Sicherheitenaktualisierung.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Unzulässige Sicherheiten\Output\Unzulässige Sicherheiten.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Versicherungsschutz bei Immobilien\Output\Versicherungsschutz bei Immobilien.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Vorläufige Beleihungswertermittlungen bei Immobilien\Output\Vorläufige Beleihungswertermittlungen bei Immobilien.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Sicherungswert je Immobilie\Output\Wesentliche Sicherheiten nach MaRisk-Basis Beleihungswert-Basis Sicherungswert je Immobilie.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Beleihungswert\Output\Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Beleihungswert.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Wesentliche Sicherheiten nach MaRisk-Sicherungsübereignungen und Zessionen\Output\Wesentliche Sicherheiten nach MaRisk-Sicherungsübereignungen und Zessionen.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Neukreditvergabe mit Negativmerkmalen aus dem mehrperiodigen KRM\Output\Neukreditvergabe mit Negativmerkmalen aus dem mehrperiodigen KRM.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Audit Tests\Neukreditvergaben an Existenzgründer aus dem mehrperiodigen KRM\Output\Neukreditvergaben an Existenzgründer aus dem mehrperiodigen KRM.dep
+	C:\SmartAnalyzer.dev\GA_1.3.1\Workflows\Aktivgeschäft_Workflow\Output\Aktivgeschäft_Workflow.dep
+
+The following license is supported by this app:
+	The app can be imported on any computer where IDEA is installed.		
+----------------------------------------
+02.09.2024 09:07:24
+AppBuilderer is generating a new solution file:Geno_-_Aktivgeschäft_1.3_1001F0.dpack
+	ID            : 4ff51341-a184-56af-93f5-8b33b91611d5
+	Name          : Geno - Aktivgeschäft
+	Description   : System.Byte[]
+	LanguageCode  : de
+	Type          : Solution
+	Version       : 1.3.1.0
+	MinIDEAVersion: 10.0.0.0
++ Deployment Files: 
+	Name               : AuditTestNavigatorTree_Aktivgeschäft
+	ID                 : 2619fa70-d6df-569a-b87d-574d415ac2d9
+	Type               : Tree
+	Version            : 1.0.0.368269498
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Bonitätsnoten 1 bis 4 mit Ausfallraten von 100 Prozent bzw 0 Prozent
+	ID                 : 85432f9a-89a3-5ce9-bcfd-5ba404b2d9be
+	Type               : Test
+	Version            : 1.1.1.368269499
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Bonitätsnoten 5 und 6 sowie Ausfallrate kleiner 100 Prozent
+	ID                 : 276ca2bb-58ce-56e1-9538-2e0888013cc9
+	Type               : Test
+	Version            : 1.1.1.368269500
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Gewerbliche Kreditnehmer mit Branchenkennung 33
+	ID                 : 7a80ce17-a735-5c9a-95ec-c7f0e347b3eb
+	Type               : Test
+	Version            : 1.1.1.368269502
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Gewerbliche Kreditnehmer mit VR-Rating Privatkunden
+	ID                 : a8687eb2-ffea-5c7c-ac3a-c11650cac033
+	Type               : Test
+	Version            : 1.1.1.368269503
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer mit Ausfallstatus ohne EWB
+	ID                 : 3f2bc980-202e-5b7d-a2ac-6d0be85b587c
+	Type               : Test
+	Version            : 2.1.0.368269505
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer mit EWB in der Normalbetreuung
+	ID                 : c332316d-dc41-5f83-a9cd-5daaa1e21f91
+	Type               : Test
+	Version            : 1.1.1.368269510
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Privatkunden ohne VR-Rating Privatkunden
+	ID                 : ca4ddc6c-b448-52c5-adce-c49c264952b3
+	Type               : Test
+	Version            : 2.1.0.368269512
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Übersicht VR-Ratingart
+	ID                 : 0b95f28a-bb04-5114-808a-dd0b6e9e605c
+	Type               : Test
+	Version            : 2.0.2.368269513
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Überziehungen über 90 Tage ohne Ausfallstatus
+	ID                 : 47d69f4d-93b1-5b7d-a064-1db99e9ba2cf
+	Type               : Test
+	Version            : 1.1.2.368269515
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Ausländische Kreditnehmer mit VR-Rating
+	ID                 : c9f1c75f-caa1-5f76-a768-c69870a51d32
+	Type               : Test
+	Version            : 1.1.1.368269516
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Immobiliensammler ohne VR IMMO Rating
+	ID                 : 322e01cb-5985-552c-ab4f-1a1a96dccf01
+	Type               : Test
+	Version            : 1.2.0.368269517
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer mit Bonitätsnote 0
+	ID                 : e6ec8d2c-6c00-57d9-818d-7c6dc3da4da9
+	Type               : Test
+	Version            : 2.1.0.368269519
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Kreditnehmer über Risikorelevanzgrenze ohne Rating
+	ID                 : 938849e1-26ff-5d60-8de9-ec2c5cc3ff1d
+	Type               : Test
+	Version            : 1.1.1.368269520
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : VR IMMO Rating ohne Branchenkennung (Immobiliensammler)
+	ID                 : 72583ba9-a3c3-5e5d-9916-7cd6e61c7e1c
+	Type               : Test
+	Version            : 1.2.1.368269522
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Rating-Migration
+	ID                 : 13fa6c19-f1bb-5541-ab37-f748ec38777e
+	Type               : Test
+	Version            : 2.1.2.368269523
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Wanderung in kritischen bzw notleidenden Bestand
+	ID                 : 163acf64-7a6e-5b12-a270-f3c62cb1cc16
+	Type               : Test
+	Version            : 2.0.4.368269526
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Aktivgeschäft
+	ID                 : 26e83a4c-4a77-5a03-a41a-6398a5d14692
+	Type               : CustomImportRoutine
+	Version            : 1.2.2.368269531
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : erhöhtes Risikovolumen bei verringertem Sicherheitenbestand
+	ID                 : 3e2e22cc-1126-54a7-b143-9c289cb3c766
+	Type               : Test
+	Version            : 1.0.2.368269541
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Neukreditvergabe mit Negativmerkmalen aus Kreditbeschlussbuch
+	ID                 : 70f2cbc9-ebd1-59d8-b543-973120e9cefa
+	Type               : Test
+	Version            : 1.0.4.368269544
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Neukreditvergabe an Existenzgründer aus Kreditbeschlussbuch
+	ID                 : 8a243376-71b4-590f-876f-2bd0321ad917
+	Type               : Test
+	Version            : 1.0.1.368269548
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Neukreditvergabe in Risikobranchen aus mehrperiodigen KRM
+	ID                 : 0b5d7024-6485-5d5d-802c-71485a8442a0
+	Type               : Test
+	Version            : 1.2.3.368269551
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Aktivgeschäft
+	ID                 : 020dff3d-4180-5f0a-a985-23747096c42b
+	Type               : DataRequest
+	Version            : 1.0.0.368269554
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : 
+		fcb2c4db-e2b6-4ade-8524-4a99a45ed8ce -> geno_aktivgesch_datenbeschaffung.pdf
+
+	Name               : Sicherheitenüberprüfung
+	ID                 : 7a9ae8a8-7c6e-5292-8fff-5d0fbbf2c4d3
+	Type               : CustomImportRoutine
+	Version            : 1.0.0.368269557
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Bewertete Kundenbürgschaften
+	ID                 : d3ed6409-954b-5e45-988a-dfb80c04dd29
+	Type               : Test
+	Version            : 1.0.0.368269561
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Einhaltung der Beleihungsgrenzen-Grundschuldsicherheiten
+	ID                 : 5dbf20e8-a285-55b0-8385-de1a41d6f9c6
+	Type               : Test
+	Version            : 1.0.1.368269565
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Einhaltung der Beleihungsgrenzen-Weitere Sicherheiten ohne Grundschuldsicherheiten und Bürgschaften
+	ID                 : f5da3b3e-3612-5b8a-bdc6-27d2fb9901d6
+	Type               : Test
+	Version            : 1.0.1.368269569
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Einhaltung der Kompetenzen für Wertermittlung und Wertfestsetzung
+	ID                 : 1ce8fa8f-ea26-58d2-ac82-c7ff079405f2
+	Type               : Test
+	Version            : 1.0.0.368269572
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Sicherheiten der Problemkreditbetreuung-Immobilien
+	ID                 : 4a09dcf0-ac1d-51bd-9cf5-166c552887cb
+	Type               : Test
+	Version            : 1.0.1.368269576
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten
+	ID                 : bf77c3e6-2721-55c3-9146-a69fc340f150
+	Type               : Test
+	Version            : 1.0.1.368269580
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Sicherheiten nach CRR 208 (3) b
+	ID                 : 77bc8b33-3893-5213-9ef1-dc8469183831
+	Type               : Test
+	Version            : 1.0.1.368269583
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Sonstige Sicherheiten im Rahmen der laufenden Sicherheitenaktualisierung
+	ID                 : 88371927-68a2-5a0c-9be7-03820a9ca42d
+	Type               : Test
+	Version            : 1.0.0.368269587
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Unzulässige Sicherheiten
+	ID                 : 678c62d4-28b6-54f1-9aba-2a98ea2a0245
+	Type               : Test
+	Version            : 1.0.0.368269590
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Versicherungsschutz bei Immobilien
+	ID                 : 4fd7c217-f558-5e10-a678-206265e9dfdf
+	Type               : Test
+	Version            : 1.0.0.368269594
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Vorläufige Beleihungswertermittlungen bei Immobilien
+	ID                 : 45893701-b9db-5156-bdfd-3bced4a97af7
+	Type               : Test
+	Version            : 1.0.1.368269597
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Wesentliche Sicherheiten nach MaRisk-Basis Sicherungswert je Immobilie
+	ID                 : d077a536-1185-57d2-b18c-0b505e41e93e
+	Type               : Test
+	Version            : 1.0.0.368269601
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Beleihungswert
+	ID                 : 24dbc073-3107-59a8-bfe3-4b8e2cb3ded5
+	Type               : Test
+	Version            : 1.0.0.368269604
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Wesentliche Sicherheiten nach MaRisk-Sicherungsübereignungen und Zessionen
+	ID                 : d580f81a-6f8b-59fe-93f5-9429c8b1cb1b
+	Type               : Test
+	Version            : 1.0.1.368269608
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Neukreditvergabe mit Negativmerkmalen aus mehrperiodigen KRM
+	ID                 : b88da228-5bbb-520d-b90d-cdffa01c0b0b
+	Type               : Test
+	Version            : 1.0.0.368269612
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Neukreditvergaben an Existenzgründer aus mehrperiodigen KRM
+	ID                 : 85e04daf-a4a4-5148-a4ae-7d6cf675acc6
+	Type               : Test
+	Version            : 1.0.0.368269615
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
+	Name               : Aktivgeschäft_Workflow
+	ID                 : 90e9d796-b22e-5f3a-a8f8-9994e8064f1f
+	Type               : AppWorkflow
+	Version            : 1.0.0.368269619
+	Creator            : Audicon Consulting
+	Published          : False
+	RestrictToCountries: none
+	MinIDEAVersion     : 10.0.0
+	LanguageCode       : de
+	IDEA versions      : none
+	AdditionalFiles    : none
+
++ Solution licenses: 
+	License ID : The app can be imported on any computer where IDEA is installed.
+		ID              : 2619fa70-d6df-569a-b87d-574d415ac2d9
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 85432f9a-89a3-5ce9-bcfd-5ba404b2d9be
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 276ca2bb-58ce-56e1-9538-2e0888013cc9
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 7a80ce17-a735-5c9a-95ec-c7f0e347b3eb
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : a8687eb2-ffea-5c7c-ac3a-c11650cac033
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 3f2bc980-202e-5b7d-a2ac-6d0be85b587c
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : c332316d-dc41-5f83-a9cd-5daaa1e21f91
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : ca4ddc6c-b448-52c5-adce-c49c264952b3
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 0b95f28a-bb04-5114-808a-dd0b6e9e605c
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 47d69f4d-93b1-5b7d-a064-1db99e9ba2cf
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : c9f1c75f-caa1-5f76-a768-c69870a51d32
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 322e01cb-5985-552c-ab4f-1a1a96dccf01
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : e6ec8d2c-6c00-57d9-818d-7c6dc3da4da9
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 938849e1-26ff-5d60-8de9-ec2c5cc3ff1d
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 72583ba9-a3c3-5e5d-9916-7cd6e61c7e1c
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 13fa6c19-f1bb-5541-ab37-f748ec38777e
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 163acf64-7a6e-5b12-a270-f3c62cb1cc16
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 26e83a4c-4a77-5a03-a41a-6398a5d14692
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 3e2e22cc-1126-54a7-b143-9c289cb3c766
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 70f2cbc9-ebd1-59d8-b543-973120e9cefa
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 8a243376-71b4-590f-876f-2bd0321ad917
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 0b5d7024-6485-5d5d-802c-71485a8442a0
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 020dff3d-4180-5f0a-a985-23747096c42b
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 7a9ae8a8-7c6e-5292-8fff-5d0fbbf2c4d3
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : d3ed6409-954b-5e45-988a-dfb80c04dd29
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 5dbf20e8-a285-55b0-8385-de1a41d6f9c6
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : f5da3b3e-3612-5b8a-bdc6-27d2fb9901d6
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 1ce8fa8f-ea26-58d2-ac82-c7ff079405f2
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 4a09dcf0-ac1d-51bd-9cf5-166c552887cb
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : bf77c3e6-2721-55c3-9146-a69fc340f150
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 77bc8b33-3893-5213-9ef1-dc8469183831
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 88371927-68a2-5a0c-9be7-03820a9ca42d
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 678c62d4-28b6-54f1-9aba-2a98ea2a0245
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 4fd7c217-f558-5e10-a678-206265e9dfdf
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 45893701-b9db-5156-bdfd-3bced4a97af7
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : d077a536-1185-57d2-b18c-0b505e41e93e
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 24dbc073-3107-59a8-bfe3-4b8e2cb3ded5
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : d580f81a-6f8b-59fe-93f5-9429c8b1cb1b
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : b88da228-5bbb-520d-b90d-cdffa01c0b0b
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 85e04daf-a4a4-5148-a4ae-7d6cf675acc6
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+		ID              : 90e9d796-b22e-5f3a-a8f8-9994e8064f1f
+		DebugUntil      : 01.01.0001
+		ExpirationDate  : 31.12.2024
+		ExpirationStatus: Valid
+		VisibilityState : Visible
+
+

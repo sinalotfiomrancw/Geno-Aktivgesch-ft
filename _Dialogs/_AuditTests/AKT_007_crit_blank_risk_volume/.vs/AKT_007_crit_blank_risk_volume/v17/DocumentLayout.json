@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_AuditTests\\AKT_007_crit_blank_risk_volume\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{987B83DF-3716-4E97-A1EF-D49E29771A39}|AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume.csproj|c:\\smartanalyzer.dev\\ga_1.3.1\\_dialogs\\_audittests\\akt_007_crit_blank_risk_volume\\akt_007_crit_blank_risk_volume\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B83DF-3716-4E97-A1EF-D49E29771A39}|AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume.csproj|solutionrelative:akt_007_crit_blank_risk_volume\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B83DF-3716-4E97-A1EF-D49E29771A39}|AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume.csproj|C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_AuditTests\\AKT_007_crit_blank_risk_volume\\akt_007_crit_blank_risk_volume\\!dialogmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B83DF-3716-4E97-A1EF-D49E29771A39}|AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume.csproj|solutionrelative:akt_007_crit_blank_risk_volume\\!dialogmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "!DialogMainForm.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_AuditTests\\AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "AKT_007_crit_blank_risk_volume\\!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_AuditTests\\AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume\\!DialogMainForm.cs",
+              "RelativeToolTip": "AKT_007_crit_blank_risk_volume\\!DialogMainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:22:04.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "!DialogMainForm.Designer.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_AuditTests\\AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume\\!DialogMainForm.Designer.cs",
+              "RelativeDocumentMoniker": "AKT_007_crit_blank_risk_volume\\!DialogMainForm.Designer.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_AuditTests\\AKT_007_crit_blank_risk_volume\\AKT_007_crit_blank_risk_volume\\!DialogMainForm.Designer.cs",
+              "RelativeToolTip": "AKT_007_crit_blank_risk_volume\\!DialogMainForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:21:57.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

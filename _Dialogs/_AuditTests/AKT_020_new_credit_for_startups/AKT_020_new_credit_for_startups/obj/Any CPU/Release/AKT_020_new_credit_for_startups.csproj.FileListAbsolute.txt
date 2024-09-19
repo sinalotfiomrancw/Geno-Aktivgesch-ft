@@ -92,3 +92,307 @@ C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_
 C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\cs\AKT_020_new_credit_for_startups.resources.dll
 C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.CopyComplete
 C:\SDK Projekte\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups._DialogMainForm.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\Geno_Aktivgeschäft\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_.FCAAE69B.Up2Date
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups._DialogMainForm.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_.FCAAE69B.Up2Date
+C:\SmartAnalyzer.dev\GA_1.2.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups._DialogMainForm.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_.FCAAE69B.Up2Date
+C:\SmartAnalyzer.dev\GA_1.3.0\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\AKT_020_new_credit_for_startups.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.CustomControls.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.IdeaAccess.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Parameters.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMDBLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Controls.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.COMMONIDEACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Entities.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IDEASCRIPTCTRLLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.PivotTableLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.ScriptSupportOnServerLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.GlobalResources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\IdeaServer.Core.Data.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.22TASKSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.IdeaLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DbLayer.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.GenericImportLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Mpp.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Client.DialogLoader.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.AuDS.StandardTables.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\stdole.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\log4net.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\EntityFramework.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Cirs.Common.Interfaces.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.FileControlsLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.DATACONTROLSLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\Interop.SummarizationLib.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\SA.Components.dll.config
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.Client.CustomControls.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\de\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\es\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\fr\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\bin\Release\nl\SA.GlobalResources.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.AssemblyReference.cache
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups._DialogMainForm.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.en.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.de.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.es.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.fr.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ja-JP.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.nl.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.ru.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.DialogStrings.cs.resources
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.GenerateResource.cache
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.csproj.CoreCompileInputs.cache
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\en\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\de\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\es\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\fr\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ja-JP\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\nl\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\ru\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\cs\AKT_020_new_credit_for_startups.resources.dll
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_.FCAAE69B.Up2Date
+C:\SmartAnalyzer.dev\GA_1.3.1\_Dialogs\_AuditTests\AKT_020_new_credit_for_startups\AKT_020_new_credit_for_startups\obj\Any CPU\Release\AKT_020_new_credit_for_startups.dll

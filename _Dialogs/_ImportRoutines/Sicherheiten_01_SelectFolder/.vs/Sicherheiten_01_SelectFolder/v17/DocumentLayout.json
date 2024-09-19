@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7BF3BB-F80A-4BE5-9B71-F2E912E252E9}|Sicherheiten_01_SelectFolder.csproj|C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7BF3BB-F80A-4BE5-9B71-F2E912E252E9}|Sicherheiten_01_SelectFolder.csproj|solutionrelative:!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7BF3BB-F80A-4BE5-9B71-F2E912E252E9}|Sicherheiten_01_SelectFolder.csproj|C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!dialogmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7BF3BB-F80A-4BE5-9B71-F2E912E252E9}|Sicherheiten_01_SelectFolder.csproj|solutionrelative:!dialogmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7BF3BB-F80A-4BE5-9B71-F2E912E252E9}|Sicherheiten_01_SelectFolder.csproj|c:\\smartanalyzer.dev\\ga_1.3.1\\_dialogs\\_importroutines\\sicherheiten_01_selectfolder\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B7BF3BB-F80A-4BE5-9B71-F2E912E252E9}|Sicherheiten_01_SelectFolder.csproj|solutionrelative:!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "!DialogMainForm.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!DialogMainForm.cs",
+              "RelativeToolTip": "!DialogMainForm.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowDkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:43:19.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "!DialogMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!DialogMainForm.cs [Design]",
+              "RelativeToolTip": "!DialogMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:30:23.922Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "!DialogMainForm.Designer.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!DialogMainForm.Designer.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.Designer.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\GA_1.3.1\\_Dialogs\\_ImportRoutines\\Sicherheiten_01_SelectFolder\\!DialogMainForm.Designer.cs",
+              "RelativeToolTip": "!DialogMainForm.Designer.cs",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAewA0BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:02:38.056Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

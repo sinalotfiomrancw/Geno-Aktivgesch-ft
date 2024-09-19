@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_AuditTests\\AKT_017_new_credit_neg_characteristic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}|AKT_017_new_credit_neg_characteristic\\AKT_017_new_credit_neg_characteristic.csproj|c:\\smartanalyzer.dev\\geno_aktivgesch\u00E4ft\\_dialogs\\_audittests\\akt_017_new_credit_neg_characteristic\\akt_017_new_credit_neg_characteristic\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A63153CD-EDBA-4C0D-90C1-B020EC8C9A06}|AKT_017_new_credit_neg_characteristic\\AKT_017_new_credit_neg_characteristic.csproj|solutionrelative:akt_017_new_credit_neg_characteristic\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "!DialogMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_AuditTests\\AKT_017_new_credit_neg_characteristic\\AKT_017_new_credit_neg_characteristic\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "AKT_017_new_credit_neg_characteristic\\!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_AuditTests\\AKT_017_new_credit_neg_characteristic\\AKT_017_new_credit_neg_characteristic\\!DialogMainForm.cs [Design]",
+              "RelativeToolTip": "AKT_017_new_credit_neg_characteristic\\!DialogMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:44:47.176Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

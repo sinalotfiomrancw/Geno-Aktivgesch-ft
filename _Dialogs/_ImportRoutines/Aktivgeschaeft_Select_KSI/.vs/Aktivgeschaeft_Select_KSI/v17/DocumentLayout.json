@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89837B-0FB7-4E23-AB88-EA4B4BDCA699}|Aktivgeschaeft_Select_KSI.csproj|c:\\smartanalyzer.dev\\geno_aktivgesch\u00E4ft\\_dialogs\\_importroutines\\aktivgeschaeft_select_ksi\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA89837B-0FB7-4E23-AB88-EA4B4BDCA699}|Aktivgeschaeft_Select_KSI.csproj|solutionrelative:!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89837B-0FB7-4E23-AB88-EA4B4BDCA699}|Aktivgeschaeft_Select_KSI.csproj|c:\\smartanalyzer.dev\\geno_aktivgesch\u00E4ft\\_dialogs\\_importroutines\\aktivgeschaeft_select_ksi\\!dialogmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89837B-0FB7-4E23-AB88-EA4B4BDCA699}|Aktivgeschaeft_Select_KSI.csproj|solutionrelative:!dialogmainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA89837B-0FB7-4E23-AB88-EA4B4BDCA699}|Aktivgeschaeft_Select_KSI.csproj|c:\\smartanalyzer.dev\\geno_aktivgesch\u00E4ft\\_dialogs\\_importroutines\\aktivgeschaeft_select_ksi\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA89837B-0FB7-4E23-AB88-EA4B4BDCA699}|Aktivgeschaeft_Select_KSI.csproj|solutionrelative:!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 262,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "!DialogMainForm.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\!DialogMainForm.cs",
+              "RelativeToolTip": "!DialogMainForm.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T22:28:32.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "!DialogMainForm.Designer.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\!DialogMainForm.Designer.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.Designer.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\!DialogMainForm.Designer.cs",
+              "RelativeToolTip": "!DialogMainForm.Designer.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowFkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T22:28:17.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "!DialogMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_ImportRoutines\\Aktivgeschaeft_Select_KSI\\!DialogMainForm.cs [Design]",
+              "RelativeToolTip": "!DialogMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T22:25:26.922Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

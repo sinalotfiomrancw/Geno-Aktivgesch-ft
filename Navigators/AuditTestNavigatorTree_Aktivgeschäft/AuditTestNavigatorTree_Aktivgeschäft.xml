@@ -43,6 +43,20 @@
       </Equation>
       <Name>800ab8b75e9f4fa1b6bca845f78f85b2</Name>
     </Node>
+    <Node>
+      <Children />
+      <Equation>
+        <anyType i:type="EquationElement">
+          <Negate>false</Negate>
+          <Type>SimpleElement</Type>
+          <PropertyId>840709b0-a045-45cb-b313-345feea03fd8</PropertyId>
+          <PropertyType>String</PropertyType>
+          <Operator>StartsWith</Operator>
+          <Operand>AKT_SP_</Operand>
+        </anyType>
+      </Equation>
+      <Name>63cc7a6d2a0d4346a0a3b341ce6b5ff6</Name>
+    </Node>
   </Children>
   <Equation>
     <anyType i:type="EquationElement">

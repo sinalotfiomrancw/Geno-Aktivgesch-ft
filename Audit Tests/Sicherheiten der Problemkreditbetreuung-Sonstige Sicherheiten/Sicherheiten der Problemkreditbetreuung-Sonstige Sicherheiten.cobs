@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <ContentObjectType>1</ContentObjectType>
+  <Documentation>
+    <Document Type="Rtf" Sequence="0" Visible="true" Flags="1">
+      <ID>10000000000000000000000000000000</ID>
+      <Path>Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten.rtf</Path>
+    </Document>
+    <Document Type="Rtf" Sequence="1" Visible="true" Flags="2">
+      <ID>7d33344ec66143028f6fbfd1c9968725</ID>
+      <Path>Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten_Hinweise.rtf</Path>
+    </Document>
+  </Documentation>
+  <ID>a031d28e-2e51-49e4-bdfd-30864f9e496c</ID>
+  <Version>1.0.1.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>Sina Lotfiomran</Creator>
+  <CreateDate>2024-06-13</CreateDate>
+  <ModifyDate>2024-09-02</ModifyDate>
+  <Validity>
+    <From>2024-06-13</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten.resx</Resources>
+  <Properties2 StoragePath="..\..\SmartAnalyzer.dev">
+    <Property ID="840709b0-a045-45cb-b313-345feea03fd8">
+      <Values>
+        <Value ID="27c1adb9-5f50-46d3-bdd0-f098e77726e4" />
+      </Values>
+    </Property>
+    <Property ID="d5035d4f-ba3c-4bbd-9a0e-8dfdf872a7a9">
+      <Values>
+        <Value ID="934e81d9-bb71-47b3-a53a-98e87df6e062" />
+      </Values>
+    </Property>
+    <Property ID="3a556ab9-479a-4f8e-8a7a-1ad0e429eb4a">
+      <Values>
+        <Value ID="95c5be07-37ef-4a77-a025-452071d44089" />
+      </Values>
+    </Property>
+  </Properties2>
+  <TypeBuildScriptFile>Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten.atbs</TypeBuildScriptFile>
+  <Flags>0</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

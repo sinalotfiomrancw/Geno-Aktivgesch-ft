@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <ContentObjectType>1</ContentObjectType>
+  <Documentation>
+    <Document Type="Rtf" Sequence="0" Visible="true" Flags="1">
+      <ID>10000000000000000000000000000000</ID>
+      <Path>Vorläufige Beleihungswertermittlungen bei Immobilien.rtf</Path>
+    </Document>
+    <Document Type="Rtf" Sequence="1" Visible="true" Flags="2">
+      <ID>7d33344ec66143028f6fbfd1c9968725</ID>
+      <Path>Vorläufige Beleihungswertermittlungen bei Immobilien_Hinweise.rtf</Path>
+    </Document>
+  </Documentation>
+  <ID>3c8e3a23-e57a-441b-9b50-8b81e3a8f46f</ID>
+  <Version>1.0.1.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>sina.lotfiomran</Creator>
+  <CreateDate>2024-04-02</CreateDate>
+  <ModifyDate>2024-09-02</ModifyDate>
+  <Validity>
+    <From>2024-04-02</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Vorläufige Beleihungswertermittlungen bei Immobilien.resx</Resources>
+  <Properties2 StoragePath="..\..\SmartAnalyzer.dev">
+    <Property ID="840709b0-a045-45cb-b313-345feea03fd8">
+      <Values>
+        <Value ID="27c1adb9-5f50-46d3-bdd0-f098e77726e4" />
+      </Values>
+    </Property>
+    <Property ID="d5035d4f-ba3c-4bbd-9a0e-8dfdf872a7a9">
+      <Values>
+        <Value ID="947baca0-a7e9-4839-9565-650b0486d958" />
+      </Values>
+    </Property>
+    <Property ID="3a556ab9-479a-4f8e-8a7a-1ad0e429eb4a">
+      <Values>
+        <Value ID="e325aa1c-9c5b-4208-9352-189adb74546b" />
+      </Values>
+    </Property>
+  </Properties2>
+  <TypeBuildScriptFile>Vorläufige Beleihungswertermittlungen bei Immobilien.atbs</TypeBuildScriptFile>
+  <Flags>0</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

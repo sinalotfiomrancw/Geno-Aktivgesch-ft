@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentObject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <ContentObjectType>16</ContentObjectType>
+  <ID>2a6f1c52-5741-4e33-b253-30e502543606</ID>
+  <Version>1.0.0.0</Version>
+  <Owner>Audicon Consulting</Owner>
+  <Creator>Sina Lotfiomran</Creator>
+  <CreateDate>2023-07-12</CreateDate>
+  <ModifyDate>2024-09-05</ModifyDate>
+  <Validity>
+    <From>2023-07-12</From>
+    <To>2050-12-31</To>
+  </Validity>
+  <SupportedIdeaVersions>
+    <GreaterThan>10.0.0</GreaterThan>
+  </SupportedIdeaVersions>
+  <SourceLanguage>de</SourceLanguage>
+  <SupportedLanguages>
+    <Language>de</Language>
+  </SupportedLanguages>
+  <Resources NameId="ContentObjectName" DeploymentFileNameId="DeploymentFileName">Sicherheitenüberprüfung.resx</Resources>
+  <TypeBuildScriptFile>Sicherheitenüberprüfung.cirbs</TypeBuildScriptFile>
+  <Flags>1</Flags>
+  <IsPublished>false</IsPublished>
+</ContentObject>

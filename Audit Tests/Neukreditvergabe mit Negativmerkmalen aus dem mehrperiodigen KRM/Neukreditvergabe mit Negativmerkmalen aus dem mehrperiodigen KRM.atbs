@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!DATUM_DATENABZUG">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!KUNDENNUMMER">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!EWB_RST_GEBUCHT_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!GK_KD_RV_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!KUNDE_SEIT_DATUM">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!TAGE_UEBERZ_ENG_BASEL">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!GK_ENGA_UEBERZ_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATING_ENGA">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!VR_RATING_ENGA_NUM">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!GK_KD_UEBERZ_EUR">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>Neukreditvergabe mit Negativmerkmalen aus mehrperiodigen KRM.iss</Path>
+  </Executable>
+  <Dialog Optional="false">
+    <ProjectLocation>AKT_017_new_credit_neg_characteristic</ProjectLocation>
+    <ProjectFile>AKT_017_new_credit_neg_characteristic.csproj</ProjectFile>
+    <LocalizableItems>
+      <Item>!DialogMainForm.resx</Item>
+      <Item>DialogStrings.resx</Item>
+    </LocalizableItems>
+  </Dialog>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

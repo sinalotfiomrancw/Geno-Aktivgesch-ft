@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!BIH_SICHERHEITENART">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BIH_SICHERHEITENWERT_VERTEILT_JURISTISCH">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>Unzulässige Sicherheiten.iss</Path>
+  </Executable>
+  <Dialog Optional="true">
+    <ProjectLocation>Dialog</ProjectLocation>
+    <ProjectFile>Dialog.csproj</ProjectFile>
+    <LocalizableItems>
+      <Item>!DialogMainForm.resx</Item>
+      <Item>DialogStrings.resx</Item>
+    </LocalizableItems>
+  </Dialog>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

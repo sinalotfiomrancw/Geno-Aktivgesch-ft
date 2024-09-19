@@ -1,0 +1,14 @@
+Sicherheitenkategorie;Sicherheitenkategorie_Bezeichnung;Bewertungsart;Bewertungsart_Bezeichnung;Beleihungswert_Status;Beleihungswert_Status_Bezeichnung;Nutzung;Nutzung_Bezeichnung;Nutzungsart;Nutzungsart_Bezeichnung;Sicherungswert_auf_Basis_von;Sicherungswert_auf_Basis_von_Bezeichnung;Typ_des_Sicherungswertes;Typ_des_Sicherungswertes_Bezeichnung;Risikostatus MaRisk;Risikostatus MaRisk_Bezeichnung
+101;Bareinlage;1;WER;1;kein Wert vorhanden;0;unbekannt;0;unbekannt;0;IP-Losses;0;interne Beleihungsgrenze nicht rk-fähige Sicherheit;1;keine Zuordnungsentscheidung
+201;Gold;2;BelWertV;2;Vorläufig;1;eigengenutzt;1;gewerblich;1;Eigenmittel;1;interne Beleihungsgrenze rk-fähige Sicherheit;2;Normalbetreuung
+301;Schuldverschreibung;3;Realisationswert;3;Vorläufig festgesetzt;2;fremdgenutzt;2;wohnwirtschaftlich;2;Millionenkredit;2;RK Basis Beleihungswert RK 1;3;Intensivbetreuung
+501;Aktie;4;Sonstiges;4;Festgesetzt;3;eigen- und fremdgenutzt;3;landwirtschaftlich;3;Großkredit;3;RK Basis Beleihungswert RK 2;4;Sanierung
+601;Invenstmentfond;;;;;4;unbewohnt;4;gemischt genutzt;4;Bilanz-/Kreditnehmer-Statistik;4;RK Basis Beleihungswert RK 3;5;Kreditabwicklung
+902;private Immobilie;;;;;;;5;Bauträger;5;Bilanzausweis;5;RK Basis Marktwert RK 1;;
+1002;gewerbliche Immobilie;;;;;;;6;sonstige Nutzung;6;Kredit (Bestand mit Anträgen);6;RK Basis Marktwert RK 2;;
+1203;Garantie;;;;;;;7;überwiegend wohnwirtschaftlich;7;Kredit;7;RK Basis Marktwert RK 3;;
+1402;sonstige physische Sicherheit;;;;;;;8;überwiegend gewerblich;8;§15 KWG;999;Wert unbelegt;;
+1704;Forderungsabtretungen;;;;;;;;;9;Pfandbrief;;;;
+1807;nicht anrechenbare Sicherheit;;;;;;;;;10;VR-Control (Inanspruchnahme);;;;
+;;;;;;;;;;11;VR-Control (externes Limit);;;;
+;;;;;;;;;;12;Garantiefondsbeitrag;;;;

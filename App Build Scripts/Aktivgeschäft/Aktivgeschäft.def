@@ -2,11 +2,11 @@
 <Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ID>09da799d-d52e-49f6-b8da-6f18410a2c77</ID>
   <Alias>Geno_Aktivgeschaeft</Alias>
-  <Version>1.1.4.0</Version>
+  <Version>1.3.1.0</Version>
   <Owner>Audicon Consulting</Owner>
   <Creator>alexander.strubert</Creator>
   <CreateDate>2022-10-16</CreateDate>
-  <ModifyDate>2023-10-16</ModifyDate>
+  <ModifyDate>2024-08-30</ModifyDate>
   <ExpirationDate>2022-12-31</ExpirationDate>
   <Documentation Type="RTF">Beschreibung-IDEA_App_Geno-Aktiv.rtf</Documentation>
   <Links>
@@ -32,9 +32,6 @@
     <Link Usage="Description UseInAppWorkflow" IsLocalizable="true" TitleId="644717b123714a1696975d55b65fb87b">
       <URL>..\..\_Additional Files\Instructions\Aktivgeschäft-Leitfaden.pdf</URL>
     </Link>
-    <Link Usage="Description UseInAppWorkflow SuppressInAppManagement" IsLocalizable="true" TitleId="23b7319c50ab4e8c9196690f4ff60653">
-      <URL>..\..\_Additional Files\Datamodel\Zusätzliche Dateien.zip</URL>
-    </Link>
     <Link Usage="Normal SuppressInAppManagement">
       <URL>..\..\_Additional Files\Importdefinitions\KBB_11092023_Semicolon.rdf</URL>
       <Location>{alias}</Location>
@@ -49,6 +46,65 @@
     </Link>
     <Link Usage="Normal SuppressInAppManagement">
       <URL>..\..\_Additional Files\Importdefinitions\SNM_11092023_Tab.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Description UseInAppWorkflow SuppressInAppManagement" IsLocalizable="true" TitleId="434c34639656439f96b75825c43caa0b">
+      <URL>..\..\_Additional Files\Datamodel\Zusätzliche Dateien.zip</URL>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Basisdaten_Immo_Semicolon.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Basisdaten_Immo_Tab.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Basisdaten_Semicolon.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Basisdaten_Tab.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Bürgschaften_Haftungsfreistellungen_Semicolon.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Bürgschaften_Haftungsfreistellungen_Tab.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Zweckerklärungen_Si-Wert_Semicolon.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Zweckerklärungen_Si-Wert_Tab.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Codes und Bezeichnungen aus den Sicherheiten.csv</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Codes und Bezeichnungen aus den Sicherheiten.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheitenartenschlüssel mit Bezeichnung.csv</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheitenartenschlüssel mit Bezeichnung.rdf</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Zweckerklärungen_Realkredit_Semicolon.RDF</URL>
+      <Location>{alias}</Location>
+    </Link>
+    <Link Usage="Normal SuppressInAppManagement">
+      <URL>..\..\_Additional Files\Importdefinitions\Sicherheiten_Zweckerklärungen_Realkredit_Tab.RDF</URL>
       <Location>{alias}</Location>
     </Link>
   </Links>
@@ -83,6 +139,23 @@
     <Item>..\..\Audit Tests\AKT_020_Neukreditvergaben an Existenzgründer\AKT_020_Neukreditvergaben an Existenzgründer.cobs</Item>
     <Item>..\..\Audit Tests\AKT_018_Neukreditvergabe in Risikobranchen\AKT_018_Neukreditvergabe in Risikobranchen.cobs</Item>
     <Item>..\..\Data Requests\Aktivgeschäft\Aktivgeschäft.cobs</Item>
+    <Item>..\..\Import Routines\Sicherheitenüberprüfung\Sicherheitenüberprüfung.cobs</Item>
+    <Item>..\..\Audit Tests\Bewertete Kundenbürgschaften\Bewertete Kundenbürgschaften.cobs</Item>
+    <Item>..\..\Audit Tests\Einhaltung der Beleihungsgrenzen - Grundschuldsicherheiten\Einhaltung der Beleihungsgrenzen - Grundschuldsicherheiten.cobs</Item>
+    <Item>..\..\Audit Tests\Einhaltung der Beleihungsgrenzen-Weitere Sicherheiten ohne Grundschuldsicherheiten und Bürgschaften\Einhaltung der Beleihungsgrenzen-Weitere Sicherheiten.cobs</Item>
+    <Item>..\..\Audit Tests\Einhaltung der Kompetenzen für Wertermittlung und Wertfestsetzung\Einhaltung der Kompetenzen für Wertermittlung und Wertfestsetzung.cobs</Item>
+    <Item>..\..\Audit Tests\Sicherheiten der Problemkreditbetreuung-Immobilien\Sicherheiten der Problemkreditbetreuung-Immobilien.cobs</Item>
+    <Item>..\..\Audit Tests\Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten\Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten.cobs</Item>
+    <Item>..\..\Audit Tests\Sicherheiten nach CRR 208 (3) b\Sicherheiten nach CRR 208 (3) b.cobs</Item>
+    <Item>..\..\Audit Tests\Sonstige Sicherheiten im Rahmen der laufenden Sicherheitenaktualisierung\Sonstige Sicherheiten im Rahmen der laufenden Sicherheitenaktualisierung.cobs</Item>
+    <Item>..\..\Audit Tests\Unzulässige Sicherheiten\Unzulässige Sicherheiten.cobs</Item>
+    <Item>..\..\Audit Tests\Versicherungsschutz bei Immobilien\Versicherungsschutz bei Immobilien.cobs</Item>
+    <Item>..\..\Audit Tests\Vorläufige Beleihungswertermittlungen bei Immobilien\Vorläufige Beleihungswertermittlungen bei Immobilien.cobs</Item>
+    <Item>..\..\Audit Tests\Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Sicherungswert je Immobilie\Wesentliche Sicherheiten nach MaRisk-Basis Beleihungswert-Basis Sicherungswert je Immobilie.cobs</Item>
+    <Item>..\..\Audit Tests\Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Beleihungswert\Wesentliche Sicherheiten nach MaRisk-Immobilien-Basis Beleihungswert.cobs</Item>
+    <Item>..\..\Audit Tests\Wesentliche Sicherheiten nach MaRisk-Sicherungsübereignungen und Zessionen\Wesentliche Sicherheiten nach MaRisk-Sicherungsübereignungen und Zessionen.cobs</Item>
+    <Item>..\..\Audit Tests\Neukreditvergabe mit Negativmerkmalen aus dem mehrperiodigen KRM\Neukreditvergabe mit Negativmerkmalen aus dem mehrperiodigen KRM.cobs</Item>
+    <Item>..\..\Audit Tests\Neukreditvergaben an Existenzgründer aus dem mehrperiodigen KRM\Neukreditvergaben an Existenzgründer aus dem mehrperiodigen KRM.cobs</Item>
   </ContentObjects>
   <StartWorkflowDefFile>..\..\Workflows\Aktivgeschäft_Workflow\Aktivgeschäft_Workflow.cobs</StartWorkflowDefFile>
   <ReadyForServer>1</ReadyForServer>

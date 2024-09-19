@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button_Cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Button_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Button_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 250</value>
+  </data>
+  <data name="Button_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Button_Cancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Name" xml:space="preserve">
+    <value>Button_Cancel</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartButton, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button_Cancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="smartLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="smartLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="smartLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="smartLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 13</value>
+  </data>
+  <data name="smartLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="smartLabel1.Text" xml:space="preserve">
+    <value>Bitte wählen Sie den Ordner aus, in dem die Dateien für den Import abgelegt sind.</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.Name" xml:space="preserve">
+    <value>smartLabel1</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartLabel, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="sTB_FilePath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sTB_FilePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 38</value>
+  </data>
+  <data name="sTB_FilePath.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 20</value>
+  </data>
+  <data name="sTB_FilePath.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>2, 20</value>
+  </data>
+  <data name="sTB_FilePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 20</value>
+  </data>
+  <data name="sTB_FilePath.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;sTB_FilePath.Name" xml:space="preserve">
+    <value>sTB_FilePath</value>
+  </data>
+  <data name="&gt;&gt;sTB_FilePath.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartTextBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sTB_FilePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sTB_FilePath.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_FileSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_FileSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 39</value>
+  </data>
+  <data name="btn_FileSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="btn_FileSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btn_FileSearch.Text" xml:space="preserve">
+    <value>Durchsuchen</value>
+  </data>
+  <data name="&gt;&gt;btn_FileSearch.Name" xml:space="preserve">
+    <value>btn_FileSearch</value>
+  </data>
+  <data name="&gt;&gt;btn_FileSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_FileSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_FileSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="smartDataExchanger.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btn_OK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btn_OK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_OK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 250</value>
+  </data>
+  <data name="btn_OK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 25</value>
+  </data>
+  <data name="btn_OK.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Name" xml:space="preserve">
+    <value>btn_OK</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_OK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 17</value>
+  </metadata>
+  <data name="sSi_Zwek_Si_Wert.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sSi_Zwek_Si_Wert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 139</value>
+  </data>
+  <data name="sSi_Zwek_Si_Wert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 24</value>
+  </data>
+  <data name="sSi_Zwek_Si_Wert.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sSi_Zwek_Si_Wert.Text" xml:space="preserve">
+    <value>Sicherheiten_Zweckerklärungen_Si-Wert</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_Si_Wert.Name" xml:space="preserve">
+    <value>sSi_Zwek_Si_Wert</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_Si_Wert.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartCheckBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_Si_Wert.Parent" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_Si_Wert.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sSi_Zwek_RK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sSi_Zwek_RK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 109</value>
+  </data>
+  <data name="sSi_Zwek_RK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 24</value>
+  </data>
+  <data name="sSi_Zwek_RK.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="sSi_Zwek_RK.Text" xml:space="preserve">
+    <value>Sicherheiten_Zweckerklärungen_Realkredit</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_RK.Name" xml:space="preserve">
+    <value>sSi_Zwek_RK</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_RK.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartCheckBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_RK.Parent" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;sSi_Zwek_RK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sSi_Buerg_Haft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sSi_Buerg_Haft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 79</value>
+  </data>
+  <data name="sSi_Buerg_Haft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 24</value>
+  </data>
+  <data name="sSi_Buerg_Haft.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="sSi_Buerg_Haft.Text" xml:space="preserve">
+    <value>Sicherheiten_Bürgschaften_Haftungsfreistellungen</value>
+  </data>
+  <data name="&gt;&gt;sSi_Buerg_Haft.Name" xml:space="preserve">
+    <value>sSi_Buerg_Haft</value>
+  </data>
+  <data name="&gt;&gt;sSi_Buerg_Haft.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartCheckBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sSi_Buerg_Haft.Parent" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;sSi_Buerg_Haft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="sSi_Bas_Immo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sSi_Bas_Immo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 49</value>
+  </data>
+  <data name="sSi_Bas_Immo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 24</value>
+  </data>
+  <data name="sSi_Bas_Immo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sSi_Bas_Immo.Text" xml:space="preserve">
+    <value>Sicherheiten_Basisdaten_Immobilien</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas_Immo.Name" xml:space="preserve">
+    <value>sSi_Bas_Immo</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas_Immo.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartCheckBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas_Immo.Parent" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas_Immo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="sSi_Bas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="sSi_Bas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 19</value>
+  </data>
+  <data name="sSi_Bas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 24</value>
+  </data>
+  <data name="sSi_Bas.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="sSi_Bas.Text" xml:space="preserve">
+    <value>Sicherheiten_Basisdaten</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas.Name" xml:space="preserve">
+    <value>sSi_Bas</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartCheckBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas.Parent" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;sSi_Bas.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="smartGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="smartGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 93</value>
+  </data>
+  <data name="smartGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 192</value>
+  </data>
+  <data name="smartGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="smartGroupBox1.Text" xml:space="preserve">
+    <value>Prüffelder</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.Name" xml:space="preserve">
+    <value>smartGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartGroupBox, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smartGroupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>697, 309</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Aktivgeschäft-Sicherheitenüberprüfung</value>
+  </data>
+  <data name="&gt;&gt;smartDataExchanger.Name" xml:space="preserve">
+    <value>smartDataExchanger</value>
+  </data>
+  <data name="&gt;&gt;smartDataExchanger.Type" xml:space="preserve">
+    <value>Audicon.SmartAnalyzer.Client.CustomControls.SmartDataExchanger, SA.Client.CustomControls, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b655f4f30f71e398</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
+    <value>folderBrowserDialog1</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>_DialogMainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

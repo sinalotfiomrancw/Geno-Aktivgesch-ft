@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
   <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!BRANCHE">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
     <Tag Alias="acc!DATUM_DATENABZUG">
       <IsOptional>false</IsOptional>
       <IsPeriod>false</IsPeriod>
@@ -13,6 +17,10 @@
       <IsOptional>false</IsOptional>
       <IsPeriod>false</IsPeriod>
     </Tag>
+    <Tag Alias="acc!VR_RATING">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
     <Tag Alias="acc!VR_RATINGART">
       <IsOptional>false</IsOptional>
       <IsPeriod>false</IsPeriod>
@@ -21,11 +29,7 @@
       <IsOptional>false</IsOptional>
       <IsPeriod>false</IsPeriod>
     </Tag>
-    <Tag Alias="acc!VR_RATING">
-      <IsOptional>false</IsOptional>
-      <IsPeriod>false</IsPeriod>
-    </Tag>
-    <Tag Alias="acc!BRANCHE">
+    <Tag Alias="acc!GK_KD_UEBERZ_EUR">
       <IsOptional>false</IsOptional>
       <IsPeriod>false</IsPeriod>
     </Tag>

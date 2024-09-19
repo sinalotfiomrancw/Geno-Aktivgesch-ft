@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AuditTest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EditorVersion="2.2.1">
+  <Tags StoragePath="..\..\SmartAnalyzer.dev">
+    <Tag Alias="acc!BAS_STATUS_BEARBEITUNG">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BAS_STATUS_SATZART">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BAS_SICHERHEITENART">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BAS_BELEIHUNGSWERT">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BAS_NACHGEWIESENER_WERT_PER">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BAS_RISIKOSTATUS_MARISK">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+    <Tag Alias="acc!BAS_RISIKOSTATUS_MARISK_SEIT">
+      <IsOptional>false</IsOptional>
+      <IsPeriod>false</IsPeriod>
+    </Tag>
+  </Tags>
+  <Executable>
+    <Type>ISS</Type>
+    <Path>Sicherheiten der Problemkreditbetreuung-Sonstige Sicherheiten.iss</Path>
+  </Executable>
+  <Dialog Optional="true">
+    <ProjectLocation>Dialog</ProjectLocation>
+    <ProjectFile>Dialog.csproj</ProjectFile>
+    <LocalizableItems>
+      <Item>!DialogMainForm.resx</Item>
+      <Item>DialogStrings.resx</Item>
+    </LocalizableItems>
+  </Dialog>
+  <InputFiles>
+    <Primary TaggingMode="Full" />
+  </InputFiles>
+</AuditTest>

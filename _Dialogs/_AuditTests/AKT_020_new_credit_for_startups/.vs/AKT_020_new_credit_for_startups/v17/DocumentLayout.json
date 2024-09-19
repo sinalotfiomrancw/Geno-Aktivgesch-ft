@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_AuditTests\\AKT_020_new_credit_for_startups\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E657DF2-990B-4E9C-B25B-D00EAD3D037F}|AKT_020_new_credit_for_startups\\AKT_020_new_credit_for_startups.csproj|c:\\smartanalyzer.dev\\geno_aktivgesch\u00E4ft\\_dialogs\\_audittests\\akt_020_new_credit_for_startups\\akt_020_new_credit_for_startups\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E657DF2-990B-4E9C-B25B-D00EAD3D037F}|AKT_020_new_credit_for_startups\\AKT_020_new_credit_for_startups.csproj|solutionrelative:akt_020_new_credit_for_startups\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "!DialogMainForm.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_AuditTests\\AKT_020_new_credit_for_startups\\AKT_020_new_credit_for_startups\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "AKT_020_new_credit_for_startups\\!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft\\_Dialogs\\_AuditTests\\AKT_020_new_credit_for_startups\\AKT_020_new_credit_for_startups\\!DialogMainForm.cs",
+              "RelativeToolTip": "AKT_020_new_credit_for_startups\\!DialogMainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T09:41:07.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

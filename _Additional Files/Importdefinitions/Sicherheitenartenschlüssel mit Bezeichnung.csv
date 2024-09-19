@@ -1,0 +1,128 @@
+Sicherheitenartenschlüssel;Sicherheitenartenbezeichnung
+111;BuG - Buchgrundschuld
+112;BrG - Briefgrundschuld
+113;EBrG - Eigentümerbriefgrundschuld
+114;EBuG - Eigentümerbuchgrundschuld
+121;GBuG - Gesamt-Buchgrundschuld
+122;GBrG - Gesamt-Briefgrundschuld
+123;GEBrG - Gesamt-Eigentümerbriefgrundschuld
+124;GEBuG - Gesamt-Eigentümerbuchgrundschuld
+125;GGs-pa-nb - Gesamtgrundschuld privatschriftlich abgetreten notariell beglaubigt
+126;GGs-pa - Gesamtgrundschuld privatschriftlich abgetreten
+127;GGs-Sv - Gesamtgrundschuld Sicherungsvereinbarung
+128;GGS-Tv - Gesamtgrundschuld Treuhandvereinbarung
+129;GGS-no - Gesamtgrundschuld notariell abgetreten
+131;BuHyp - Buchhypothek
+132;BrHyp - Briefhypothek
+133;SiHyp - Sicherungshypothek
+134;SchHyp - Schiffshypothek
+141;GBuHyp - Gesamt-Buchhypothek
+142;GBrHyp - Gesamt-Briefhypothek
+143;GSiHyp - Gesamt-Sicherungshypothek
+144;GHyp-pa-nb - Gesamthypothek  privatschriftlich abgetreten notariell beglaubigt
+145;GHyp-pa - Gesamthypothek privatschriftlich abgetreten
+146;GHyp-Sv - Gesamthypothek Sicherungsvereinbarung
+147;GHyp-Tv - Gesamthypothek Treuhandvereinbarung
+148;GHyp-no - Gesamthypothek notariell abgetreten
+150;Rs - Rentenschuld
+151;Rentenschuld privatschriftlich abgetreten
+152;Rentenschuld Treuhandvereinbarung
+153;Rentenschuld notariell abgetreten
+154;Rentenschuld Sicherungsvereinbarung
+155;Sonstige Grundpfandrechte privatschriftlich abgetreten
+156;Sonstige Grundpfandrechte Treuhandvereinbarung
+157;Sonstige Grundpfandrechte notariell abgetreten
+158;Sonstige Grundpfandrechte Sicherungsvereinbarung
+161;Buchgrundschuld, privatschriftlich abgetreten
+162;Briefgrundschuld, privatschriftlich abgetreten
+163;Eigentümerbriefgrundschuld, privatschriftlich abgetreten
+164;Eigentümerbuchgrundschuld, privatschriftlich abgetreten
+165;Buchgrundschuld, Treuhandvereinbarung
+166;Briefgrundschuld, Treuhandvereinbarung
+167;Eigentümerbriefgrundschuld Treuhandvereinbarung
+168;Eigentümerbuchgrundschuld Treuhandvereinbarung
+170;Gpfrso - Sonstige Grundpfandrechte
+171;Buchgrundschuld, notariell abgetreten
+172;Briefgrundschuld, notariell abgetreten
+173;Eigentümerbriefgrundschuld, notariell abgetreten
+174;Eigentümerbuchgrundschuld, notariell abgetreten
+175;Buchgrundschuld, Sicherungsvereinbarung
+176;Briefgrundschuld, Sicherungsvereinbarung
+177;Eigentümerbriefgrundschuld, Sicherungsvereinbarung
+178;Eigentümerbuchgrundschuld, Sicherungsvereinbarung
+181;Buchhypothek privatschriftlich abgetreten
+182;Briefhypothek privatschriftlich abgetreten
+183;Sicherungshypothek privatschriftlich abgetreten
+184;Schiffshypothek privatschriftlich abgetreten
+185;Buchhypothek Treuhandvereinbarung
+186;Briefhypothek Treuhandvereinbarung
+187;Sicherungshypothek Treuhandvereinbarung
+188;Schiffshypothek Treuhandvereinbarung
+191;Buchhypothek notariell abgetreten
+192;Briefhypothek notariell abgetreten
+193;Sicherungshypothek notariell abgetreten
+194;Schiffshypothek notariell abgetreten
+195;Buchhypothek Sicherungsvereinbarung
+196;Briefhypothek Sicherungsvereinbarung
+197;Sicherungshypothek Sicherungsvereinbarung
+198;Schiffshypothek Sicherungsvereinbarung
+211;Bü - Selbstschuldn. Bürgschaft - natürliche Person
+212;Bü - Selbstschuldn. Bürgschaft - juristische Person (privaten Rechts)
+213;Bü - Selbstschuldn. Bürgschaft - juristische Person (sonstigen Rechts)
+214;Bü - Selbstschuldn. Bürgschaft - Kreditinstitute
+215;Bü - Selbstschuldn. Bürgschaft - Sonstige
+221;ABü - Ausfallbürgschaft - natürliche Person
+222;ABü - Ausfallbürgschaft - juristische Person (privaten Rechts)
+223;ABü - Ausfallbürgschaft - juristische Person (sonstigen Rechts)
+224;ABü - Ausfallbürgschaft - Kreditinstitute
+225;ABü - Ausfallbürgschaft - Sonstige
+226;ABü - Ausfallbürgschaft
+227;Hfs - Haftungsfreistellung
+231;Patron. - Patronatserklärung - natürliche Person
+232;Patron. - Patronatserklärung - juristische Person (privaten Rechts)
+233;Patron. - Patronatserklärung - juristische Person (sonstigen Rechts)
+234;Patron. - Patronatserklärung - Kreditinstitute
+235;Patron. - Patronatserklärung - Sonstige
+241;Garant. - Garantieerklärung - natürliche Person
+242;Garant. - Garantieerklärung - juristische Person (privaten Rechts)
+243;Garant. - Garantieerklärung - juristische Person (sonstigen Rechts)
+244;Garant. - Garantieerklärung - Kreditinstitute
+245;Garant. - Garantieerklärung - Sonstige
+251;soBü - Sonstige Bürgschaft - natürliche Person
+252;soBü - Sonstige Bürgschaft - juristische Person (privaten Rechts)
+253;soBü - Sonstige Bürgschaft - juristische Person (sonstigen Rechts)
+254;soBü - Sonstige Bürgschaft - Kreditinstitute
+255;soBü - Sonstige Bürgschaft - Sonstige
+311;FoA-LV - Forderungsabtretung Lebensversicherung
+312;FoA-BV - Forderungsabtretung Bausparvertrag
+313;FoA-Gh - Forderungsabtretung Guthaben
+314;FoA-Ae - Forderungsabtretung Arbeitseinkommen
+315;FoA-St - Forderungsabtretung Steuererstattungsansprüche
+316;FoA-KV - Forderungsabtretung Honoraransprüche
+317;FoA-sE - Forderungsabtretung Sonstige Einzelforderung
+320;FoA-Man - Forderungsabtretung Mantelabtretung
+330;FoA-Glo - Forderungsabtretung Globalabtretung
+410;Vpf.Gh - Verpfändung Guthaben
+411;Vpf.LV - Verpfändung Lebensversicherung
+412;Vpf.-BV - Verpfändung Bausparvertrag
+414;Vpf.-Ae - Verpfändung Arbeitseinkommen
+415;Vpf.St. - Verpfändung Steuererstattungsansprüche
+416;Vpf.KV - Verpfändung Honoraransprüche
+417;Vpf. sE- Verpfändung Sonstige Einzelforderung
+420;Vpf.WpD - Verpfändung Wertpapierdepot
+430;Vpf.WpE - Verpfändung Einzelwertpapiere
+440;Vpf.SR - Verpfändung Sachen und Rechte
+510;SÜ-Kfz - Sicherungsübereignung Kraftfahrzeuge
+520;SÜ-Kfzl - Sicherungsübereignung Kraftfahrzeuglager
+530;SÜ-MaG - Sicherungsübereignung Maschinen und Gegenstände
+540;SÜ-Ware - Sicherungsübereignung Waren und Warenlager
+550;SÜ-Roh - Sicherungsübereignung Rohstoffe
+560;SÜ-Edel - Sicherungsübereignung Edelmetalle und Edelsteine
+570;SÜ-Über - Sicherungsübereignung Gegenstände mit Übergabe
+580;SÜ-son - Sicherungsübereignung Sonstige
+600;AGB - Pfandrecht allgemein
+710;so-Wech - Wechselrechtliche Haftung
+720;so-Akkr - Akkreditive
+730;so - Nicht zuordenbare Sicherheiten
+750;SchiffHyp - Schiffshypothek
+760;FlzgHyp - Flugzeughypothek

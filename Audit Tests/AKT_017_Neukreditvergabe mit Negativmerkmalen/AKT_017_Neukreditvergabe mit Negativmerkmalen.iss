@@ -252,7 +252,7 @@ SetCheckpoint "Analysis 1.0 - extract credits with negativ characteristics"
 	Set db = Client.OpenDatabase(sInputFile)
 	Set task = db.Extraction
 	task.IncludeAllFields
-	sNew_Credits_With_Neg_Character = oSC.UniqueFileName(sWorkingfolderName & "Neukreditvergabe mit Negativmerkmal", FINAL_RESULT)
+	sNew_Credits_With_Neg_Character = oSC.UniqueFileName(sWorkingfolderName & "Neukreditvergabe mit Negativmerkmal aus Kreditbeschlussbuch", FINAL_RESULT)
 	task.AddExtraction sNew_Credits_With_Neg_Character, "", sEQN_Credits_With_Neg_Character
 	task.DisableProgressNotification = True
 	task.PerformTask 1, db.Count

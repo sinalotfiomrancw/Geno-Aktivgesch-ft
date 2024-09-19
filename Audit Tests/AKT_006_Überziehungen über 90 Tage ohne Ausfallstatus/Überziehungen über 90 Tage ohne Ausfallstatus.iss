@@ -149,6 +149,7 @@ dim sWorkingFolderName as string
 '#Region - result files
 ' Include the primary input file an all tag names
 dim s‹berz90_OhneAusfallstatus as string
+Dim s‹berz90_OhneAusfallstatus_per_Person As String
 '#End Region
 Sub Main()
 	On Error GoTo ErrHandler:
@@ -170,8 +171,10 @@ Sub Main()
 	' **** Add your code below this line
 	Call GetFileInformation
 	Call Analysis
+	Call Analysis_per_Person
 	call registerResult(sInputFile, INPUT_DATABASE, 0)
 	call registerResult(s‹berz90_OhneAusfallstatus, FINAL_RESULT, 1)
+	call registerResult(s‹berz90_OhneAusfallstatus_per_Person, FINAL_RESULT, 2)
 	' **** End of the user specific code
 	
 	SmartContext.ExecutionStatus = EXEC_STATUS_SUCCEEDED
@@ -335,6 +338,69 @@ SetCheckpoint "Analysis 1.0 - create s‹berz90_OhneAusfallstatus"
 	Set task = Nothing
 	Set db = Nothing
 end function
+' --------------------------------------------------------------------------
+Function Analysis_per_Person
+SetCheckpoint "Analysis 1.0 - create s‹berz90_OhneAusfallstatus_pro Kunde"
+	Set db = Client.OpenDatabase(s‹berz90_OhneAusfallstatus)
+	Set task = db.Summarization
+	task.AddFieldToSummarize "KUNDENNUMMER"
+	task.AddFieldToInc "DATUM_DATENABZUG"
+	task.AddFieldToInc "NETTO_ENGAGEMENT"
+	task.AddFieldToInc "KUNDENGRUPPEN_NR"
+	task.AddFieldToInc "ENGAGEMENTBEZ"
+	task.AddFieldToInc "KUNDENNAME"
+	task.AddFieldToInc "RISIKOGRUPPE"
+	task.AddFieldToInc "RISIKOGRUPPE_ENGA"
+	task.AddFieldToInc "BONITƒTSEINSTUFUNG"
+	task.AddFieldToInc "BONITƒTSEINST_ENGA"
+	task.AddFieldToInc "VR_RATINGART"
+	task.AddFieldToInc "VR_RATINGART_ENGA"
+	task.AddFieldToInc "VR_RATING"
+	task.AddFieldToInc "VR_RATING_ENGA"
+	If oSC.FieldExists(db, "VR_RATING_ENGA2") Then 
+		task.AddFieldToInc "VR_RATING_ENGA2"
+	End If
+	task.AddFieldToInc "AUSFALLRATE_KUNDE"
+	If oSC.FieldExists(db, "AUSFALLRATE_ENGA") Then 
+		task.AddFieldToInc "AUSFALLRATE_ENGA"
+	End If
+	task.AddFieldToInc "DATUM_LTZ_RATING"
+	task.AddFieldToInc "GK_ENGA_RV_EUR"
+	task.AddFieldToInc "GK_ENGA_EA_EUR"
+	task.AddFieldToInc "GK_ENGA_BVRV_EUR"
+	task.AddFieldToInc "GK_ENGA_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_RV_EUR"
+	task.AddFieldToInc "GK_KD_EA_EUR"
+	task.AddFieldToInc "GK_KD_BVRV_EUR"
+	task.AddFieldToInc "GK_KD_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_NTOBVRV_EUR"
+	task.AddFieldToInc "BERATER"
+	task.AddFieldToInc "GEWERBLICH_PRIVAT"
+	task.AddFieldToInc "RECHTSFORM"
+	task.AddFieldToInc "BRANCHE"
+	task.AddFieldToInc "KPM_BRANCHE"
+	task.AddFieldToInc "KPM_BER‹CKS_KD_RS"
+	task.AddFieldToInc "LƒNDERSCHL‹SSEL"
+	task.AddFieldToInc "KUNDE_SEIT_DATUM"
+	task.AddFieldToInc "GEB_GR‹ND_DATUM"
+	task.AddFieldToInc "RISIKOSTATUS_MAK"
+	task.AddFieldToInc "RISIKOKENNZEICHEN"
+	task.AddFieldToInc "‹BERZ_ENG_BASEL_EUR"
+	task.AddFieldToInc "TAGE_‹BERZ_ENG_BASEL"
+	task.AddFieldToInc "GK_ENGA_‹BERZ_EUR"
+	task.AddFieldToInc "TAGE_‹BERZ_ENGA"
+	task.AddFieldToInc "JAHRESABSCHLUSSDATUM"
+	task.AddFieldToInc "VR_RATING_NUM"
+	task.AddFieldToInc "VR_RATING_ENGA_NUM"
+	s‹berz90_OhneAusfallstatus_per_Person = oSC.UniqueFileName(sWorkingfolderName & "‹berziehungen ¸ber 90 Tage ohne Ausfallstatus_pro Kunde.IMD", FINAL_RESULT)
+	task.OutputDBName = s‹berz90_OhneAusfallstatus_per_Person
+	task.CreatePercentField = FALSE
+	task.UseFieldFromFirstOccurrence = TRUE
+	task.PerformTask
+	db.close
+	Set task = Nothing
+	Set db = Nothing
+End Function
 ' --------------------------------------------------------------------------
 
 ' register results

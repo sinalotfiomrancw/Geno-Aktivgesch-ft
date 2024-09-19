@@ -147,6 +147,7 @@ Dim sJAHRESABSCHLUSSDATUM As String
 Dim sDATUM_KTO_ERÖFF_SCHL As String
 Dim sDATUM_LTZ_RISIKOKZ As String
 Dim sVR_RATING_NUM As String
+Dim sZUSAGE As String
 '#End Region
 
 Const sColumnConspicuous = "AUFFÄLLIG"
@@ -318,6 +319,8 @@ SetCheckpoint "GetFileInformation 2.0 - get tags"
 	'sDATUM_KTO_ERÖFF_SCHL = oTM.GetFieldForTag(db, "acc!DATUM_KTO_ERÖFF_SCHL")
 	'sDATUM_LTZ_RISIKOKZ = oTM.GetFieldForTag(db, "acc!DATUM_LTZ_RISIKOKZ")
 	sVR_RATING_NUM = oTM.GetFieldForTag(db, "acc!VR_RATING_NUM")
+	sGK_KD_ÜBERZ_EUR = oTM.GetFieldForTag(db, "acc!GK_KD_UEBERZ_EUR")
+	sZUSAGE = "ZUSAGE"
 	db.Close
 	Set db = Nothing
 End Function
@@ -477,16 +480,34 @@ End Function
 Function Analysis
 dim sEQN_SAMECUSTOMER as string
 	sEQN_SAMECUSTOMER = " .AND. " & sKUNDENNUMMER & "==@GetPreviousValue(""" & sKUNDENNUMMER & """)"
+	
+	Set db = Client.OpenDatabase(sInputFile)
+	If Not oSC.FieldExists(db, sZUSAGE) Then
+		Set task = db.TableManagement
+		Set field = db.TableDef.NewField
+		field.Name = sZUSAGE
+		field.Description = sGK_KD_RV_EUR & " - " & sGK_KD_ÜBERZ_EUR
+		field.Type = WI_VIRT_NUM
+		field.Equation = sGK_KD_RV_EUR & " - " & sGK_KD_ÜBERZ_EUR
+		field.Decimals = 2
+		task.AppendField field
+		task.PerformTask
+		Set task = Nothing
+		Set field = Nothing
+	End If
+	db.Close
+	Set db = Nothing
+	
 SetCheckpoint "Analysis 1.0 - "
 	Set db = Client.OpenDatabase(sInputFile)
 	Set task = db.Summarization
 	task.AddFieldToSummarize sKUNDENNUMMER
 	task.AddFieldToSummarize sDATUM_DATENABZUG
 	task.AddFieldToInc sBRANCHE
-	task.AddFieldToInc sGK_KD_RV_EUR
+	task.AddFieldToInc sZUSAGE
 	task.AddFieldToInc sVR_RATING
 	task.AddFieldToInc sVR_RATING_NUM
-	sChangeOfRV = oSC.UniqueFileName(sWorkingFolderPath & "Übersicht Veränderung Risikovolumen", INTERMEDIATE_RESULT)
+	sChangeOfRV = oSC.UniqueFileName(sWorkingFolderPath & "Übersicht Veränderung Zusage", INTERMEDIATE_RESULT)
 	task.OutputDBName = sChangeOfRV
 	task.CreatePercentField = FALSE
 	task.UseFieldFromFirstOccurrence = TRUE
@@ -500,9 +521,9 @@ SetCheckpoint "Analysis 2.0 - "
 	Set task = db.TableManagement
 	Set field = db.TableDef.NewField
 	field.Name = sColumnConspicuous
-	field.Description = "wird mit X markiert, wenn Risikovolumen erhöht ist"
+	field.Description = "wird mit X markiert, wenn Zusage erhöht ist"
 	field.Type = WI_VIRT_CHAR
-	field.Equation = "@if(" & sGK_KD_RV_EUR & " > @GetPreviousValue(""" & sGK_KD_RV_EUR & """)" & sEQN_SAMECUSTOMER & "; ""X""; """")"
+	field.Equation = "@if(" & sZUSAGE & " > @GetPreviousValue(""" & sZUSAGE & """)" & sEQN_SAMECUSTOMER & "; ""X""; """")"
 	field.Length = 1
 	task.AppendField field
 	task.DisableProgressNotification = True
@@ -525,19 +546,19 @@ SetCheckpoint "Analysis 2.2 - "
 	'task.DisableProgressNotification = True
 	'task.PerformTask
 SetCheckpoint "Analysis 2.3 - "
-	field.Name = "VORHERIGES_RV"
-	field.Description = "GK_KD_RV_EUR aus vorherigem Zeitpunkt"
+	field.Name = "VORHERIGES_ZUSAGE"
+	field.Description = "ZUSAGE aus vorherigem Zeitpunkt"
 	field.Type = WI_VIRT_NUM
-	field.Equation = "@if(" & sColumnConspicuous & " = ""X""" & sEQN_SAMECUSTOMER & "; @GetPreviousValue(""" & sGK_KD_RV_EUR & """); 0)"
+	field.Equation = "@if(" & sColumnConspicuous & " = ""X""" & sEQN_SAMECUSTOMER & "; @GetPreviousValue(""" & sZUSAGE & """); 0)"
 	field.Decimals = 2
 	task.AppendField field
 	task.DisableProgressNotification = True
 	task.PerformTask
 SetCheckpoint "Analysis 2.4 - "
-	field.Name = "ÄNDERUNG_RV"
-	field.Description = "VORHERIGES_RV - GK_KD_RV_EUR"
+	field.Name = "ÄNDERUNG_ZUSAGE"
+	field.Description = sZUSAGE & " - " & "VORHERIGES_ZUSAGE"
 	field.Type = WI_VIRT_NUM
-	field.Equation = "@if(" & sColumnConspicuous & " = ""X""; " & sGK_KD_RV_EUR & " - VORHERIGES_RV; 0)"
+	field.Equation = "@if(" & sColumnConspicuous & " = ""X""; " & sZUSAGE & " - VORHERIGES_ZUSAGE; 0)"
 	field.Decimals = 2
 	task.AppendField field
 	task.DisableProgressNotification = True
@@ -555,15 +576,16 @@ SetCheckpoint "Analysis 3.1 - "
 	task.AddFieldToInc sKUNDENNUMMER
 	task.AddFieldToInc sDATUM_DATENABZUG
 	task.AddFieldToInc "ANZ_SAETZE"
-	task.AddFieldToInc sGK_KD_RV_EUR
+	task.AddFieldToInc sZUSAGE
 	task.AddFieldToInc sBRANCHE
 	task.AddFieldToInc sVR_RATING
 	task.AddFieldToInc sVR_RATING_NUM
 	task.AddFieldToInc "VORHERIGER_ZEITRAUM"
 	'task.AddFieldToInc "VORHERIGE_ANZ_SAETZE"
-	task.AddFieldToInc "VORHERIGES_RV"
-	task.AddFieldToInc "ÄNDERUNG_RV"
-	sHigherRVWithRiskSector = oSC.UniqueFileName(sWorkingFolderPath & "erhöhtes Risikovolumen in Risikobranchen", FINAL_RESULT)
+	task.AddFieldToInc "VORHERIGES_ZUSAGE"
+	task.AddFieldToInc "ÄNDERUNG_ZUSAGE"
+	sHigherRVWithRiskSector = oSC.UniqueFileName(sWorkingFolderPath & "erhöhtes Zusage in Risikobranchen", FINAL_RESULT)
+	'sHigherRVWithRiskSector = oSC.UniqueFileName(sWorkingFolderPath & "Neukreditvergabe In Risikobranchen", FINAL_RESULT)
 	task.AddExtraction sHigherRVWithRiskSector, "", sEQN_HigherRVWithRiskSector
 	task.DisableProgressNotification = True
 	task.PerformTask 1, db.Count

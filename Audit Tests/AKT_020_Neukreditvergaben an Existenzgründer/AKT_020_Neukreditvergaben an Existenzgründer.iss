@@ -162,7 +162,7 @@ SetCheckpoint "Analysis 1.0 - create "
 	Set db = Client.OpenDatabase(sInputFile)
 	Set task = db.Extraction
 	task.IncludeAllFields
-	sNew_Credits_For_Startups = oSC.UniqueFileName(sWorkingfolderName & "Neukreditvergabe an Existenzgründer", FINAL_RESULT)
+	sNew_Credits_For_Startups = oSC.UniqueFileName(sWorkingfolderName & "Neukreditvergabe an Existenzgründer aus Kreditbeschlussbuch", FINAL_RESULT)
 	task.AddExtraction sNew_Credits_For_Startups, "", sGEB_GRÜND_DATUM & " >= """ & sFoundation_Date & """ .AND. " & sGEWERBLICH_PRIVAT & " == ""Gewerblich"""
 	task.DisableProgressNotification = True
 	task.PerformTask 1, db.Count

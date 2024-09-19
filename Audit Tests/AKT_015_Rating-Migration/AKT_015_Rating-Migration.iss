@@ -596,6 +596,21 @@ dim sEQNRiskVolume as string
 		Set task = Nothing
 		Set db = Nothing
 		
+		Set db = Client.OpenDatabase(sRating_neu_ausg_Enga)
+		Set task = db.TableManagement
+		Set field = db.TableDef.NewField
+		field.Name = "TYP"
+		field.Description = "Hinzugefügtes Feld"
+		field.Type = WI_CHAR_FIELD
+		field.Equation = "@If(VR_RATING_" & aAuditPeriod(0) & " = """"; ""neu Engagements""; ""ausgelaufene Engagements"")"
+		field.Length = 24
+		task.AppendField field
+		task.PerformTask
+		db.Close
+		Set task = Nothing
+		Set db = Nothing
+		Set field = Nothing
+		
 		'Create Action Field
 		Set db = Client.OpenDatabase(sRating_neu_ausg_Enga)
 		oSC.CreateActionField db, "KUNDENNUMMER", sInputFile, "KUNDENNUMMER"

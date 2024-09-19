@@ -152,6 +152,7 @@ dim sWorkingFolderName as string
 '#Region - result files
 ' Include the primary input file an all tag names
 dim sImmobiliensammler_ohne_VRIMMORating as string
+dim sImmobiliensammler_ohne_VRIMMORating_per_Person as string
 '#End Region
 Sub Main()
 	On Error GoTo ErrHandler:
@@ -173,8 +174,10 @@ Sub Main()
 	' **** Add your code below this line
 	Call GetFileInformation
 	Call Analysis
+	Call Analysis_per_Person
 	Call registerResult(sInputFile, INPUT_DATABASE, 0)
 	call registerResult(sImmobiliensammler_ohne_VRIMMORating, FINAL_RESULT, 1)
+	call registerResult(sImmobiliensammler_ohne_VRIMMORating_per_Person, FINAL_RESULT, 2)
 	' **** End of the user specific code
 	
 	SmartContext.ExecutionStatus = EXEC_STATUS_SUCCEEDED
@@ -331,12 +334,76 @@ SetCheckpoint "Analysis 1.0 - create sImmobiliensammler_ohne_VRIMMORating"
 	task.IncludeAllFields
 	sImmobiliensammler_ohne_VRIMMORating = oSC.UniqueFileName(sWorkingfolderName & "Immobiliensammler ohne VR IMMO Rating.IMD", FINAL_RESULT)
 	'task.AddExtraction sImmobiliensammler_ohne_VRIMMORating, "", sKPM_BRANCHE & " = ""23"" .AND. " & sVR_RATINGART & " <> ""VRR Gew. Immob.""" ' 12.01.2023 Branche = 70000 bis 70400, 74153,74154
-	task.AddExtraction sImmobiliensammler_ohne_VRIMMORating, "", sVR_RATINGART & " <> ""VRR Gew. Immob."" .AND. (@between(@Val(" & sBRANCHE & ");70000;70400) .OR. @match(" & sBRANCHE & ";""74153"";""74154"")) .AND. (.NOT. (@Match(" & sBRANCHE & ";""70300"";""70310"";""70311"";""70320"";""70321"")))" ' 28.06.2023
+	task.AddExtraction sImmobiliensammler_ohne_VRIMMORating, "", sVR_RATINGART & " <> ""VRR Gew. Immob."" .AND. " & sVR_RATINGART & " <> ""VRR Immo"" .AND. " & sVR_RATINGART & " <> ""VRR Immo B.-Best."" .AND. " & sVR_RATINGART & " <> ""VRR Immo B.-Bautr."" .AND. " & "(@between(@Val(" & sBRANCHE & ");70000;70400) .OR. @match(" & sBRANCHE & ";""74153"";""74154"")) .AND. (.NOT. (@Match(" & sBRANCHE & ";""70300"";""70310"";""70311"";""70320"";""70321"")))" ' 28.06.2023
 	task.PerformTask 1, db.Count
 	db.Close
 	Set task = Nothing
 	Set db = Nothing
 end function
+' --------------------------------------------------------------------------
+
+Function Analysis_per_Person
+SetCheckpoint "Analysis_Sum_Person 1.0 - sImmobiliensammler_ohne_VRIMMORating_pro Kunde"
+	Set db = Client.OpenDatabase(sImmobiliensammler_ohne_VRIMMORating)
+	Set task = db.Summarization
+	task.AddFieldToSummarize "KUNDENNUMMER"
+	task.AddFieldToInc "DATUM_DATENABZUG"
+	task.AddFieldToInc "NETTO_ENGAGEMENT"
+	task.AddFieldToInc "KUNDENGRUPPEN_NR"
+	task.AddFieldToInc "ENGAGEMENTBEZ"
+	task.AddFieldToInc "KUNDENNAME"
+	task.AddFieldToInc "RISIKOGRUPPE"
+	task.AddFieldToInc "RISIKOGRUPPE_ENGA"
+	task.AddFieldToInc "BONITÄTSEINSTUFUNG"
+	task.AddFieldToInc "BONITÄTSEINST_ENGA"
+	task.AddFieldToInc "VR_RATINGART"
+	task.AddFieldToInc "VR_RATINGART_ENGA"
+	task.AddFieldToInc "VR_RATING"
+	task.AddFieldToInc "VR_RATING_ENGA"
+	If oSC.FieldExists(db, "VR_RATING_ENGA2") Then 
+		task.AddFieldToInc "VR_RATING_ENGA2"
+	End If
+	task.AddFieldToInc "AUSFALLRATE_KUNDE"
+	If oSC.FieldExists(db, "AUSFALLRATE_ENGA") Then 
+		task.AddFieldToInc "AUSFALLRATE_ENGA"
+	End If
+	task.AddFieldToInc "DATUM_LTZ_RATING"
+	task.AddFieldToInc "GK_ENGA_RV_EUR"
+	task.AddFieldToInc "GK_ENGA_EA_EUR"
+	task.AddFieldToInc "GK_ENGA_BVRV_EUR"
+	task.AddFieldToInc "GK_ENGA_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_RV_EUR"
+	task.AddFieldToInc "GK_KD_EA_EUR"
+	task.AddFieldToInc "GK_KD_BVRV_EUR"
+	task.AddFieldToInc "GK_KD_BVIA_EUR"
+	task.AddFieldToInc "GK_KD_NTOBVRV_EUR"
+	task.AddFieldToInc "BERATER"
+	task.AddFieldToInc "GEWERBLICH_PRIVAT"
+	task.AddFieldToInc "RECHTSFORM"
+	task.AddFieldToInc "BRANCHE"
+	task.AddFieldToInc "KPM_BRANCHE"
+	task.AddFieldToInc "KPM_BERÜCKS_KD_RS"
+	task.AddFieldToInc "LÄNDERSCHLÜSSEL"
+	task.AddFieldToInc "KUNDE_SEIT_DATUM"
+	task.AddFieldToInc "GEB_GRÜND_DATUM"
+	task.AddFieldToInc "RISIKOSTATUS_MAK"
+	task.AddFieldToInc "RISIKOKENNZEICHEN"
+	task.AddFieldToInc "ÜBERZ_ENG_BASEL_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENG_BASEL"
+	task.AddFieldToInc "GK_ENGA_ÜBERZ_EUR"
+	task.AddFieldToInc "TAGE_ÜBERZ_ENGA"
+	task.AddFieldToInc "JAHRESABSCHLUSSDATUM"
+	task.AddFieldToInc "VR_RATING_NUM"
+	task.AddFieldToInc "VR_RATING_ENGA_NUM"
+	sImmobiliensammler_ohne_VRIMMORating_per_Person = oSC.UniqueFileName(sWorkingfolderName & "Immobiliensammler ohne VR IMMO Rating_pro Kunde.IMD", FINAL_RESULT)
+	task.OutputDBName = sImmobiliensammler_ohne_VRIMMORating_per_Person
+	task.CreatePercentField = FALSE
+	task.UseFieldFromFirstOccurrence = TRUE
+	task.PerformTask
+	db.close
+	Set task = Nothing
+	Set db = Nothing
+End Function
 ' --------------------------------------------------------------------------
 
 ' register results

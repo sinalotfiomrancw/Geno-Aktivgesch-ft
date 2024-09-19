@@ -82,9 +82,18 @@ Sub Main()
 	Call FileSearchDialog
 	Call SaveParameters
 	
-	msgbox("Ihre Eingaben wurden gespeichert." & Chr(13) & _
-		"Bitte klicken Sie auf Importieren, um die Aufbereitung zu starten.")
 	' **** End of the user specific code
+	Dim CompareResult As Long
+	If oSC.TryCompareVersions("12.0.0", oSC.IDEAVersion, CompareResult) Then
+		Select Case CompareResult
+			Case -1, 0
+			SmartContext.TriggerImport = True
+			Case Else
+			MsgBox("Ihre Eingaben wurden gespeichert." & Chr(13) & _
+		"Bitte klicken Sie auf Importieren, um die Aufbereitung zu starten.")
+		End Select
+	End If
+	SmartContext.Log.LogMessage "Execution Time End: " & Now()
 	
 	SmartContext.ExecutionStatus = EXEC_STATUS_SUCCEEDED
 	

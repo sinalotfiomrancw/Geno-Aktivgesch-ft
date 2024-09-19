@@ -8,12 +8,12 @@
     <ExecutableFile>Aktivgeschaeft_01_BasisRoutine.PreMacro.iss</ExecutableFile>
   </PreliminaryTask>
   <PreparationTask Type="Iss">
-    <ExecutableFile>Aktivgeschaeft_01_Preparation.DataPreparation.iss</ExecutableFile>
+    <ExecutableFile>Aktivgeschaeft_01_Preparation.DataPreparation_Entwicklung.iss</ExecutableFile>
   </PreparationTask>
   <ImportTask Type="SmartX" IdentifyBy="Url">
     <Step Index="0">
       <PartialTask ID="974e8ccf6d414451b14a81f72e5d7286" Type="Iss" Order="1">
-        <ExecutableFile>Aktivgeschaeft_01_BasisRoutine.Import_Select_Folder.iss</ExecutableFile>
+        <ExecutableFile>Aktivgeschaeft_01_BasisRoutine.Import_Select_Folder_Entwicklung.iss</ExecutableFile>
       </PartialTask>
     </Step>
   </ImportTask>
@@ -31,17 +31,24 @@
   </MainRoutine>
   <EmbeddedDialogs>
     <EmbeddedDialog>
-      <Path>..\..\_Dialogs\_ImportRoutines\Aktivgeschaeft_01_SelectFolder\Aktivgeschaeft_01_SelectFolder\Aktivgeschaeft_01_SelectFolder.csproj</Path>
+      <Path>..\..\_Dialogs\_ImportRoutines\Aktivgeschaeft_01_SelectFolderV2\Aktivgeschaeft_01_SelectFolderV2.csproj</Path>
       <Identifier>FileSearch</Identifier>
       <LocalizableItems>
         <Item>!DialogMainForm.resx</Item>
         <Item>DialogStrings.resx</Item>
-        <Item>Einstellungen.resx</Item>
       </LocalizableItems>
     </EmbeddedDialog>
     <EmbeddedDialog>
       <Path>..\..\_Dialogs\_ImportRoutines\risk_relevance\risk_relevance\risk_relevance.csproj</Path>
       <Identifier>KRM_RiskRelevance</Identifier>
+      <LocalizableItems>
+        <Item>!DialogMainForm.resx</Item>
+        <Item>DialogStrings.resx</Item>
+      </LocalizableItems>
+    </EmbeddedDialog>
+    <EmbeddedDialog>
+      <Path>..\..\_Dialogs\_ImportRoutines\NotValidFormat\NotValidFormat.csproj</Path>
+      <Identifier>NotValidKRMFormat</Identifier>
       <LocalizableItems>
         <Item>!DialogMainForm.resx</Item>
         <Item>DialogStrings.resx</Item>

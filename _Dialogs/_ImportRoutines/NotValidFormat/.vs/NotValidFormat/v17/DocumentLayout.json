@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft_1.2.0\\_Dialogs\\_ImportRoutines\\NotValidFormat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC61E980-B984-41B7-89C9-A0B06C3DE45E}|NotValidFormat.csproj|C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft_1.2.0\\_Dialogs\\_ImportRoutines\\NotValidFormat\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC61E980-B984-41B7-89C9-A0B06C3DE45E}|NotValidFormat.csproj|solutionrelative:!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC61E980-B984-41B7-89C9-A0B06C3DE45E}|NotValidFormat.csproj|c:\\smartanalyzer.dev\\geno_aktivgesch\u00E4ft_1.2.0\\_dialogs\\_importroutines\\notvalidformat\\!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC61E980-B984-41B7-89C9-A0B06C3DE45E}|NotValidFormat.csproj|solutionrelative:!dialogmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "!DialogMainForm.cs",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft_1.2.0\\_Dialogs\\_ImportRoutines\\NotValidFormat\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft_1.2.0\\_Dialogs\\_ImportRoutines\\NotValidFormat\\!DialogMainForm.cs",
+              "RelativeToolTip": "!DialogMainForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAkwBAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:53:39.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "!DialogMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft_1.2.0\\_Dialogs\\_ImportRoutines\\NotValidFormat\\!DialogMainForm.cs",
+              "RelativeDocumentMoniker": "!DialogMainForm.cs",
+              "ToolTip": "C:\\SmartAnalyzer.dev\\Geno_Aktivgesch\u00E4ft_1.2.0\\_Dialogs\\_ImportRoutines\\NotValidFormat\\!DialogMainForm.cs [Design]",
+              "RelativeToolTip": "!DialogMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:39:05.958Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
