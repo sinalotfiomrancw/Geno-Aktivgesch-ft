@@ -1,1 +1,1 @@
-# Geno-Aktivgesch-ft
+# Geno-Aktivgeschäft
